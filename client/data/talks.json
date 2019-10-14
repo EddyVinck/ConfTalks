@@ -85,7 +85,7 @@
       "speaker": 9,
       "main_title": "You should start a tech community too.",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 3],
       "video_url": "https://www.youtube.com/watch?v=xZrfXATxJ38",
       "video_upload_date": "2019-07-31",
       "conferences": [1]
@@ -151,7 +151,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/openjs-foundation/panel-1-to-a-collaborative-future-~-the-foundation-of-javascript.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "17": {
@@ -160,7 +160,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/michael-mifsud/graphql-towards-a-universal-query-language.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "18": {
@@ -169,7 +169,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/manu-martinez-almeida/stencil-a-built-time-approach-to-the-web.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "19": {
@@ -178,7 +178,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/kat-marchan/tink-a-next-generation-package-manager.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "20": {
@@ -187,7 +187,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/jessica-jordan/crafting-comics-for-literally-everyone.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "21": {
@@ -196,7 +196,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/jason-williams/lets-build-a-javascript-engine.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "22": {
@@ -205,7 +205,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/houssein-djirdeh/performance-empathy.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "23": {
@@ -214,7 +214,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/garann-means/what-happened-to-my-javascript-phone.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "24": {
@@ -223,7 +223,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/bryan-hughes/the-contentious-relationship-between-the-lgbtq-community-and-tech.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "25": {
@@ -232,7 +232,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/chidinma-kalu/why-cant-we-all-just-get-along.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "26": {
@@ -241,7 +241,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/allison-mcmillan/bdd-baby-driven-development.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "27": {
@@ -250,7 +250,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/alexandra-sunderland/bringing-back-dial-up-the-internet-over-sms.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "28": {
@@ -259,7 +259,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/aditya-mukerjee/translating-code-to-other-human-languages-and-back-again.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "29": {
@@ -268,7 +268,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/nikhil-thorat/tensorflowjs-bringing-machine-learning-to-the-web-and-beyond.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "30": {
@@ -277,7 +277,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/nick-kreeger/tensorflowjs-bringing-machine-learning-to-the-web-and-beyond.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "31": {
@@ -286,7 +286,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/nat-alison/polyhedra-i-choose-you-letting-your-passions-take-form.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "32": {
@@ -295,7 +295,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/meya-stephen-kenigbolo/javascript-is-for-everyone.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "33": {
@@ -304,7 +304,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/maximiliano-firtman/the-modern-pwa-cheat-sheet.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "34": {
@@ -313,7 +313,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/maxim-koretskyi/a-sneak-peek-into-super-optimized-code-in-js-frameworks.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "35": {
@@ -322,7 +322,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/max-bittker/simulating-sand-building-interactivity-with-webassembly.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "36": {
@@ -331,7 +331,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/martin-sonnenholzer/animations-learning-from-cartoons.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "37": {
@@ -340,7 +340,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/marley-rafson/the-case-for-augmented-reality-on-the-web.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "38": {
@@ -349,7 +349,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/mael-nison/yarn-2019-and-beyond.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "39": {
@@ -358,7 +358,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/leandro-ostera/building-webapps-like-its-1972-male.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "40": {
@@ -367,7 +367,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/kevin-doran/offline-first-data-getting-bigger.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "41": {
@@ -376,7 +376,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/joyee-cheung/web-apis-in-nodejs-core-past-present-and-future.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "42": {
@@ -385,7 +385,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/johnny-austin/finding-your-abstraction-sweet-spot.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "43": {
@@ -394,7 +394,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/joe-sepi/promises-api-in-nodejs-core-where-we-are-and-where-well-get-to.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "44": {
@@ -403,7 +403,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/jason-straughan/teaching-kids-to-code-by-a-13-year-old.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "45": {
@@ -412,7 +412,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/fedor-indutny/llhttp-new-http-11-parser-for-nodejs.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "46": {
@@ -421,7 +421,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/ella-van-durpe/designing-a-rich-content-editor-for-a-third-of-the-web.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "47": {
@@ -430,7 +430,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/amanda-sopkin/what-js-developers-can-learn-from-medieval-coats-of-arms-about-accessibility.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "48": {
@@ -439,7 +439,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/constanza-yanez-calderon/about-life-robots-and-cats.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "49": {
@@ -448,7 +448,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/havi-hoffman/in-the-land-of-the-javascripters.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
     "50": {
@@ -457,7 +457,7 @@
       "alternative_titles": [],
       "categories": [1],
       "video_url": "https://2019.jsconf.eu/ashley-williams/javascripts-journey-to-the-edge.html",
-      "video_upload_date": "TODO",
+      "video_upload_date": "1999-12-28",
       "conferences": [1]
     }
   }

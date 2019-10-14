@@ -1,9 +1,14 @@
 {
   "categories": {
+    "0": { "name": "CSS" },
     "1": { "name": "JavaScript" },
     "2": {
       "name": "Front-end",
       "alternative_spelling": ["frontend", "front end"]
+    },
+    "3": {
+      "name": "Community",
+      "alternative_spelling": []
     }
   }
 }

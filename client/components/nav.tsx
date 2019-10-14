@@ -2,21 +2,18 @@ import React from "react";
 import Link from "next/link";
 
 const links = [
-  { href: "https://zeit.co/now", label: "ZEIT", key: "b" },
-  { href: "https://github.com/zeit/next.js", label: "GitHub", key: "b" }
+  { href: "/", label: "Home", key: "a" },
+  { href: "/about", label: "About", key: "b" }
 ];
 
 const Nav = () => (
   <nav>
     <ul>
-      <li>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
-      </li>
       {links.map(({ key, href, label }) => (
         <li key={key}>
-          <a href={href}>{label}</a>
+          <Link href={href}>
+            <a>{label}</a>
+          </Link>
         </li>
       ))}
     </ul>
