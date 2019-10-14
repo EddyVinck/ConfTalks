@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Nav from "../components/nav";
 import { getTalkList } from "../utils/data-formatting/getConferenceList";
 import { Form, Field, Formik } from "formik";
+import * as gtag from "../utils/analytics/gtag";
 
 const initialState = getTalkList();
 
@@ -41,7 +42,6 @@ const TalkList = styled.ol({
           content: "', '",
           border: ""
         }
-        // margin: "0 0.5rem 0 0"
       }
     }
   }
@@ -74,7 +74,16 @@ const Home = () => {
 
         <section>
           <h2>Subscribe to the newsletter</h2>
-          <Formik initialValues={{ email: "" }} onSubmit={() => {}}>
+          <Formik
+            initialValues={{ email: "" }}
+            onSubmit={() => {
+              // gtag.event({
+              //   action: 'submit_form',
+              //   category: 'Newsletter',
+              //   label: email
+              // })
+            }}
+          >
             {({ isSubmitting }) => (
               <Form>
                 <Field type="email" name="email" />

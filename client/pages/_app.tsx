@@ -1,6 +1,10 @@
 import App from "next/app";
 import React from "react";
 import { ThemeProvider } from "styled-components";
+import Router from "next/router";
+import * as gtag from "../utils/analytics/gtag";
+
+Router.events.on("routeChangeComplete", url => gtag.pageview(url));
 
 const theme = {
   colors: {
