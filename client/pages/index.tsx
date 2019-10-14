@@ -20,6 +20,9 @@ const TalkList = styled.ol({
       padding: "1rem 0.5rem",
       background: "white",
       borderBottom: "2px solid lightgray",
+      "&: visited": {
+        color: "#aaa"
+      },
       "&:hover": {
         color: "blue"
       }
