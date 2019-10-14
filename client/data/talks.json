@@ -1,7 +1,7 @@
 {
   "talks": {
     "0": {
-      "speaker": 0,
+      "speakers": [0],
       "main_title": "CSS Houdini & The Future of Styling",
       "alternative_titles": [],
       "categories": [1],
@@ -10,7 +10,7 @@
       "conferences": [1]
     },
     "1": {
-      "speaker": 1,
+      "speakers": [1],
       "main_title": "Recreating Retro Computer Art with JS!",
       "alternative_titles": [],
       "categories": [1],
@@ -19,7 +19,7 @@
       "conferences": [1]
     },
     "2": {
-      "speaker": 2,
+      "speakers": [2],
       "main_title": "Build an end-to-end IoT system using JavaScript with \"GDPR awareness\"",
       "alternative_titles": [],
       "categories": [1],
@@ -28,7 +28,7 @@
       "conferences": [1]
     },
     "3": {
-      "speaker": 3,
+      "speakers": [3],
       "main_title": "TC39 Committee Panel",
       "alternative_titles": [],
       "categories": [1],
@@ -37,7 +37,7 @@
       "conferences": [1]
     },
     "4": {
-      "speaker": 4,
+      "speakers": [4],
       "main_title": "ES2019 Features: What Even Are They?",
       "alternative_titles": [],
       "categories": [1],
@@ -46,7 +46,7 @@
       "conferences": [1]
     },
     "5": {
-      "speaker": 5,
+      "speakers": [5],
       "main_title": "HTTP headers for the responsible developer",
       "alternative_titles": [],
       "categories": [1],
@@ -55,7 +55,7 @@
       "conferences": [1]
     },
     "6": {
-      "speaker": 6,
+      "speakers": [6],
       "main_title": "Embedding V8 in the real world",
       "alternative_titles": [],
       "categories": [1],
@@ -64,7 +64,7 @@
       "conferences": [1]
     },
     "7": {
-      "speaker": 7,
+      "speakers": [7],
       "main_title": "Block, unblock, block! : How ad blockers are being circumvented, and how they are fighting back.",
       "alternative_titles": [],
       "categories": [1],
@@ -73,7 +73,7 @@
       "conferences": [1]
     },
     "8": {
-      "speaker": 8,
+      "speakers": [8],
       "main_title": "Tales from the Toilet: how Javascript helps the production of tissue papers",
       "alternative_titles": [],
       "categories": [1],
@@ -82,7 +82,7 @@
       "conferences": [1]
     },
     "9": {
-      "speaker": 9,
+      "speakers": [9],
       "main_title": "You should start a tech community too.",
       "alternative_titles": [],
       "categories": [1, 3],
@@ -91,7 +91,7 @@
       "conferences": [1]
     },
     "10": {
-      "speaker": 10,
+      "speakers": [10],
       "main_title": "JavaScript, JavaScript…. Rocks You!",
       "alternative_titles": [],
       "categories": [1],
@@ -100,7 +100,7 @@
       "conferences": [1]
     },
     "11": {
-      "speaker": 11,
+      "speakers": [11],
       "main_title": "10 things I learned making the fastest js server runtime in the world",
       "alternative_titles": [],
       "categories": [1],
@@ -109,7 +109,7 @@
       "conferences": [1]
     },
     "12": {
-      "speaker": 12,
+      "speakers": [12],
       "main_title": "javascript considered...useful",
       "alternative_titles": [],
       "categories": [1],
@@ -118,7 +118,7 @@
       "conferences": [1]
     },
     "13": {
-      "speaker": 13,
+      "speakers": [13],
       "main_title": "JavaScript: who, what, where, why and next",
       "alternative_titles": [],
       "categories": [1],
@@ -127,7 +127,7 @@
       "conferences": [1]
     },
     "14": {
-      "speaker": 14,
+      "speakers": [14],
       "main_title": "Shape Of The Web",
       "alternative_titles": [],
       "categories": [1],
@@ -136,7 +136,7 @@
       "conferences": [1]
     },
     "15": {
-      "speaker": 15,
+      "speakers": [15],
       "main_title": "The economics of open source",
       "alternative_titles": [],
       "categories": [1],
@@ -146,7 +146,7 @@
     },
 
     "16": {
-      "speaker": 16,
+      "speakers": [16],
       "main_title": "Panel: +1 to a Collaborative Future ~ the Foundation of JavaScript",
       "alternative_titles": [],
       "categories": [1],
@@ -155,7 +155,7 @@
       "conferences": [1]
     },
     "17": {
-      "speaker": 17,
+      "speakers": [17],
       "main_title": "GraphQL: Towards a universal query language",
       "alternative_titles": [],
       "categories": [1],
@@ -164,7 +164,7 @@
       "conferences": [1]
     },
     "18": {
-      "speaker": 18,
+      "speakers": [18],
       "main_title": "Stencil: a built-time approach to the web",
       "alternative_titles": [],
       "categories": [1],
@@ -173,7 +173,7 @@
       "conferences": [1]
     },
     "19": {
-      "speaker": 19,
+      "speakers": [19],
       "main_title": "tink: A Next Generation Package Manager",
       "alternative_titles": [],
       "categories": [1],
@@ -182,7 +182,7 @@
       "conferences": [1]
     },
     "20": {
-      "speaker": 20,
+      "speakers": [20],
       "main_title": "Crafting Comics for Literally Everyone",
       "alternative_titles": [],
       "categories": [1],
@@ -191,7 +191,7 @@
       "conferences": [1]
     },
     "21": {
-      "speaker": 21,
+      "speakers": [21],
       "main_title": "Let’s build a JavaScript Engine",
       "alternative_titles": [],
       "categories": [1],
@@ -200,7 +200,7 @@
       "conferences": [1]
     },
     "22": {
-      "speaker": 22,
+      "speakers": [22],
       "main_title": "Performance Empathy",
       "alternative_titles": [],
       "categories": [1],
@@ -209,7 +209,7 @@
       "conferences": [1]
     },
     "23": {
-      "speaker": 23,
+      "speakers": [23],
       "main_title": "What happened to my JavaScript phone?",
       "alternative_titles": [],
       "categories": [1],
@@ -218,7 +218,7 @@
       "conferences": [1]
     },
     "24": {
-      "speaker": 24,
+      "speakers": [24],
       "main_title": "The Contentious Relationship Between the LGBTQ+ community and Tech",
       "alternative_titles": [],
       "categories": [1],
@@ -227,7 +227,7 @@
       "conferences": [1]
     },
     "25": {
-      "speaker": 25,
+      "speakers": [25],
       "main_title": "Why Can’t We All Just Get Along?",
       "alternative_titles": [],
       "categories": [1],
@@ -236,7 +236,7 @@
       "conferences": [1]
     },
     "26": {
-      "speaker": 26,
+      "speakers": [26],
       "main_title": "BDD: Baby Driven Development",
       "alternative_titles": [],
       "categories": [1],
@@ -245,7 +245,7 @@
       "conferences": [1]
     },
     "27": {
-      "speaker": 27,
+      "speakers": [27],
       "main_title": "Bringing back dial-up: the internet over SMS",
       "alternative_titles": [],
       "categories": [1],
@@ -254,7 +254,7 @@
       "conferences": [1]
     },
     "28": {
-      "speaker": 28,
+      "speakers": [28],
       "main_title": "করো: Translating Code to Other (Human) Languages, and Back Again",
       "alternative_titles": [],
       "categories": [1],
@@ -263,7 +263,7 @@
       "conferences": [1]
     },
     "29": {
-      "speaker": 29,
+      "speakers": [29],
       "main_title": "TensorFlow.js: Bringing Machine Learning to the Web and Beyond.",
       "alternative_titles": [],
       "categories": [1],
@@ -272,7 +272,7 @@
       "conferences": [1]
     },
     "30": {
-      "speaker": 30,
+      "speakers": [30],
       "main_title": "TensorFlow.js: Bringing Machine Learning to the Web and Beyond.",
       "alternative_titles": [],
       "categories": [1],
@@ -281,7 +281,7 @@
       "conferences": [1]
     },
     "31": {
-      "speaker": 31,
+      "speakers": [31],
       "main_title": "Polyhedra, I Choose You! Letting Your Passions Take Form",
       "alternative_titles": [],
       "categories": [1],
@@ -290,7 +290,7 @@
       "conferences": [1]
     },
     "32": {
-      "speaker": 32,
+      "speakers": [32],
       "main_title": "Javascript is for Everyone!",
       "alternative_titles": [],
       "categories": [1],
@@ -299,7 +299,7 @@
       "conferences": [1]
     },
     "33": {
-      "speaker": 33,
+      "speakers": [33],
       "main_title": "The modern PWA Cheat Sheet",
       "alternative_titles": [],
       "categories": [1],
@@ -308,7 +308,7 @@
       "conferences": [1]
     },
     "34": {
-      "speaker": 34,
+      "speakers": [34],
       "main_title": "A sneak peek into super optimized code in JS frameworks",
       "alternative_titles": [],
       "categories": [1],
@@ -317,7 +317,7 @@
       "conferences": [1]
     },
     "35": {
-      "speaker": 35,
+      "speakers": [35],
       "main_title": "Simulating Sand: Building Interactivity With WebAssembly",
       "alternative_titles": [],
       "categories": [1],
@@ -326,7 +326,7 @@
       "conferences": [1]
     },
     "36": {
-      "speaker": 36,
+      "speakers": [36],
       "main_title": "animations - learning from cartoons",
       "alternative_titles": [],
       "categories": [1],
@@ -335,7 +335,7 @@
       "conferences": [1]
     },
     "37": {
-      "speaker": 37,
+      "speakers": [37],
       "main_title": "The Case for Augmented Reality on the Web",
       "alternative_titles": [],
       "categories": [1],
@@ -344,7 +344,7 @@
       "conferences": [1]
     },
     "38": {
-      "speaker": 38,
+      "speakers": [38],
       "main_title": "Yarn - 2019 and beyond",
       "alternative_titles": [],
       "categories": [1],
@@ -353,7 +353,7 @@
       "conferences": [1]
     },
     "39": {
-      "speaker": 39,
+      "speakers": [39],
       "main_title": "Building WebApps Like It's 1972 🧙‍♂️",
       "alternative_titles": [],
       "categories": [1],
@@ -362,7 +362,7 @@
       "conferences": [1]
     },
     "40": {
-      "speaker": 40,
+      "speakers": [40],
       "main_title": "Offline-first data: Getting Bigger",
       "alternative_titles": [],
       "categories": [1],
@@ -371,7 +371,7 @@
       "conferences": [1]
     },
     "41": {
-      "speaker": 41,
+      "speakers": [41],
       "main_title": "Web APIs in Node.js Core: Past, Present, and Future",
       "alternative_titles": [],
       "categories": [1],
@@ -380,7 +380,7 @@
       "conferences": [1]
     },
     "42": {
-      "speaker": 42,
+      "speakers": [42],
       "main_title": "Finding Your Abstraction Sweet Spot",
       "alternative_titles": [],
       "categories": [1],
@@ -389,7 +389,7 @@
       "conferences": [1]
     },
     "43": {
-      "speaker": 43,
+      "speakers": [43],
       "main_title": "Promises API in Node.js core: where we are and where we’ll get to",
       "alternative_titles": [],
       "categories": [1],
@@ -398,7 +398,7 @@
       "conferences": [1]
     },
     "44": {
-      "speaker": 44,
+      "speakers": [44],
       "main_title": "Teaching Kids to Code by a 13 year-old",
       "alternative_titles": [],
       "categories": [1],
@@ -407,7 +407,7 @@
       "conferences": [1]
     },
     "45": {
-      "speaker": 45,
+      "speakers": [45],
       "main_title": "llhttp - new HTTP 1.1 parser for Node.js",
       "alternative_titles": [],
       "categories": [1],
@@ -416,7 +416,7 @@
       "conferences": [1]
     },
     "46": {
-      "speaker": 46,
+      "speakers": [46],
       "main_title": "Designing a Rich Content Editor for a Third of the Web",
       "alternative_titles": [],
       "categories": [1],
@@ -425,7 +425,7 @@
       "conferences": [1]
     },
     "47": {
-      "speaker": 47,
+      "speakers": [47],
       "main_title": "What JS Developers can Learn from Medieval Coats of Arms about Accessibility",
       "alternative_titles": [],
       "categories": [1],
@@ -434,7 +434,7 @@
       "conferences": [1]
     },
     "48": {
-      "speaker": 48,
+      "speakers": [48],
       "main_title": "About life, robots and cats!",
       "alternative_titles": [],
       "categories": [1],
@@ -443,7 +443,7 @@
       "conferences": [1]
     },
     "49": {
-      "speaker": 49,
+      "speakers": [49],
       "main_title": "In the land of the JavaScripters",
       "alternative_titles": [],
       "categories": [1],
@@ -452,7 +452,7 @@
       "conferences": [1]
     },
     "50": {
-      "speaker": 50,
+      "speakers": [50],
       "main_title": "JavaScript's Journey to the Edge",
       "alternative_titles": [],
       "categories": [1],

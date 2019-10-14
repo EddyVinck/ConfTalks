@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import styled from "styled-components";
 import Nav from "../components/nav";
-import { getTalkList } from "../utils/data-formatting/getConferenceList";
+import { getTalkList } from "../utils/data-formatting/getTalkList";
 import { Form, Field, Formik } from "formik";
 import * as gtag from "../utils/analytics/gtag";
 
@@ -26,17 +26,23 @@ const TalkList = styled.ol({
       },
       "&:hover": {
         color: "blue"
+      },
+      "> p": {
+        margin: "0.5rem 0 0.5rem"
       }
     },
-    "p.categoryLabel": {
+    ".horizontal-list-wrapper": {
+      marginBottom: "0.5rem"
+    },
+    "p.horizontal-list-label": {
       display: "inline-block",
       margin: "0 0.5rem 0 0"
     },
-    "ul.categories": {
+    ".horizontal-list": {
       display: "inline-flex",
       listStyle: "none",
       padding: 0,
-      margin: 0,
+      marginLeft: 0,
       "li + li": {
         "::before": {
           content: "', '",
@@ -101,17 +107,31 @@ const Home = () => {
               <li key={talk.id}>
                 <a href={talk.video_url} target="blank" rel="noopener">
                   <h2>{talk.main_title}</h2>
+                  <div className="horizontal-list-wrapper">
+                    <p className="horizontal-list-label">By:</p>
+                    <ul className="horizontal-list">
+                      {talk.speakers.length ? (
+                        talk.speakers.map(speaker => (
+                          <li key={speaker.name}>{speaker.name}</li>
+                        ))
+                      ) : (
+                        <li key="no-speakers">No speakers available</li>
+                      )}
+                    </ul>
+                  </div>
+                  <div className="horizontal-list-wrapper">
+                    <p className="horizontal-list-label">Categories:</p>
+                    <ul className="horizontal-list">
+                      {talk.categories.length ? (
+                        talk.categories.map(category => (
+                          <li key={category.name}>{category.name}</li>
+                        ))
+                      ) : (
+                        <li key="no-categories">No categories available</li>
+                      )}
+                    </ul>
+                  </div>
                   <p>Upload date: {talk.video_upload_date}</p>
-                  <p className="categoryLabel">Categories:</p>
-                  <ul className="categories">
-                    {talk.categories.length ? (
-                      talk.categories.map(category => (
-                        <li key={category.name}>{category.name}</li>
-                      ))
-                    ) : (
-                      <li key="no-categories">No categories available</li>
-                    )}
-                  </ul>
                 </a>
               </li>
             );

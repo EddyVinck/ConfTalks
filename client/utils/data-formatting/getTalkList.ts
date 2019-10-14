@@ -2,7 +2,6 @@ import conferences from "../../data/conferences.json";
 import speakers from "../../data/speakers.json";
 import talkCategories from "../../data/talk_categories.json";
 import talks from "../../data/talks.json";
-import { number } from "prop-types";
 
 const getTalkList = () => {
   let combinedData: any = talks.talks;
@@ -13,7 +12,16 @@ const getTalkList = () => {
       const categories = combinedData[talkId].categories.map(
         catId => talkCategories.categories[catId]
       );
-      const tData = { id: Number(talkId), ...combinedData[talkId], categories };
+      const speakersList = combinedData[talkId].speakers.map(
+        speakerId => speakers.speakers[speakerId]
+      );
+
+      const tData = {
+        id: Number(talkId),
+        ...combinedData[talkId],
+        categories,
+        speakers: speakersList
+      };
       temp.push(tData);
     }
   }
