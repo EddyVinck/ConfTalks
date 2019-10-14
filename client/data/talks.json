@@ -353,11 +353,7 @@
       "conferences": [1]
     },
     "39": {
-<<<<<<< HEAD
       "speaker": 39,
-=======
-      "speaker": 40,
->>>>>>> 90011c1ac6889662c2d3e981df5cc1c008ca06d3
       "main_title": "Building WebApps Like It's 1972 🧙‍♂️",
       "alternative_titles": [],
       "categories": [1],
@@ -366,11 +362,7 @@
       "conferences": [1]
     },
     "40": {
-<<<<<<< HEAD
       "speaker": 40,
-=======
-      "speaker": 41,
->>>>>>> 90011c1ac6889662c2d3e981df5cc1c008ca06d3
       "main_title": "Offline-first data: Getting Bigger",
       "alternative_titles": [],
       "categories": [1],
@@ -379,11 +371,7 @@
       "conferences": [1]
     },
     "41": {
-<<<<<<< HEAD
       "speaker": 41,
-=======
-      "speaker": 42,
->>>>>>> 90011c1ac6889662c2d3e981df5cc1c008ca06d3
       "main_title": "Web APIs in Node.js Core: Past, Present, and Future",
       "alternative_titles": [],
       "categories": [1],
@@ -392,11 +380,7 @@
       "conferences": [1]
     },
     "42": {
-<<<<<<< HEAD
       "speaker": 42,
-=======
-      "speaker": 43,
->>>>>>> 90011c1ac6889662c2d3e981df5cc1c008ca06d3
       "main_title": "Finding Your Abstraction Sweet Spot",
       "alternative_titles": [],
       "categories": [1],
@@ -405,11 +389,7 @@
       "conferences": [1]
     },
     "43": {
-<<<<<<< HEAD
       "speaker": 43,
-=======
-      "speaker": 44,
->>>>>>> 90011c1ac6889662c2d3e981df5cc1c008ca06d3
       "main_title": "Promises API in Node.js core: where we are and where we’ll get to",
       "alternative_titles": [],
       "categories": [1],
@@ -418,11 +398,7 @@
       "conferences": [1]
     },
     "44": {
-<<<<<<< HEAD
       "speaker": 44,
-=======
-      "speaker": 45,
->>>>>>> 90011c1ac6889662c2d3e981df5cc1c008ca06d3
       "main_title": "Teaching Kids to Code by a 13 year-old",
       "alternative_titles": [],
       "categories": [1],
@@ -431,11 +407,7 @@
       "conferences": [1]
     },
     "45": {
-<<<<<<< HEAD
       "speaker": 45,
-=======
-      "speaker": 46,
->>>>>>> 90011c1ac6889662c2d3e981df5cc1c008ca06d3
       "main_title": "llhttp - new HTTP 1.1 parser for Node.js",
       "alternative_titles": [],
       "categories": [1],
@@ -444,11 +416,7 @@
       "conferences": [1]
     },
     "46": {
-<<<<<<< HEAD
       "speaker": 46,
-=======
-      "speaker": 47,
->>>>>>> 90011c1ac6889662c2d3e981df5cc1c008ca06d3
       "main_title": "Designing a Rich Content Editor for a Third of the Web",
       "alternative_titles": [],
       "categories": [1],
@@ -457,11 +425,7 @@
       "conferences": [1]
     },
     "47": {
-<<<<<<< HEAD
       "speaker": 47,
-=======
-      "speaker": 48,
->>>>>>> 90011c1ac6889662c2d3e981df5cc1c008ca06d3
       "main_title": "What JS Developers can Learn from Medieval Coats of Arms about Accessibility",
       "alternative_titles": [],
       "categories": [1],
@@ -470,11 +434,7 @@
       "conferences": [1]
     },
     "48": {
-<<<<<<< HEAD
       "speaker": 48,
-=======
-      "speaker": 49,
->>>>>>> 90011c1ac6889662c2d3e981df5cc1c008ca06d3
       "main_title": "About life, robots and cats!",
       "alternative_titles": [],
       "categories": [1],
@@ -483,11 +443,7 @@
       "conferences": [1]
     },
     "49": {
-<<<<<<< HEAD
       "speaker": 49,
-=======
-      "speaker": 50,
->>>>>>> 90011c1ac6889662c2d3e981df5cc1c008ca06d3
       "main_title": "In the land of the JavaScripters",
       "alternative_titles": [],
       "categories": [1],
@@ -496,11 +452,7 @@
       "conferences": [1]
     },
     "50": {
-<<<<<<< HEAD
       "speaker": 50,
-=======
-      "speaker": 51,
->>>>>>> 90011c1ac6889662c2d3e981df5cc1c008ca06d3
       "main_title": "JavaScript's Journey to the Edge",
       "alternative_titles": [],
       "categories": [1],
