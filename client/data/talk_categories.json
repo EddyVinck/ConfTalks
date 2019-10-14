@@ -1,0 +1,9 @@
+{
+  "categories": {
+    "1": { "name": "JavaScript" },
+    "2": {
+      "name": "Front-end",
+      "alternative_spelling": ["frontend", "front end"]
+    }
+  }
+}
