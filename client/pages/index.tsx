@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import styled from "styled-components";
 import Nav from "../components/nav";
@@ -56,17 +56,50 @@ const TalkList = styled.ol({
   }
 });
 
+const getCurrentTalkBookmarks = () => {
+  let bookmarkList = [];
+  if (typeof window !== "undefined") {
+    let bookmarks = localStorage.getItem("bookmarked_talks");
+    if (bookmarks && typeof bookmarks === "string") {
+      bookmarkList = bookmarks.split(",").map(str => Number(str));
+    }
+  }
+  return bookmarkList;
+};
+
+const addTalkBookmark = talkId => {
+  const talkBookmarks = getCurrentTalkBookmarks();
+  if (talkBookmarks.includes(talkId) === false) {
+    talkBookmarks.push(talkId);
+  }
+  localStorage.setItem("bookmarked_talks", talkBookmarks.join(","));
+};
+const removeTalkBookmark = talkId => {
+  const talkBookmarks = getCurrentTalkBookmarks();
+  if (talkBookmarks.includes(talkId)) {
+    const index = talkBookmarks.indexOf(talkId);
+    talkBookmarks.splice(index, 1);
+  }
+  localStorage.setItem("bookmarked_talks", talkBookmarks.join(","));
+};
+
+const getInitialState = () => {
+  let talkList = getTalkList();
+
+  const bookmarks = getCurrentTalkBookmarks();
+
+  if (bookmarks && bookmarks.length) {
+    talkList = talkList.map(talk => ({
+      ...talk,
+      bookmarked: bookmarks.includes(talk.id)
+    }));
+  }
+
+  return talkList;
+};
+
 const Home = () => {
-  const getInitialState = () => {
-    let talkList = getTalkList();
-
-    // TODO get bookmarks
-    talkList = talkList.map(talk => ({ ...talk, bookmarked: false }));
-
-    return talkList;
-  };
-  const initialState: any[] = getInitialState();
-  const [talkList, setTalkList] = useState(initialState);
+  const [talkList, setTalkList] = useState(getInitialState());
 
   const handleBookmark = (
     event: React.MouseEvent<HTMLButtonElement, MouseEvent>,
@@ -80,12 +113,12 @@ const Home = () => {
     const itemToUpdate = updatedTalkList[index];
     itemToUpdate.bookmarked = !itemToUpdate.bookmarked;
 
-    // add or remove it from localstorage
-    // update talkList with the bookmark status
+    itemToUpdate.bookmarked
+      ? addTalkBookmark(itemToUpdate.id)
+      : removeTalkBookmark(itemToUpdate.id);
+
     setTalkList(updatedTalkList);
   };
-
-  // console.log(talkList);
 
   return (
     <div>
@@ -136,7 +169,8 @@ const Home = () => {
 
         <TalkList>
           {talkList.map(talk => {
-            const className = talk.video_url ? "has-video" : "no-video";
+            let className = talk.video_url ? "has-video" : "no-video";
+            className += talk.bookmarked ? " is-bookmarked" : "";
             return (
               <li key={talk.id} className={className}>
                 <a href={talk.video_url} target="blank" rel="noopener">
