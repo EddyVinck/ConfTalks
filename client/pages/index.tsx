@@ -4,9 +4,9 @@ import styled from "styled-components";
 import Nav from "../components/nav";
 import { getTalkList } from "../utils/data-formatting/getTalkList";
 import { Form, Field, Formik } from "formik";
+import findIndex from "lodash-es/findIndex";
+// import useLocalStorage from "react-use-localstorage";
 import * as gtag from "../utils/analytics/gtag";
-
-const initialState = getTalkList();
 
 const TalkList = styled.ol({
   maxWidth: "800px",
@@ -57,9 +57,35 @@ const TalkList = styled.ol({
 });
 
 const Home = () => {
+  const getInitialState = () => {
+    let talkList = getTalkList();
+
+    // TODO get bookmarks
+    talkList = talkList.map(talk => ({ ...talk, bookmarked: false }));
+
+    return talkList;
+  };
+  const initialState: any[] = getInitialState();
   const [talkList, setTalkList] = useState(initialState);
 
-  console.log(talkList);
+  const handleBookmark = (
+    event: React.MouseEvent<HTMLButtonElement, MouseEvent>,
+    talkId
+  ) => {
+    // prevent the link from opening
+    event.preventDefault();
+
+    let updatedTalkList = [...talkList];
+    const index = findIndex(updatedTalkList, { id: talkId });
+    const itemToUpdate = updatedTalkList[index];
+    itemToUpdate.bookmarked = !itemToUpdate.bookmarked;
+
+    // add or remove it from localstorage
+    // update talkList with the bookmark status
+    setTalkList(updatedTalkList);
+  };
+
+  // console.log(talkList);
 
   return (
     <div>
@@ -140,6 +166,12 @@ const Home = () => {
                     </ul>
                   </div>
                   <p>Upload date: {talk.video_upload_date}</p>
+                  <button
+                    type="button"
+                    onClick={event => handleBookmark(event, talk.id)}
+                  >
+                    {talk.bookmarked ? "Remove bookmark" : "Bookmark"}
+                  </button>
                 </a>
               </li>
             );
