@@ -15,12 +15,16 @@ const getTalkList = () => {
       const speakersList = combinedData[talkId].speakers.map(
         speakerId => speakers.speakers[speakerId]
       );
+      const conferencesList = combinedData[talkId].conferences.map(
+        confId => conferences.conferences[confId]
+      );
 
       const tData = {
         id: Number(talkId),
         ...combinedData[talkId],
         categories,
-        speakers: speakersList
+        speakers: speakersList,
+        conferences: conferencesList
       };
       temp.push(tData);
     }

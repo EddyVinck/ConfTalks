@@ -49,6 +49,9 @@ const TalkList = styled.ol({
           border: ""
         }
       }
+    },
+    "&.no-video": {
+      // TODO
     }
   }
 });
@@ -61,7 +64,7 @@ const Home = () => {
   return (
     <div>
       <Head>
-        <title>Home</title>
+        <title>ConfTalks.org</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -79,7 +82,7 @@ const Home = () => {
         </p>
 
         <section>
-          <h2>Subscribe to the newsletter</h2>
+          <h2>Subscribe to the ConfTalks newsletter</h2>
           <Formik
             initialValues={{ email: "" }}
             onSubmit={() => {
@@ -101,10 +104,15 @@ const Home = () => {
           </Formik>
         </section>
 
+        <aside>
+          <h2>Filters</h2>
+        </aside>
+
         <TalkList>
           {talkList.map(talk => {
+            const className = talk.video_url ? "has-video" : "no-video";
             return (
-              <li key={talk.id}>
+              <li key={talk.id} className={className}>
                 <a href={talk.video_url} target="blank" rel="noopener">
                   <h2>{talk.main_title}</h2>
                   <div className="horizontal-list-wrapper">
