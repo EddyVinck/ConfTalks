@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@types/styled-components": "^4.1.19",
     "@zeit/next-typescript": "^1.1.1",
     "formik": "^1.5.8",
     "lodash-es": "^4.17.15",
