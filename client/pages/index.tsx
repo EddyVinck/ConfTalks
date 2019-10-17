@@ -1,4 +1,10 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React, {
+  useState,
+  useEffect,
+  Fragment,
+  Dispatch,
+  SetStateAction
+} from "react";
 import Head from "next/head";
 import styled from "styled-components";
 import Nav from "../components/nav";
@@ -15,6 +21,31 @@ import {
   TalkListFilters
 } from "../components/TalkList";
 import { NewsletterForm } from "../components/forms/Newsletter";
+
+interface Conference {
+  id: number;
+  end_date: string;
+  locations: string[];
+  name: string;
+  start_date: string;
+}
+
+interface Speaker {
+  id: number;
+  name: string;
+}
+
+interface Talk {
+  alternative_titles: string[];
+  bookmarked: boolean;
+  categories: string[];
+  conferences: Conference[];
+  id: number;
+  main_title: string;
+  speakers: Speaker[];
+  video_upload_date: string;
+  video_url: string;
+}
 
 const getCurrentTalkBookmarks = () => {
   let bookmarkList = [];
@@ -45,7 +76,7 @@ const removeTalkBookmark = (talkId: number) => {
 };
 
 const getInitialState = () => {
-  let talkList = getTalkList();
+  let talkList: Talk[] = getTalkList();
   const bookmarks = getCurrentTalkBookmarks();
 
   if (bookmarks && bookmarks.length) {
@@ -58,6 +89,18 @@ const getInitialState = () => {
   return talkList;
 };
 
+export const initialFilters = {
+  onlyShowRecordedTalks: false,
+  speakerName: "",
+  conference_id: ""
+};
+type initialFilters = typeof initialFilters;
+
+export const FilterContext = React.createContext({
+  filters: initialFilters,
+  setFilters: (initialFilters: initialFilters) => {}
+});
+
 const HeadTags = () => (
   <Head>
     <title>ConfTalks.org</title>
@@ -67,6 +110,38 @@ const HeadTags = () => (
 
 const Home = () => {
   const [talkList, setTalkList] = useState(getInitialState());
+  const [filters, setFilters] = useState(initialFilters);
+
+  const filterTalks = () => {
+    const filtered = talkList.filter(talk => {
+      if (filters.onlyShowRecordedTalks) {
+        if (talk.video_url === "") return null;
+      }
+      if (filters.conference_id) {
+        if (
+          talk.conferences.find(
+            conf => String(conf.id) === filters.conference_id
+          ) === undefined
+        )
+          return null;
+      }
+      if (filters.speakerName) {
+        if (
+          talk.speakers
+            .map(s => s.name.toLowerCase())
+            .find(speakerName =>
+              speakerName.includes(filters.speakerName.toLowerCase())
+            ) === undefined
+        )
+          return null;
+      }
+      return talk;
+    });
+    // filter out null
+    return filtered.filter(Boolean);
+  };
+
+  const filteredTalkList = filterTalks();
 
   const toggleBookmark = (talkId: number) => {
     let updatedTalkList = [...talkList];
@@ -113,25 +188,29 @@ const Home = () => {
           <Section>
             <h2>Conference Talks</h2>
             <TalkListLayout>
-              <aside>
-                <FilterStyles>
-                  <h2>Filters</h2>
-                  <TalkListFilters />
-                </FilterStyles>
-                <p>
-                  <b>Tip!</b> You can bookmark talks so you can check up on them
-                  later to see if they have been uploaded already. Bookmarks are
-                  stored on your current device.
-                </p>
-              </aside>
-              <div className="talk-list">
-                <TalkListStyles>
-                  <TalkList
-                    talkList={talkList}
-                    toggleBookmark={toggleBookmark}
-                  />
-                </TalkListStyles>
-              </div>{" "}
+              <FilterContext.Provider value={{ filters, setFilters }}>
+                <Fragment>
+                  <aside>
+                    <FilterStyles>
+                      <h2>Filters</h2>
+                      <TalkListFilters />
+                    </FilterStyles>
+                    <p>
+                      <b>Tip!</b> You can bookmark talks so you can check up on
+                      them later to see if they have been uploaded already.
+                      Bookmarks are stored on your current device.
+                    </p>
+                  </aside>
+                  <div className="talk-list">
+                    <TalkListStyles>
+                      <TalkList
+                        talkList={filteredTalkList}
+                        toggleBookmark={toggleBookmark}
+                      />
+                    </TalkListStyles>
+                  </div>
+                </Fragment>
+              </FilterContext.Provider>
             </TalkListLayout>
           </Section>
         </Container>

@@ -1,7 +1,15 @@
 {
   "conferences": {
+    "0": {
+      "name": "JSConf EU 2018",
+      "start_date": "2018-06-02",
+      "end_date": "2018-06-03",
+      "locations": ["Arena Berlin. Eichenstraße 4, 12435 Berlin, Germany"]
+    },
     "1": {
       "name": "JSConf EU 2019",
+      "start_date": "2019-06-01",
+      "end_date": "2019-06-02",
       "locations": ["Arena Berlin. Eichenstraße 4, 12435 Berlin, Germany"]
     }
   }
