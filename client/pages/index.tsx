@@ -6,10 +6,8 @@ import React, {
   SetStateAction
 } from "react";
 import Head from "next/head";
-import styled from "styled-components";
 import Nav from "../components/nav";
 import { getTalkList } from "../utils/data-formatting/getTalkList";
-import { Form, Field, Formik } from "formik";
 import findIndex from "lodash-es/findIndex";
 import * as gtag from "../utils/analytics/gtag";
 import { Container, Section, ContentWrapper, Hero } from "../components/layout";
@@ -92,13 +90,14 @@ const getInitialState = () => {
 export const initialFilters = {
   onlyShowRecordedTalks: false,
   speakerName: "",
-  conference_id: ""
+  conference_id: "",
+  talkTitle: ""
 };
-type initialFilters = typeof initialFilters;
+export type initialFilters = typeof initialFilters;
 
 export const FilterContext = React.createContext({
   filters: initialFilters,
-  setFilters: (initialFilters: initialFilters) => {}
+  setFilters: (_: initialFilters) => {}
 });
 
 const HeadTags = () => (
@@ -132,6 +131,14 @@ const Home = () => {
             .find(speakerName =>
               speakerName.includes(filters.speakerName.toLowerCase())
             ) === undefined
+        )
+          return null;
+      }
+      if (filters.talkTitle) {
+        if (
+          talk.main_title
+            .toLowerCase()
+            .includes(filters.talkTitle.toLowerCase()) === false
         )
           return null;
       }

@@ -18,7 +18,7 @@ conferencesList = sortDatesDescending(conferencesList, "start_date");
 const TalkListFilters = () => {
   const { filters, setFilters } = useContext(FilterContext);
 
-  const updateFilters = debounce(updates => {
+  const updateFilters = debounce((updates: Partial<initialFilters>) => {
     setFilters({
       ...filters,
       ...updates
@@ -51,6 +51,16 @@ const TalkListFilters = () => {
         value={filters.speakerName}
         onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
           updateFilters({ speakerName: event.target.value });
+        }}
+      />
+      <label htmlFor="talk-title">talk title</label>
+      <input
+        type="text"
+        id="talk-title"
+        name="talk-title"
+        value={filters.talkTitle}
+        onChange={(event: React.ChangeEvent<HTMLInputElement>) => {
+          updateFilters({ talkTitle: event.target.value });
         }}
       />
       <label htmlFor="conference-name">Conference Name</label>

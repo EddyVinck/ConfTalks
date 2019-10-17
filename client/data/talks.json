@@ -263,7 +263,7 @@
       "conferences": [1]
     },
     "29": {
-      "speakers": [29],
+      "speakers": [29, 30],
       "main_title": "TensorFlow.js: Bringing Machine Learning to the Web and Beyond.",
       "alternative_titles": [],
       "categories": [1],
@@ -272,15 +272,6 @@
       "conferences": [1]
     },
     "30": {
-      "speakers": [30],
-      "main_title": "TensorFlow.js: Bringing Machine Learning to the Web and Beyond.",
-      "alternative_titles": [],
-      "categories": [1],
-      "video_url": "https://2019.jsconf.eu/nick-kreeger/tensorflowjs-bringing-machine-learning-to-the-web-and-beyond.html",
-      "video_upload_date": "1999-12-28",
-      "conferences": [1]
-    },
-    "31": {
       "speakers": [31],
       "main_title": "Polyhedra, I Choose You! Letting Your Passions Take Form",
       "alternative_titles": [],
@@ -289,7 +280,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "32": {
+    "31": {
       "speakers": [32],
       "main_title": "Javascript is for Everyone!",
       "alternative_titles": [],
@@ -298,7 +289,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "33": {
+    "32": {
       "speakers": [33],
       "main_title": "The modern PWA Cheat Sheet",
       "alternative_titles": [],
@@ -307,7 +298,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "34": {
+    "33": {
       "speakers": [34],
       "main_title": "A sneak peek into super optimized code in JS frameworks",
       "alternative_titles": [],
@@ -316,7 +307,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "35": {
+    "34": {
       "speakers": [35],
       "main_title": "Simulating Sand: Building Interactivity With WebAssembly",
       "alternative_titles": [],
@@ -325,7 +316,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "36": {
+    "35": {
       "speakers": [36],
       "main_title": "animations - learning from cartoons",
       "alternative_titles": [],
@@ -334,7 +325,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "37": {
+    "36": {
       "speakers": [37],
       "main_title": "The Case for Augmented Reality on the Web",
       "alternative_titles": [],
@@ -343,7 +334,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "38": {
+    "37": {
       "speakers": [38],
       "main_title": "Yarn - 2019 and beyond",
       "alternative_titles": [],
@@ -352,7 +343,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "39": {
+    "38": {
       "speakers": [39],
       "main_title": "Building WebApps Like It's 1972 🧙‍♂️",
       "alternative_titles": [],
@@ -361,7 +352,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "40": {
+    "39": {
       "speakers": [40],
       "main_title": "Offline-first data: Getting Bigger",
       "alternative_titles": [],
@@ -370,7 +361,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "41": {
+    "40": {
       "speakers": [41],
       "main_title": "Web APIs in Node.js Core: Past, Present, and Future",
       "alternative_titles": [],
@@ -379,7 +370,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "42": {
+    "41": {
       "speakers": [42],
       "main_title": "Finding Your Abstraction Sweet Spot",
       "alternative_titles": [],
@@ -388,7 +379,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "43": {
+    "42": {
       "speakers": [43],
       "main_title": "Promises API in Node.js core: where we are and where we’ll get to",
       "alternative_titles": [],
@@ -397,7 +388,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "44": {
+    "43": {
       "speakers": [44],
       "main_title": "Teaching Kids to Code by a 13 year-old",
       "alternative_titles": [],
@@ -406,7 +397,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "45": {
+    "44": {
       "speakers": [45],
       "main_title": "llhttp - new HTTP 1.1 parser for Node.js",
       "alternative_titles": [],
@@ -415,7 +406,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "46": {
+    "45": {
       "speakers": [46],
       "main_title": "Designing a Rich Content Editor for a Third of the Web",
       "alternative_titles": [],
@@ -424,7 +415,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "47": {
+    "46": {
       "speakers": [47],
       "main_title": "What JS Developers can Learn from Medieval Coats of Arms about Accessibility",
       "alternative_titles": [],
@@ -433,7 +424,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "48": {
+    "47": {
       "speakers": [48],
       "main_title": "About life, robots and cats!",
       "alternative_titles": [],
@@ -442,7 +433,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "49": {
+    "48": {
       "speakers": [49],
       "main_title": "In the land of the JavaScripters",
       "alternative_titles": [],
@@ -451,7 +442,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "50": {
+    "49": {
       "speakers": [50],
       "main_title": "JavaScript's Journey to the Edge",
       "alternative_titles": [],
@@ -460,7 +451,7 @@
       "video_upload_date": "1999-12-28",
       "conferences": [1]
     },
-    "51": {
+    "50": {
       "speakers": [50],
       "main_title": "Test Talk without video, TODO: remove",
       "alternative_titles": [],
