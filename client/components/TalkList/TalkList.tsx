@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-const TalkList = ({ talkList, toggleBookmark }) => {
+const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
   const handleBookmark = (
     event: React.MouseEvent<HTMLButtonElement, MouseEvent>,
     id
@@ -9,9 +9,10 @@ const TalkList = ({ talkList, toggleBookmark }) => {
     toggleBookmark(id);
   };
 
+  const itemsToShow = talkList.slice(offset, offset + itemsPerPage);
   return (
     <Fragment>
-      {talkList.map(talk => {
+      {itemsToShow.map(talk => {
         let className = talk.video_url ? "has-video" : "no-video";
         className += talk.bookmarked ? " is-bookmarked" : "";
         return (

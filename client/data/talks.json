@@ -450,15 +450,6 @@
       "video_url": "https://2019.jsconf.eu/ashley-williams/javascripts-journey-to-the-edge.html",
       "video_upload_date": "1999-12-28",
       "conferences": [1]
-    },
-    "50": {
-      "speakers": [50],
-      "main_title": "Test Talk without video, TODO: remove",
-      "alternative_titles": [],
-      "categories": [1],
-      "video_url": "",
-      "video_upload_date": "2020-12-28",
-      "conferences": [1]
     }
   }
 }

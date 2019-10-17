@@ -3,6 +3,7 @@ import React from "react";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import Router from "next/router";
 import * as gtag from "../utils/analytics/gtag";
+import "semantic-ui-css/semantic.min.css";
 
 Router.events.on("routeChangeComplete", url => gtag.pageview(url));
 

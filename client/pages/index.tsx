@@ -19,6 +19,7 @@ import {
   TalkListFilters
 } from "../components/TalkList";
 import { NewsletterForm } from "../components/forms/Newsletter";
+import { Pagination } from "semantic-ui-react";
 
 interface Conference {
   id: number;
@@ -89,6 +90,7 @@ const getInitialState = () => {
 
 export const initialFilters = {
   onlyShowRecordedTalks: false,
+  onlyShowBookmarkedTalks: false,
   speakerName: "",
   conference_id: "",
   talkTitle: ""
@@ -107,48 +109,68 @@ const HeadTags = () => (
   </Head>
 );
 
+const filterTalks = (talkList, filters) => {
+  const filtered = talkList.filter(talk => {
+    if (filters.onlyShowRecordedTalks) {
+      if (talk.video_url === "") return null;
+    }
+    if (filters.onlyShowBookmarkedTalks) {
+      if (talk.bookmarked === false) return null;
+    }
+    if (filters.conference_id) {
+      if (
+        talk.conferences.find(
+          conf => String(conf.id) === filters.conference_id
+        ) === undefined
+      )
+        return null;
+    }
+    if (filters.speakerName) {
+      if (
+        talk.speakers
+          .map(s => s.name.toLowerCase())
+          .find(speakerName =>
+            speakerName.includes(filters.speakerName.toLowerCase())
+          ) === undefined
+      )
+        return null;
+    }
+    if (filters.talkTitle) {
+      if (
+        talk.main_title
+          .toLowerCase()
+          .includes(filters.talkTitle.toLowerCase()) === false
+      )
+        return null;
+    }
+    return talk;
+  });
+  // filter out null
+  return filtered.filter(Boolean);
+};
+
 const Home = () => {
   const [talkList, setTalkList] = useState(getInitialState());
   const [filters, setFilters] = useState(initialFilters);
+  const filteredTalkList = filterTalks(talkList, filters);
 
-  const filterTalks = () => {
-    const filtered = talkList.filter(talk => {
-      if (filters.onlyShowRecordedTalks) {
-        if (talk.video_url === "") return null;
-      }
-      if (filters.conference_id) {
-        if (
-          talk.conferences.find(
-            conf => String(conf.id) === filters.conference_id
-          ) === undefined
-        )
-          return null;
-      }
-      if (filters.speakerName) {
-        if (
-          talk.speakers
-            .map(s => s.name.toLowerCase())
-            .find(speakerName =>
-              speakerName.includes(filters.speakerName.toLowerCase())
-            ) === undefined
-        )
-          return null;
-      }
-      if (filters.talkTitle) {
-        if (
-          talk.main_title
-            .toLowerCase()
-            .includes(filters.talkTitle.toLowerCase()) === false
-        )
-          return null;
-      }
-      return talk;
-    });
-    // filter out null
-    return filtered.filter(Boolean);
+  const itemsPerPage = 12;
+  const totalPages = Math.ceil(filteredTalkList.length / itemsPerPage);
+
+  const [pagination, setPagination] = useState({
+    activePage: 1,
+    boundaryRange: 1,
+    siblingRange: 1,
+    showEllipsis: true,
+    showFirstAndLastNav: true,
+    showPreviousAndNextNav: true
+  });
+
+  const offset = (pagination.activePage - 1) * itemsPerPage;
+
+  const handlePaginationChange = (event: MouseEvent, { activePage }) => {
+    setPagination({ ...pagination, activePage });
   };
-
-  const filteredTalkList = filterTalks();
 
   const toggleBookmark = (talkId: number) => {
     let updatedTalkList = [...talkList];
@@ -162,6 +184,18 @@ const Home = () => {
 
     setTalkList(updatedTalkList);
   };
+
+  let {
+    activePage,
+    boundaryRange,
+    siblingRange,
+    showEllipsis,
+    showPreviousAndNextNav
+  } = pagination;
+
+  // if (totalPages < activePage) {
+  //   activePage = 1;
+  // }
 
   return (
     <Fragment>
@@ -194,6 +228,7 @@ const Home = () => {
         <Container>
           <Section>
             <h2>Conference Talks</h2>
+
             <TalkListLayout>
               <FilterContext.Provider value={{ filters, setFilters }}>
                 <Fragment>
@@ -209,12 +244,40 @@ const Home = () => {
                     </p>
                   </aside>
                   <div className="talk-list">
+                    <Pagination
+                      activePage={activePage}
+                      boundaryRange={boundaryRange}
+                      // @ts-ignore
+                      onPageChange={handlePaginationChange}
+                      siblingRange={siblingRange}
+                      totalPages={totalPages}
+                      ellipsisItem={showEllipsis ? undefined : null}
+                      firstItem={null}
+                      lastItem={null}
+                      prevItem={showPreviousAndNextNav ? undefined : null}
+                      nextItem={showPreviousAndNextNav ? undefined : null}
+                    />
                     <TalkListStyles>
                       <TalkList
+                        offset={offset}
+                        itemsPerPage={itemsPerPage}
                         talkList={filteredTalkList}
                         toggleBookmark={toggleBookmark}
                       />
                     </TalkListStyles>
+                    <Pagination
+                      activePage={activePage}
+                      boundaryRange={boundaryRange}
+                      // @ts-ignore
+                      onPageChange={handlePaginationChange}
+                      siblingRange={siblingRange}
+                      totalPages={totalPages}
+                      ellipsisItem={showEllipsis ? undefined : null}
+                      firstItem={null}
+                      lastItem={null}
+                      prevItem={showPreviousAndNextNav ? undefined : null}
+                      nextItem={showPreviousAndNextNav ? undefined : null}
+                    />
                   </div>
                 </Fragment>
               </FilterContext.Provider>

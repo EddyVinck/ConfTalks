@@ -4,7 +4,7 @@ const TalkListStyles = styled.ol({
   // maxWidth: "800px",
   // width: "80%",
   // margin: "0 auto",
-
+  listStyle: "none",
   li: {
     a: {
       display: "block",
