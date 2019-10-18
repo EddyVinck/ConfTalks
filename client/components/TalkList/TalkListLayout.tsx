@@ -10,12 +10,18 @@ const TalkListLayout = styled.div({
   aside: {
     flex: "0 0 100%"
   },
+  ".join-community": {
+    display: "none"
+  },
   "@media (min-width: 800px)": {
     flexDirection: "row",
     aside: {
       marginRight: "4rem",
       flex: "0 0 300px",
       marginBottom: "2rem"
+    },
+    ".join-community": {
+      display: "block"
     }
   }
 });

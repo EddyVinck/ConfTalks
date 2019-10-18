@@ -6,7 +6,7 @@ import React, {
   SetStateAction
 } from "react";
 import Head from "next/head";
-import Nav from "../components/nav";
+import Nav from "../components/Nav/Nav";
 import { getTalkList } from "../utils/data-formatting/getTalkList";
 import findIndex from "lodash-es/findIndex";
 import * as gtag from "../utils/analytics/gtag";
@@ -20,6 +20,7 @@ import {
 } from "../components/TalkList";
 import { NewsletterForm } from "../components/forms/Newsletter";
 import { Pagination } from "semantic-ui-react";
+import AsideBlock from "../components/layout/AsideBlock";
 
 interface Conference {
   id: number;
@@ -174,7 +175,7 @@ const Home = () => {
 
   const handleBottomPaginationChange = (event: MouseEvent, { activePage }) => {
     handlePaginationChange(event, { activePage });
-    document.getElementById("top-pagination").scrollIntoView();
+    document.getElementById("videos").scrollIntoView();
   };
 
   const toggleBookmark = (talkId: number) => {
@@ -220,9 +221,9 @@ const Home = () => {
                 <p className="description">
                   <i>&ldquo;I wish I could go, but I can't...&rdquo;</i> —{" "}
                   <i>&ldquo;Only a few of these talks interest me..&rdquo;</i> —{" "}
-                  <i>&ldquo;I don't know.. Is it worth my time?&rdquo;</i>{" "}
-                  ConfTalks is an open source index of scheduled and already
-                  recorded conference talks to help you decide if you should go.
+                  <i>&ldquo;Is it worth my time?&rdquo;</i> ConfTalks is an open
+                  source index of already recorded and scheduled conference
+                  talks to help you decide if you should go.
                 </p>
               </div>
             </ContentWrapper>
@@ -260,7 +261,6 @@ const Home = () => {
         <Container>
           <Section>
             <h2>Conference Talks</h2>
-
             <TalkListLayout>
               <FilterContext.Provider value={{ filters, setFilters }}>
                 <Fragment>
@@ -274,10 +274,21 @@ const Home = () => {
                         Bookmarks are stored on your current device.
                       </p>
                     </FilterStyles>
+                    <AsideBlock className="join-community">
+                      <h2>Community</h2>
+                      <p>
+                        Talk with other conference enthusiasts in our community
+                        Slack!{" "}
+                        <br
+                        // TODO: create a slack workspace
+                        />
+                        [TODO]
+                      </p>
+                    </AsideBlock>
                   </aside>
                   <div className="talk-list">
                     <Pagination
-                      id="top-pagination"
+                      id="videos"
                       activePage={activePage}
                       boundaryRange={boundaryRange}
                       // @ts-ignore
