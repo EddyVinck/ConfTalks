@@ -52,6 +52,9 @@ const GlobalStyle = createGlobalStyle`
   h4 {
     font-size: 1.5rem;
   }
+  .ui.menu {
+    font-family: monospace;
+  }
 `;
 
 export default class MyApp extends App {

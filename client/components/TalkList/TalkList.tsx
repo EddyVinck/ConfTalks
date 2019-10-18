@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { Button } from "../generic";
+import { getYouTubeIdFromUrl } from "../../utils/youtube/getYouTubeIdFromUrl";
 
 const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
   const handleBookmark = (
@@ -14,7 +15,9 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
   return (
     <Fragment>
       {itemsToShow.map(talk => {
-        let className = talk.video_url ? "has-video" : "no-video";
+        const youTubeId = getYouTubeIdFromUrl(talk.video_url);
+        console.log(talk.id, youTubeId);
+        let className = youTubeId ? "has-video" : "no-video";
         className += talk.bookmarked ? " is-bookmarked" : "";
         return (
           <li key={talk.id} className={className}>
@@ -30,37 +33,58 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
               }}
             >
               <h3>{talk.main_title}</h3>
-              <div className="horizontal-list-wrapper">
-                <p className="horizontal-list-label">By:</p>
-                <ul className="horizontal-list">
-                  {talk.speakers.length ? (
-                    talk.speakers.map(speaker => (
-                      <li key={speaker.name}>{speaker.name}</li>
-                    ))
-                  ) : (
-                    <li key="no-speakers">No speakers available</li>
+              <div className="talk-info">
+                <div className="details-wrapper">
+                  <div className="horizontal-list-wrapper">
+                    <p className="horizontal-list-label">By:</p>
+                    <ul className="horizontal-list">
+                      {talk.speakers.length ? (
+                        talk.speakers.map(speaker => (
+                          <li key={speaker.name}>{speaker.name}</li>
+                        ))
+                      ) : (
+                        <li key="no-speakers">No speakers available</li>
+                      )}
+                    </ul>
+                  </div>
+                  <div className="horizontal-list-wrapper">
+                    <p className="horizontal-list-label">Categories:</p>
+                    <ul className="horizontal-list">
+                      {talk.categories.length ? (
+                        talk.categories.map(category => (
+                          <li key={category.name}>{category.name}</li>
+                        ))
+                      ) : (
+                        <li key="no-categories">No categories available</li>
+                      )}
+                    </ul>
+                  </div>
+                  <p>Upload date: {talk.video_upload_date}</p>
+                  <div className="talk-buttons-wrapper">
+                    <Button
+                      type="button"
+                      onClick={event => handleBookmark(event, talk.id)}
+                    >
+                      {talk.bookmarked ? "Remove bookmark" : "Bookmark"}
+                    </Button>
+                    {youTubeId && (
+                      <Button variant="secondary" type="button">
+                        Watch video
+                      </Button>
+                    )}
+                  </div>
+                </div>
+                <div className="thumbnail-wrapper">
+                  {youTubeId && (
+                    <img
+                      // https://stackoverflow.com/questions/2068344/how-do-i-get-a-youtube-video-thumbnail-from-the-youtube-api
+                      // mqdefault stands for medium quality and is 16:9
+                      src={`https://img.youtube.com/vi/${youTubeId}/mqdefault.jpg`}
+                      title={`Watch "${talk.main_title}" on YouTube`}
+                    />
                   )}
-                </ul>
+                </div>
               </div>
-              <div className="horizontal-list-wrapper">
-                <p className="horizontal-list-label">Categories:</p>
-                <ul className="horizontal-list">
-                  {talk.categories.length ? (
-                    talk.categories.map(category => (
-                      <li key={category.name}>{category.name}</li>
-                    ))
-                  ) : (
-                    <li key="no-categories">No categories available</li>
-                  )}
-                </ul>
-              </div>
-              <p>Upload date: {talk.video_upload_date}</p>
-              <Button
-                type="button"
-                onClick={event => handleBookmark(event, talk.id)}
-              >
-                {talk.bookmarked ? "Remove bookmark" : "Bookmark"}
-              </Button>
             </a>
           </li>
         );

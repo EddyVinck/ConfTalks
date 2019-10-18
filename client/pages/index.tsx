@@ -198,6 +198,13 @@ const Home = () => {
     showPreviousAndNextNav
   } = pagination;
 
+  // Make sure the user isn't on a higher page number than there are pages available (due to filtering when on a high page number)
+  useEffect(() => {
+    if (activePage > totalPages && totalPages > 0) {
+      setPagination({ ...pagination, activePage: 1 });
+    }
+  }, [filters]);
+
   return (
     <Fragment>
       <HeadTags />
@@ -263,7 +270,7 @@ const Home = () => {
                       <TalkListFilters />
                       <p>
                         <b>Tip!</b> You can bookmark talks so you can check up
-                        on them later to see if they have been uploaded already.
+                        on them later to see if they have been uploaded.
                         Bookmarks are stored on your current device.
                       </p>
                     </FilterStyles>
