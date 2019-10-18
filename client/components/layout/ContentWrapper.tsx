@@ -5,7 +5,7 @@ interface StyledProps {
 }
 
 const ContentWrapper = styled.div(<T extends StyledProps>(props: T) => ({
-  maxWidth: "540px",
+  maxWidth: "550px",
   width: "100%",
   ...(props.variant === "center" && {
     marginLeft: "auto",

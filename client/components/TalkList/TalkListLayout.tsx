@@ -13,7 +13,7 @@ const TalkListLayout = styled.div({
   "@media (min-width: 800px)": {
     flexDirection: "row",
     aside: {
-      marginRight: "24px",
+      marginRight: "4rem",
       flex: "0 0 300px",
       marginBottom: "2rem"
     }

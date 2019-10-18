@@ -130,7 +130,7 @@ const filterTalks = (talkList, filters) => {
         talk.speakers
           .map(s => s.name.toLowerCase())
           .find(speakerName =>
-            speakerName.includes(filters.speakerName.toLowerCase())
+            speakerName.includes(filters.speakerName.toLowerCase().trim())
           ) === undefined
       )
         return null;
@@ -139,7 +139,7 @@ const filterTalks = (talkList, filters) => {
       if (
         talk.main_title
           .toLowerCase()
-          .includes(filters.talkTitle.toLowerCase()) === false
+          .includes(filters.talkTitle.toLowerCase().trim()) === false
       )
         return null;
     }
@@ -172,6 +172,11 @@ const Home = () => {
     setPagination({ ...pagination, activePage });
   };
 
+  const handleBottomPaginationChange = (event: MouseEvent, { activePage }) => {
+    handlePaginationChange(event, { activePage });
+    document.getElementById("top-pagination").scrollIntoView();
+  };
+
   const toggleBookmark = (talkId: number) => {
     let updatedTalkList = [...talkList];
     const index = findIndex(updatedTalkList, { id: talkId });
@@ -193,10 +198,6 @@ const Home = () => {
     showPreviousAndNextNav
   } = pagination;
 
-  // if (totalPages < activePage) {
-  //   activePage = 1;
-  // }
-
   return (
     <Fragment>
       <HeadTags />
@@ -210,17 +211,41 @@ const Home = () => {
               <div style={{ textAlign: "center" }}>
                 <h1>ConfTalks</h1>
                 <p className="description">
-                  Do you ever look at conference programs and think:{" "}
-                  <i>"I wish I could go, but I can't"</i> or{" "}
-                  <i>"only a few of these talks interest me"</i> or{" "}
-                  <i>"I don't know if it is worth my time"</i>? ConfTalks is an
-                  open source index of scheduled or already recorded talks to
-                  help you decide if you should go.
+                  <i>&ldquo;I wish I could go, but I can't...&rdquo;</i> —{" "}
+                  <i>&ldquo;Only a few of these talks interest me..&rdquo;</i> —{" "}
+                  <i>&ldquo;I don't know.. Is it worth my time?&rdquo;</i>{" "}
+                  ConfTalks is an open source index of scheduled and already
+                  recorded conference talks to help you decide if you should go.
                 </p>
               </div>
             </ContentWrapper>
             <section>
-              <NewsletterForm />
+              <label
+                style={{
+                  textAlign: "center",
+                  fontSize: "1.1rem",
+                  display: "block",
+                  fontWeight: "bold"
+                }}
+                htmlFor="mce-EMAIL"
+              >
+                Subscribe to the ConfTalks newsletter 💌
+              </label>
+              <NewsletterForm style={{ marginBottom: "1rem" }} />
+              <ContentWrapper variant="center">
+                <p
+                  style={{
+                    fontSize: "1rem",
+                    fontWeight: "normal",
+                    textAlign: "center"
+                  }}
+                >
+                  Newsletters include news about ConfTalks and occasionally
+                  exclusive conference related offers. You will only receive
+                  newsletters when we have something to say. <br />
+                  No spam 🚫
+                </p>
+              </ContentWrapper>
             </section>
           </Container>
         </Hero>
@@ -236,15 +261,16 @@ const Home = () => {
                     <FilterStyles>
                       <h2>Filters</h2>
                       <TalkListFilters />
+                      <p>
+                        <b>Tip!</b> You can bookmark talks so you can check up
+                        on them later to see if they have been uploaded already.
+                        Bookmarks are stored on your current device.
+                      </p>
                     </FilterStyles>
-                    <p>
-                      <b>Tip!</b> You can bookmark talks so you can check up on
-                      them later to see if they have been uploaded already.
-                      Bookmarks are stored on your current device.
-                    </p>
                   </aside>
                   <div className="talk-list">
                     <Pagination
+                      id="top-pagination"
                       activePage={activePage}
                       boundaryRange={boundaryRange}
                       // @ts-ignore
@@ -269,7 +295,7 @@ const Home = () => {
                       activePage={activePage}
                       boundaryRange={boundaryRange}
                       // @ts-ignore
-                      onPageChange={handlePaginationChange}
+                      onPageChange={handleBottomPaginationChange}
                       siblingRange={siblingRange}
                       totalPages={totalPages}
                       ellipsisItem={showEllipsis ? undefined : null}

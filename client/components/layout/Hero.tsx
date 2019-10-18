@@ -1,16 +1,20 @@
 import styled from "styled-components";
 
 const Hero = styled.section({
-  color: "#fff6f6",
-  background: "#2f1212",
-  padding: "80px 0",
+  color: "##0A1011",
+  background: "#36DEBA",
+  padding: "80px 0 60px",
   p: {
     fontWeight: 600,
-    fontSize: "1.2rem",
-    lineHeight: "1.4em"
+    fontSize: "1.6rem",
+    lineHeight: "1.4em",
+    marginBottom: "1.4em"
   },
   "p, label": {
-    opacity: 0.8
+    color: "#185146",
+    i: {
+      // color: "#027d60"
+    }
   }
 });
 

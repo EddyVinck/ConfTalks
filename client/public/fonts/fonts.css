@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "slabo";
+  font-display: swap;
+  src: local("slabo"),
+    url("./Slabo_13px/slabo13px-regular.woff2") format("woff2"),
+    url("./Slabo_13px/slabo13px-regular.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "roboto mono";
+  font-display: swap;
+  src: local("roboto_monobold"),
+    url("./Roboto_Mono/robotomono-bold.woff2") format("woff2"),
+    url("./Roboto_Mono/robotomono-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "roboto mono";
+  font-display: swap;
+  src: local("roboto_monomedium"),
+    url("./Roboto_Mono/robotomono-medium.woff2") format("woff2"),
+    url("./Roboto_Mono/robotomono-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}

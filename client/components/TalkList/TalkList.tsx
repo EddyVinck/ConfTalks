@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Button } from "../generic";
 
 const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
   const handleBookmark = (
@@ -54,12 +55,12 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
                 </ul>
               </div>
               <p>Upload date: {talk.video_upload_date}</p>
-              <button
+              <Button
                 type="button"
                 onClick={event => handleBookmark(event, talk.id)}
               >
                 {talk.bookmarked ? "Remove bookmark" : "Bookmark"}
-              </button>
+              </Button>
             </a>
           </li>
         );

@@ -3,6 +3,8 @@ import { FilterContext, initialFilters } from "../../pages";
 import { conferences } from "../../data/conferences.json";
 import { sortDatesDescending } from "../../utils/sorting/sortDatesDescending";
 import debounce from "lodash-es/debounce";
+import { FormStyles } from "../forms";
+import { Button } from "../generic";
 
 let conferencesList = [];
 
@@ -30,8 +32,8 @@ const TalkListFilters = () => {
   };
 
   return (
-    <div>
-      <label htmlFor="talk-title">talk title</label>
+    <FormStyles>
+      <label htmlFor="talk-title">Talk title</label>
       <input
         type="text"
         id="talk-title"
@@ -51,7 +53,7 @@ const TalkListFilters = () => {
           updateFilters({ speakerName: event.target.value });
         }}
       />
-      <label htmlFor="conference-name">Conference Name</label>
+      <label htmlFor="conference-name">Conference</label>
       <select
         name="conference-name"
         id="conference-name"
@@ -90,10 +92,10 @@ const TalkListFilters = () => {
           }
         />
       </label>
-      <button type="button" onClick={resetFilters}>
-        Reset filters
-      </button>
-    </div>
+      <Button variant="secondary" outline type="button" onClick={resetFilters}>
+        Remove filters
+      </Button>
+    </FormStyles>
   );
 };
 
