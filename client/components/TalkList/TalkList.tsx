@@ -89,6 +89,9 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
           </li>
         );
       })}
+      {itemsToShow.length < 1 && (
+        <p>No conference talks found for your current filters.</p>
+      )}
     </Fragment>
   );
 };

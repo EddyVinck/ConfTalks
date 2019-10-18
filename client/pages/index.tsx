@@ -248,7 +248,7 @@ const Home = () => {
                     textAlign: "center"
                   }}
                 >
-                  Newsletters include news about ConfTalks and occasionally
+                  Newsletters include news about ConfTalks and also occasionally
                   exclusive conference related offers. You will only receive
                   newsletters when we have something to say. <br />
                   No spam 🚫
@@ -281,6 +281,16 @@ const Home = () => {
                         Slack!{" "}
                         <br
                         // TODO: create a slack workspace
+                        />
+                        [TODO]
+                      </p>
+                    </AsideBlock>
+                    <AsideBlock className="join-community">
+                      <h2>Newsletter</h2>
+                      <p>
+                        Get the latest news!
+                        <br
+                        // TODO: add newsletter form here
                         />
                         [TODO]
                       </p>
