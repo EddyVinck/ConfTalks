@@ -16,7 +16,6 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
     <Fragment>
       {itemsToShow.map(talk => {
         const youTubeId = getYouTubeIdFromUrl(talk.video_url);
-        console.log(talk.id, youTubeId);
         let className = youTubeId ? "has-video" : "no-video";
         className += talk.bookmarked ? " is-bookmarked" : "";
         return (
