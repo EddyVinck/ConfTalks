@@ -18,12 +18,18 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
       {itemsToShow.map(talk => {
         const youTubeId = getYouTubeIdFromUrl(talk.video_url);
         let className = youTubeId ? "has-video" : "no-video";
-        const noUrl = talk.video_url === "" || !youTubeId;
+        const validUrl = talk.video_url !== "" && youTubeId;
         className += talk.bookmarked ? " is-bookmarked" : "";
         return (
           <li key={talk.id} className={className}>
             <div className="talk">
-              <h3>{talk.main_title}</h3>
+              <h3>
+                {validUrl ? (
+                  <a href={talk.video_url}>{talk.main_title}</a>
+                ) : (
+                  <>{talk.main_title}</>
+                )}
+              </h3>
               <div className="talk-info">
                 <div className="details-wrapper">
                   <div className="horizontal-list-wrapper">
@@ -51,7 +57,7 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
                     </ul>
                   </div>
                   <p>Upload date: {talk.video_upload_date}</p>
-                  {noUrl && (
+                  {!validUrl && (
                     <p>
                       <i>
                         No link available for this talk (ID: {talk.id}). If you
@@ -66,7 +72,7 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
                     >
                       {talk.bookmarked
                         ? "Remove bookmark"
-                        : noUrl
+                        : !validUrl
                         ? "bookmark for later"
                         : "bookmark"}
                     </Button>
@@ -75,7 +81,7 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
                         Watch video
                       </LinkButton>
                     )}
-                    {noUrl && (
+                    {!validUrl && (
                       <LinkButton
                         href={`https://github.com/EddyVinck/ConfTalks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+talk+${talk.id}`}
                         target="_blank"
@@ -88,12 +94,14 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
                 </div>
                 <div className="thumbnail-wrapper">
                   {youTubeId && (
-                    <img
-                      // https://stackoverflow.com/questions/2068344/how-do-i-get-a-youtube-video-thumbnail-from-the-youtube-api
-                      // mqdefault stands for medium quality and is 16:9
-                      src={`https://img.youtube.com/vi/${youTubeId}/mqdefault.jpg`}
-                      title={`Watch "${talk.main_title}" on YouTube`}
-                    />
+                    <a href={talk.video_url} target="_blank">
+                      <img
+                        // https://stackoverflow.com/questions/2068344/how-do-i-get-a-youtube-video-thumbnail-from-the-youtube-api
+                        // mqdefault stands for medium quality and is 16:9
+                        src={`https://img.youtube.com/vi/${youTubeId}/mqdefault.jpg`}
+                        title={`Watch "${talk.main_title}" on YouTube`}
+                      />
+                    </a>
                   )}
                 </div>
               </div>

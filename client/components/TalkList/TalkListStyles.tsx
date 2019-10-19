@@ -20,10 +20,13 @@ const TalkListStyles = styled.ol({
       "*": {
         transition: "0.2s"
       },
+      "h3, h3 a": {
+        color: "#33343c"
+      },
       "&:hover": {
         boxShadow: "0px 8px 16px 0 rgba(104,120,125,0.3)",
         transform: "scale(1.02)",
-        h3: {
+        "h3, h3 a": {
           color: "#2ad1a9"
         }
       },
