@@ -89,7 +89,8 @@ const NewsLetterFormStyles = styled.div(_ => ({
       ".input-wrapper": {
         transform: "translateX(0px)",
         input: {
-          transform: "translateX(0px)"
+          transform: "translateX(0px)",
+          minWidth: 0
         },
         "input, button": { flexGrow: 1 }
       }

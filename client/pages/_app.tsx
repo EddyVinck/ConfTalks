@@ -36,6 +36,9 @@ const GlobalStyle = createGlobalStyle`
       color: #22584B;
     }
   }
+  h1, h2, h3, h4, h5, h6, p, li, blockquote, label, a {
+    overflow-wrap: break-word;
+  }
   h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     line-height: 1.125em;

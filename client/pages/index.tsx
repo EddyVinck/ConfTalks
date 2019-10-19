@@ -22,6 +22,7 @@ import { NewsletterForm } from "../components/forms/Newsletter";
 import { Pagination } from "semantic-ui-react";
 import AsideBlock from "../components/layout/AsideBlock";
 import { EmailOctopus } from "../components/forms/EmailOctopus";
+import ThreeColumnLayout from "../components/layout/TheeColumnLayout";
 
 interface Conference {
   id: number;
@@ -320,6 +321,46 @@ const Home = () => {
                 </Fragment>
               </FilterContext.Provider>
             </TalkListLayout>
+          </Section>
+          <Section>
+            <h2>Get involved</h2>
+            <ThreeColumnLayout>
+              <AsideBlock>
+                <h2>Newsletter</h2>
+                <p>Get the latest news!</p>
+                <EmailOctopus className="full-width-fields" />
+              </AsideBlock>
+              <AsideBlock>
+                <h2>Community</h2>
+                <p>
+                  Talk with other conference enthusiasts in our{" "}
+                  <a
+                    href="https://join.slack.com/t/conftalks/shared_invite/enQtNzk1MjA1ODQ2NzM3LTRkMmU0YmRhZDEzYmUxZTEyYjhlMWYzOWIyYTU0NDBkMGFlN2U3MjJmNWE5MjM4ZDM1Yzg0M2QwZWUzODllMzM"
+                    target="_blank"
+                  >
+                    community Slack!
+                  </a>
+                </p>
+              </AsideBlock>
+              <AsideBlock>
+                <h2>Contributing</h2>
+                <p>
+                  Thank you for using ConfTalks! Please consider contributing
+                  data so ConfTalks stays up to date!
+                  <br />
+                  <br />
+                  See our{" "}
+                  <a href="https://github.com/EddyVinck/ConfTalks/blob/master/CONTRIBUTING.md">
+                    Contributing Guidelines
+                  </a>{" "}
+                  on GitHub. You can find the full repository here:{" "}
+                  <a href="https://github.com/EddyVinck/ConfTalks">
+                    https://github.com/EddyVinck/ConfTalks
+                  </a>
+                  .
+                </p>
+              </AsideBlock>
+            </ThreeColumnLayout>
           </Section>
         </Container>
       </main>

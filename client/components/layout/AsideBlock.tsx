@@ -15,6 +15,10 @@ const AsideBlock = styled.div(props => {
       letterSpacing: "2px",
       textTransform: "uppercase",
       opacity: 0.7
+    },
+    a: {
+      textDecoration: "underline",
+      color: "#33343c"
     }
   };
 });
