@@ -5,7 +5,6 @@ import NavStyles from "./NavStyles";
 import Hamburger from "./Hamburger";
 
 const links = [
-  { href: "/", label: "ConfTalks", key: "a" },
   { href: "/#videos", label: "Videos", key: "c" },
   { href: "/contributing", label: "Contributing", key: "b" },
   { href: "/about", label: "About", key: "d" }

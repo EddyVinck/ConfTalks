@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import Nav from "../components/Nav/Nav";
 import { Container, Section, ContentWrapper, Hero } from "../components/layout";
-import { NewsletterForm } from "../components/forms/Newsletter";
 import Head from "next/head";
 import { NewsletterSection } from "../components/forms";
 

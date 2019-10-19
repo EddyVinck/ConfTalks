@@ -1,9 +1,7 @@
 import React, { Fragment } from "react";
 import Nav from "../components/Nav/Nav";
-import { Container, Section, ContentWrapper, Hero } from "../components/layout";
-import { NewsletterForm } from "../components/forms/Newsletter";
+import { Container, Section } from "../components/layout";
 import Head from "next/head";
-import { EmailOctopus } from "../components/forms/EmailOctopus";
 import { NewsletterSection } from "../components/forms";
 
 const HeadTags = () => (
