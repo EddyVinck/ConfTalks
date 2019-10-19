@@ -15,7 +15,9 @@ const NewsLetterFormStyles = styled.div(_ => ({
   },
   ".email-octopus-success-message": {},
   ".email-octopus-error-message": {
-    color: "#e74c3c"
+    color: "#e74c3c",
+    fontSize: "14px",
+    marginBottom: "10px"
   },
   ".email-octopus-form": {},
   ".email-octopus-form-row": {
@@ -137,16 +139,16 @@ const EmailOctopus = props => {
                 }}
               />
             </div>
-            <p style={{ fontSize: "14px" }}>
-              Newsletters include news about ConfTalks and also occasionally
-              exclusive conference related offers. You will only receive
-              newsletters when we have something to say.
-              <br />
-              No spam 🚫
-            </p>
           </form>
-          <p className="email-octopus-success-message"></p>
           <p className="email-octopus-error-message"></p>
+          <p style={{ fontSize: "14px" }}>
+            Newsletters include news about ConfTalks and also occasionally
+            exclusive conference related offers. You will only receive
+            newsletters when we have something to say.
+            <br />
+            No spam 🚫
+          </p>
+          <p className="email-octopus-success-message"></p>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" />
         <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.3/formEmbed.js" />
