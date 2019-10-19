@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Button } from "../generic";
 import { getYouTubeIdFromUrl } from "../../utils/youtube/getYouTubeIdFromUrl";
+import LinkButton from "../generic/LinkButton";
 
 const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
   const handleBookmark = (
@@ -17,20 +18,11 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
       {itemsToShow.map(talk => {
         const youTubeId = getYouTubeIdFromUrl(talk.video_url);
         let className = youTubeId ? "has-video" : "no-video";
+        const noUrl = talk.video_url === "" || !youTubeId;
         className += talk.bookmarked ? " is-bookmarked" : "";
         return (
           <li key={talk.id} className={className}>
-            <a
-              href={talk.video_url || "#"}
-              target="blank"
-              rel="noopener"
-              onClick={event => {
-                if (!talk.video_url) {
-                  event.preventDefault();
-                  alert("There is no video submitted for this talk");
-                }
-              }}
-            >
+            <div className="talk">
               <h3>{talk.main_title}</h3>
               <div className="talk-info">
                 <div className="details-wrapper">
@@ -59,17 +51,38 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
                     </ul>
                   </div>
                   <p>Upload date: {talk.video_upload_date}</p>
+                  {noUrl && (
+                    <p>
+                      <i>
+                        No link available for this talk (ID: {talk.id}). If you
+                        think this talk is available please contribute the URL.
+                      </i>
+                    </p>
+                  )}
                   <div className="talk-buttons-wrapper">
                     <Button
                       type="button"
                       onClick={event => handleBookmark(event, talk.id)}
                     >
-                      {talk.bookmarked ? "Remove bookmark" : "Bookmark"}
+                      {talk.bookmarked
+                        ? "Remove bookmark"
+                        : noUrl
+                        ? "bookmark for later"
+                        : "bookmark"}
                     </Button>
                     {youTubeId && (
-                      <Button variant="secondary" type="button">
+                      <LinkButton variant="secondary" href={talk.video_url}>
                         Watch video
-                      </Button>
+                      </LinkButton>
+                    )}
+                    {noUrl && (
+                      <LinkButton
+                        href={`https://github.com/EddyVinck/ConfTalks/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+talk+${talk.id}`}
+                        target="_blank"
+                        variant="tertiary"
+                      >
+                        Contribute
+                      </LinkButton>
                     )}
                   </div>
                 </div>
@@ -84,7 +97,7 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
                   )}
                 </div>
               </div>
-            </a>
+            </div>
           </li>
         );
       })}

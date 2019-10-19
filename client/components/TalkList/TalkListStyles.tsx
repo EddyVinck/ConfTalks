@@ -7,7 +7,7 @@ const TalkListStyles = styled.ol({
   listStyle: "none",
   padding: 0,
   li: {
-    a: {
+    ".talk": {
       display: "block",
       position: "relative",
       color: "#33343c",
@@ -65,7 +65,7 @@ const TalkListStyles = styled.ol({
     display: "flex",
     flexWrap: "wrap",
     alignItems: "flex-end",
-    button: {
+    "button, a": {
       marginBottom: "16px",
       marginRight: "16px"
     }
