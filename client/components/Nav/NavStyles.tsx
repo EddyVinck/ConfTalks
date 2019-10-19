@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const NavStyles = styled.div({
+  background: "#fff",
   h1: {
     fontSize: "32px",
     lineHeight: 1

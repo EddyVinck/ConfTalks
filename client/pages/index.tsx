@@ -281,12 +281,13 @@ const Home = () => {
                     <AsideBlock className="join-community">
                       <h2>Community</h2>
                       <p>
-                        Talk with other conference enthusiasts in our community
-                        Slack!{" "}
-                        <br
-                        // TODO: create a slack workspace
-                        />
-                        [TODO]
+                        Talk with other conference enthusiasts in our{" "}
+                        <a
+                          href="https://join.slack.com/t/conftalks/shared_invite/enQtNzk1MjA1ODQ2NzM3LTRkMmU0YmRhZDEzYmUxZTEyYjhlMWYzOWIyYTU0NDBkMGFlN2U3MjJmNWE5MjM4ZDM1Yzg0M2QwZWUzODllMzM"
+                          target="_blank"
+                        >
+                          community Slack!
+                        </a>
                       </p>
                     </AsideBlock>
                     <AsideBlock className="join-community">
