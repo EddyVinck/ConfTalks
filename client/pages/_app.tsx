@@ -29,6 +29,13 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'slabo', serif;
     background: #FCFCFC;
   }
+  a {
+    color: #178269;
+
+    &:hover {
+      color: #22584B;
+    }
+  }
   h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     line-height: 1.125em;
@@ -68,6 +75,38 @@ const GlobalStyle = createGlobalStyle`
     h4 {
       font-size: 1rem;
     }
+  }
+  blockquote {
+    font-size: 1rem;
+    width: 60%;
+    margin: 50px 0;
+    font-style: italic;
+    color: #0A1011;
+    padding: 1.2em 30px 1.2em 50px;
+    border-left: 8px solid #2AD1A9;
+    line-height: 1.6;
+    position: relative;
+    background: #e4fffa;
+    
+    &::before {
+      content: '\\201C';
+      font-family: sans-serif;
+      color: #2AD1A9;
+      font-size: 4em;
+      position: absolute;
+      left: 10px;
+      top: -10px;
+    }
+    ::after {
+      content: '';
+    }
+    strong,  b {
+      display: block;
+      color: #333333;
+      font-style: normal;
+      font-weight: bold;
+      margin-top: 1em;
+    } 
   }
 `;
 

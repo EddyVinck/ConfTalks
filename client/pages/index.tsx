@@ -21,6 +21,7 @@ import {
 import { NewsletterForm } from "../components/forms/Newsletter";
 import { Pagination } from "semantic-ui-react";
 import AsideBlock from "../components/layout/AsideBlock";
+import { EmailOctopus } from "../components/forms/EmailOctopus";
 
 interface Conference {
   id: number;
@@ -243,7 +244,7 @@ const Home = () => {
               >
                 Subscribe to the ConfTalks newsletter 💌
               </label>
-              <NewsletterForm style={{ marginBottom: "1rem" }} />
+              <EmailOctopus style={{ marginBottom: "1rem" }} />
               <ContentWrapper variant="center">
                 <p
                   style={{

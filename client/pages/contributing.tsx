@@ -21,7 +21,7 @@ const Contributing = () => {
       <main>
         <Container>
           <Section>
-            <h2>Contributing</h2>
+            <h1>Contributing</h1>
             <p>
               Thank you for contributing! This project wouldn't work without
               people like you :) <br />

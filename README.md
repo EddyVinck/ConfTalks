@@ -2,6 +2,8 @@
 
 > ConfTalks is an open source index of already recorded and scheduled conference talks to help you decide if you should go.
 
+Check it out here: https://conftalks.org
+
 ## Motivation
 
 When I got the idea for ConfTalks, I wrote down the problem I wanted to solve:

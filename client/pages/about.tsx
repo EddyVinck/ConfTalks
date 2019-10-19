@@ -1,29 +1,87 @@
-import React, { useState } from "react";
-import Head from "next/head";
+import React, { Fragment } from "react";
 import Nav from "../components/Nav/Nav";
+import { Container, Section, ContentWrapper, Hero } from "../components/layout";
+import { NewsletterForm } from "../components/forms/Newsletter";
+import Head from "next/head";
+
+const HeadTags = () => (
+  <Head>
+    <title>ConfTalks.org</title>
+    <link rel="icon" href="/favicon.ico" />
+  </Head>
+);
 
 const About = () => {
   return (
-    <div>
-      <Head>
-        <title>About</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <Nav />
-
-      <div className="hero">
-        <h1>About ConfTalks</h1>
-        <p className="description">
-          Do you ever look at conference programs and think: "I wish I could go,
-          but I can't" or "only a few of these talks interest me, is this really
-          worth my time?". ConfTalks is an open source attempt to solve this
-          problem for free, by creating an index of conference talks that are
-          already recorded and uploaded somewhere. You can bookmark talks so you
-          can check up on them later to see if they have been uploaded already.
-        </p>
-      </div>
-    </div>
+    <Fragment>
+      <HeadTags />
+      <header>
+        <Nav />
+      </header>
+      <main>
+        <Container>
+          <Section>
+            <h1>About ConfTalks</h1>
+            <p>
+              When I got the idea for ConfTalks, I wrote down the problem I
+              wanted to solve:
+            </p>
+            <blockquote>
+              When I am deciding if a conference is worth attending I usually
+              check out the list of talks. I then decide which talks I'd like to
+              see. Then I check YouTube to see if those talks are already
+              uploaded. If the majority of the talks are recorded, then maybe it
+              isn't worth going to the conference. Ideally there would be a
+              website that can help find these talks. An index of conference
+              talks that are already recorded and uploaded somewhere. You can
+              bookmark talks so you can check up on them later to see if they
+              have been uploaded already.
+            </blockquote>
+            <p>
+              Talk with other conference enthusiasts in our{" "}
+              <a
+                href="https://join.slack.com/t/conftalks/shared_invite/enQtNzk1MjA1ODQ2NzM3LTRkMmU0YmRhZDEzYmUxZTEyYjhlMWYzOWIyYTU0NDBkMGFlN2U3MjJmNWE5MjM4ZDM1Yzg0M2QwZWUzODllMzM"
+                target="_blank"
+              >
+                community Slack!
+              </a>
+            </p>
+          </Section>
+        </Container>
+        <Hero className="hero">
+          <Container>
+            <section>
+              <label
+                style={{
+                  textAlign: "center",
+                  fontSize: "1.1rem",
+                  display: "block",
+                  fontWeight: "bold"
+                }}
+                htmlFor="mce-EMAIL"
+              >
+                Subscribe to the ConfTalks newsletter 💌
+              </label>
+              <NewsletterForm style={{ marginBottom: "1rem" }} />
+              <ContentWrapper variant="center">
+                <p
+                  style={{
+                    fontSize: "1rem",
+                    fontWeight: "normal",
+                    textAlign: "center"
+                  }}
+                >
+                  Newsletters include news about ConfTalks and also occasionally
+                  exclusive conference related offers. You will only receive
+                  newsletters when we have something to say. <br />
+                  No spam 🚫
+                </p>
+              </ContentWrapper>
+            </section>
+          </Container>
+        </Hero>
+      </main>
+    </Fragment>
   );
 };
 
