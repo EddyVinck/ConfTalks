@@ -233,31 +233,8 @@ const Home = () => {
               </div>
             </ContentWrapper>
             <section>
-              <label
-                style={{
-                  textAlign: "center",
-                  fontSize: "1.1rem",
-                  display: "block",
-                  fontWeight: "bold"
-                }}
-                htmlFor="mce-EMAIL"
-              >
-                Subscribe to the ConfTalks newsletter 💌
-              </label>
-              <EmailOctopus style={{ marginBottom: "1rem" }} />
-              <ContentWrapper variant="center">
-                <p
-                  style={{
-                    fontSize: "1rem",
-                    fontWeight: "normal",
-                    textAlign: "center"
-                  }}
-                >
-                  Newsletters include news about ConfTalks and also occasionally
-                  exclusive conference related offers. You will only receive
-                  newsletters when we have something to say. <br />
-                  No spam 🚫
-                </p>
+              <ContentWrapper variant="center" style={{ textAlign: "center" }}>
+                <EmailOctopus style={{ marginBottom: "1rem" }} />
               </ContentWrapper>
             </section>
           </Container>
