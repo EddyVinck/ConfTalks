@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Button } from "../generic";
 
-const NewsLetterFormStyles = styled.div({
+const NewsLetterFormStyles = styled.div(_ => ({
   ".email-octopus-form-wrapper": {
     h2: {
       fontSize: "20px",
@@ -78,17 +78,30 @@ const NewsLetterFormStyles = styled.div({
         transform: "translateX(5px)"
       }
     }
+  },
+  ".full-width-fields": {
+    "@media (max-width: 640px)": {
+      ".input-wrapper": {
+        "input, button": { flexGrow: 1 }
+      }
+    },
+    "@media (min-width: 640px)": {
+      ".input-wrapper": {
+        transform: "translateX(0px)",
+        input: {
+          transform: "translateX(0px)"
+        },
+        "input, button": { flexGrow: 1 }
+      }
+    }
   }
-});
+}));
 
 const EmailOctopus = props => {
   return (
     <NewsLetterFormStyles>
       <div {...props}>
         <div className="email-octopus-form-wrapper">
-          <h2 className="email-octopus-heading">
-            Subscribe to the ConfTalks newsletter 💌
-          </h2>
           <form
             method="post"
             action="https://emailoctopus.com/lists/b6cc50a1-f282-11e9-be00-06b4694bee2a/members/embedded/1.3/add"

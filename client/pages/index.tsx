@@ -234,6 +234,9 @@ const Home = () => {
             </ContentWrapper>
             <section>
               <ContentWrapper variant="center" style={{ textAlign: "center" }}>
+                <h2 style={{ fontSize: 20, marginBottom: "14px" }}>
+                  Subscribe to the ConfTalks newsletter 💌
+                </h2>
                 <EmailOctopus style={{ marginBottom: "1rem" }} />
               </ContentWrapper>
             </section>
@@ -272,10 +275,7 @@ const Home = () => {
                       <h2>Newsletter</h2>
                       <p>
                         Get the latest news!
-                        <br
-                        // TODO: add newsletter form here
-                        />
-                        [TODO]
+                        <EmailOctopus className="full-width-fields" />
                       </p>
                     </AsideBlock>
                   </aside>
