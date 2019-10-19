@@ -219,11 +219,16 @@ const Home = () => {
               <div style={{ textAlign: "center" }}>
                 <h1>ConfTalks</h1>
                 <p className="description">
-                  <i>&ldquo;I wish I could go, but I can't...&rdquo;</i> —{" "}
-                  <i>&ldquo;Only a few of these talks interest me..&rdquo;</i> —{" "}
-                  <i>&ldquo;Is it worth my time?&rdquo;</i> ConfTalks is an open
-                  source index of already recorded and scheduled conference
-                  talks to help you decide if you should go.
+                  <i>
+                    &ldquo;I think I've seen some of these talks
+                    already...&rdquo;
+                  </i>{" "}
+                  —{" "}
+                  <i>&ldquo;Only a few of these talks interest me...&rdquo;</i>{" "}
+                  — <i>&ldquo;Is it worth my time?&rdquo;</i> ConfTalks is an
+                  open source index of already recorded and scheduled conference
+                  talks to help you keep track of talks and decide if you should
+                  go.
                 </p>
               </div>
             </ContentWrapper>

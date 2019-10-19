@@ -1,57 +1,50 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { Container } from "../layout";
 import NavStyles from "./NavStyles";
+import Hamburger from "./Hamburger";
 
 const links = [
   { href: "/", label: "ConfTalks", key: "a" },
+  { href: "/#videos", label: "Videos", key: "c" },
   { href: "/contributing", label: "Contributing", key: "b" },
-  { href: "/about", label: "About", key: "c" }
+  { href: "/about", label: "About", key: "d" }
 ];
 
-const Nav = () => (
-  <NavStyles>
-    <Container>
-      <nav>
-        <ul>
-          {links.map(({ key, href, label }) => (
-            <li key={key}>
-              <Link href={href}>
-                <a>{label}</a>
-              </Link>
-            </li>
-          ))}
-        </ul>
+const Nav = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const classNames = isMenuOpen ? "open" : "";
 
-        <style jsx>{`
-          :global(body) {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
-              Helvetica, sans-serif;
-          }
-          nav {
-            text-align: center;
-          }
-          ul {
-            display: flex;
-            justify-content: space-between;
-          }
-          nav > ul {
-            padding: 4px 16px;
-          }
-          li {
-            display: flex;
-            padding: 6px 8px;
-          }
-          a {
-            color: #067df7;
-            text-decoration: none;
-            font-size: 13px;
-          }
-        `}</style>
-      </nav>
-    </Container>
-  </NavStyles>
-);
+  return (
+    <NavStyles className={classNames}>
+      <Container>
+        <div className="menu-wrapper">
+          <div className="menu-left">
+            <h1>
+              <Link href="/">
+                <a>ConfTalks</a>
+              </Link>
+            </h1>
+          </div>
+          <div className="menu-right">
+            <nav>
+              <ul>
+                {links.map(({ key, href, label }) => (
+                  <li key={key}>
+                    <Link href={href}>
+                      <a>{label}</a>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          </div>
+          <Hamburger isMenuOpen={isMenuOpen} onClick={toggleMenu} />
+        </div>
+      </Container>
+    </NavStyles>
+  );
+};
 
 export default Nav;
