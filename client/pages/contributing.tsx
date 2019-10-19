@@ -32,7 +32,11 @@ const Contributing = () => {
               <a href="https://github.com/EddyVinck/ConfTalks/blob/master/CONTRIBUTING.md">
                 Contributing Guidelines
               </a>{" "}
-              on GitHub.
+              on GitHub. You can find the full repository here:{" "}
+              <a href="https://github.com/EddyVinck/ConfTalks">
+                https://github.com/EddyVinck/ConfTalks
+              </a>
+              .
             </p>
             <p>
               Talk with other contributors and conference enthusiasts in our{" "}

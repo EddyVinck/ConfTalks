@@ -273,10 +273,8 @@ const Home = () => {
                     </AsideBlock>
                     <AsideBlock className="join-community">
                       <h2>Newsletter</h2>
-                      <p>
-                        Get the latest news!
-                        <EmailOctopus className="full-width-fields" />
-                      </p>
+                      <p>Get the latest news!</p>
+                      <EmailOctopus className="full-width-fields" />
                     </AsideBlock>
                   </aside>
                   <div className="talk-list">
