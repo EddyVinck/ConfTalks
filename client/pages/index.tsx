@@ -80,11 +80,13 @@ const getInitialState = () => {
   let talkList: Talk[] = getTalkList();
   const bookmarks = getCurrentTalkBookmarks();
 
-  if (bookmarks && bookmarks.length) {
-    talkList = talkList.map(talk => ({
-      ...talk,
-      bookmarked: bookmarks.includes(talk.id)
-    }));
+  if (bookmarks) {
+    talkList = talkList.map(talk => {
+      return {
+        ...talk,
+        bookmarked: bookmarks.includes(talk.id)
+      };
+    });
   }
 
   return talkList;
@@ -148,13 +150,14 @@ const filterTalks = (talkList, filters) => {
     return talk;
   });
   // filter out null
-  return filtered.filter(Boolean);
+  const result = filtered.filter(Boolean);
+  return result;
 };
 
 const Home = () => {
   const [talkList, setTalkList] = useState(getInitialState());
   const [filters, setFilters] = useState(initialFilters);
-  const filteredTalkList = filterTalks(talkList, filters);
+  let filteredTalkList: Talk[] = filterTalks(talkList, filters);
 
   const itemsPerPage = 12;
   const totalPages = Math.ceil(filteredTalkList.length / itemsPerPage);
@@ -170,7 +173,7 @@ const Home = () => {
 
   const offset = (pagination.activePage - 1) * itemsPerPage;
 
-  const handlePaginationChange = (event: MouseEvent, { activePage }) => {
+  const handlePaginationChange = (_event: MouseEvent, { activePage }) => {
     setPagination({ ...pagination, activePage });
   };
 
