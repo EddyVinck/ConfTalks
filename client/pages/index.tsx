@@ -22,7 +22,7 @@ import { NewsletterForm } from "../components/forms/Newsletter";
 import { Pagination } from "semantic-ui-react";
 import AsideBlock from "../components/layout/AsideBlock";
 import { EmailOctopus } from "../components/forms/EmailOctopus";
-import ThreeColumnLayout from "../components/layout/TheeColumnLayout";
+import ThreeColumnLayout from "../components/layout/ThreeColumnLayout";
 
 interface Conference {
   id: number;
