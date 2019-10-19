@@ -227,8 +227,7 @@ const Home = () => {
                   <i>&ldquo;Only a few of these talks interest me...&rdquo;</i>{" "}
                   — <i>&ldquo;Is it worth my time?&rdquo;</i> ConfTalks is an
                   open source index of already recorded and scheduled conference
-                  talks to help you keep track of talks and decide if you should
-                  go.
+                  talks to help you decide if you should go.
                 </p>
               </div>
             </ContentWrapper>
