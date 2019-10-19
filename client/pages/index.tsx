@@ -23,6 +23,7 @@ import { Pagination } from "semantic-ui-react";
 import AsideBlock from "../components/layout/AsideBlock";
 import { EmailOctopus } from "../components/forms/EmailOctopus";
 import ThreeColumnLayout from "../components/layout/ThreeColumnLayout";
+import { getYouTubeIdFromUrl } from "../utils/youtube/getYouTubeIdFromUrl";
 
 interface Conference {
   id: number;
@@ -117,7 +118,8 @@ const HeadTags = () => (
 const filterTalks = (talkList, filters) => {
   const filtered = talkList.filter(talk => {
     if (filters.onlyShowRecordedTalks) {
-      if (talk.video_url === "") return null;
+      if (talk.video_url === "" || !getYouTubeIdFromUrl(talk.video_url))
+        return null;
     }
     if (filters.onlyShowBookmarkedTalks) {
       if (talk.bookmarked === false) return null;
