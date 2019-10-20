@@ -449,6 +449,114 @@
       "video_url": "https://www.youtube.com/watch?v=MBndZddVQdw",
       "video_upload_date": "2019-06-03",
       "conferences": [1]
+    },
+    "71": {
+      "speakers": [86],
+      "main_title": "Why Do We Call HTML Tags \"Tags\"?",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=oWwJA1QLItA",
+      "video_upload_date": "2019-06-06",
+      "conferences": [3]
+    },
+    "72": {
+      "speakers": [87],
+      "main_title": "Hello Subgrid!",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=vxOj7CaWiPU",
+      "video_upload_date": "2019-06-06",
+      "conferences": [3]
+    },
+    "73": {
+      "speakers": [88],
+      "main_title": "Using DevTools To Understand Modern CSS Layouts",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=ZRtzk0371tk",
+      "video_upload_date": "2019-06-06",
+      "conferences": [3]
+    },
+    "74": {
+      "speakers": [89],
+      "main_title": "Modern Typographic Systems With Variable Fonts",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=0AsAjHPupKQ",
+      "video_upload_date": "2019-07-08",
+      "conferences": [3]
+    },
+    "75": {
+      "speakers": [90],
+      "main_title": "Writing Tests For CSS Is Possible! Don’t Believe The Rumors",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=Dl_XMd_1F6E",
+      "video_upload_date": "2019-07-08",
+      "conferences": [3]
+    },
+    "76": {
+      "speakers": [91],
+      "main_title": "Let’s web dev like it’s 1999!",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=TJxxzKoaLNE",
+      "video_upload_date": "2019-07-10",
+      "conferences": [3]
+    },
+    "77": {
+      "speakers": [92],
+      "main_title": "Mejorando el rendimento de páginas web con CSS Containment",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=iqcO-5_KkJ4",
+      "video_upload_date": "2019-07-10",
+      "conferences": [3]
+    },
+    "78": {
+      "speakers": [93],
+      "main_title": "CSS Logical Properties",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=cnwOfaE5GEk",
+      "video_upload_date": "2019-07-10",
+      "conferences": [3]
+    },
+    "79": {
+      "speakers": [94],
+      "main_title": "Class Clash",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=vJvgXPCVo30",
+      "video_upload_date": "2019-07-16",
+      "conferences": [3]
+    },
+    "80": {
+      "speakers": [95],
+      "main_title": "A Working Theory Of Components",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=RObdwvLLVvM",
+      "video_upload_date": "2019-07-16",
+      "conferences": [3]
+    },
+    "81": {
+      "speakers": [96],
+      "main_title": "Design System Magic with CSS Houdini",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=1W79T2ibd5Y",
+      "video_upload_date": "2019-07-17",
+      "conferences": [3]
+    },
+    "82": {
+      "speakers": [61],
+      "main_title": "CSSconf EU 2019 Closing Keynote",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=S2iI52SfoKE",
+      "video_upload_date": "2019-07-17",
+      "conferences": [3]
     }
   }
 }

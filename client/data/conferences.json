@@ -11,6 +11,12 @@
       "start_date": "2019-06-01",
       "end_date": "2019-06-02",
       "locations": ["Arena Berlin. Eichenstraße 4, 12435 Berlin, Germany"]
+    },
+    "3": {
+      "name": "CSSconf EU 2019",
+      "start_date": "2019-05-31",
+      "end_date": "2019-05-31",
+      "locations": ["Arena Berlin. Eichenstraße 4, 12435 Berlin, Germany"]
     }
   }
 }
