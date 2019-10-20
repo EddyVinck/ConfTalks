@@ -1,328 +1,112 @@
 {
   "speakers": {
-    "0": {
-      "name": "Una Kravets"
-    },
-    "1": {
-      "name": "Sher Minn Chong"
-    },
-    "2": {
-      "name": "Ziran Sun"
-    },
-    "3": {
-      "name": "TC39 Committee"
-    },
-    "4": {
-      "name": "Tara Z. Manicsic"
-    },
-    "5": {
-      "name": "Stefan Judis"
-    },
-    "6": {
-      "name": "Stanimira Vlaeva"
-    },
-    "7": {
-      "name": "Shwetank Dixit"
-    },
-    "8": {
-      "name": "Pier Paolo Fumagalli"
-    },
-    "9": {
-      "name": "Roshan Gautam"
-    },
-    "10": {
-      "name": "Vitalii Bobrov"
-    },
-    "11": {
-      "name": "Paulo Lopes"
-    },
-    "12": {
-      "name": "Laurie Voss"
-    },
-    "13": {
-      "name": "Jenn Schiffer"
-    },
-    "14": {
-      "name": "Henri Helvetica"
-    },
-    "15": {
-      "name": "C J Silverio"
-    },
-    "16": {
-      "name": "OpenJS Foundation"
-    },
-    "17": {
-      "name": "Michael Mifsud"
-    },
-    "18": {
-      "name": "Manu Martinez-Almeida"
-    },
-    "19": {
-      "name": "Kat Marchán"
-    },
-    "20": {
-      "name": "Jessica Jordan"
-    },
-    "21": {
-      "name": "Jason Williams"
-    },
-    "22": {
-      "name": "Houssein Djirdeh"
-    },
-    "23": {
-      "name": "Garann Means"
-    },
-    "24": {
-      "name": "Bryan Hughes"
-    },
-    "25": {
-      "name": "Chidinma Kalu"
-    },
-    "26": {
-      "name": "Allison McMillan"
-    },
-    "27": {
-      "name": "Alexandra Sunderland"
-    },
-    "28": {
-      "name": "Aditya Mukerjee"
-    },
-    "29": {
-      "name": "Nikhil Thorat"
-    },
-    "30": {
-      "name": "Nick Kreeger"
-    },
-    "31": {
-      "name": "Nat Alison"
-    },
-    "32": {
-      "name": "Meya Stephen Kenigbolo"
-    },
-    "33": {
-      "name": "Maximiliano Firtman"
-    },
-    "34": {
-      "name": "Maxim Koretskyi"
-    },
-    "35": {
-      "name": "max bittker"
-    },
-    "36": {
-      "name": "Martin Sonnenholzer"
-    },
-    "37": {
-      "name": "Marley Rafson"
-    },
-    "38": {
-      "name": "Maël Nison"
-    },
-    "39": {
-      "name": "Leandro Ostera"
-    },
-    "40": {
-      "name": "Kevin Doran"
-    },
-    "41": {
-      "name": "Joyee Cheung"
-    },
-    "42": {
-      "name": "Johnny Austin"
-    },
-    "43": {
-      "name": "Joe Sepi"
-    },
-    "44": {
-      "name": "Jason Straughan"
-    },
-    "45": {
-      "name": "Fedor Indutny"
-    },
-    "46": {
-      "name": "Ella van Durpe"
-    },
-    "47": {
-      "name": "Amanda Sopkin"
-    },
-    "48": {
-      "name": "Constanza Yáñez Calderón"
-    },
-    "49": {
-      "name": "Havi Hoffman"
-    },
-    "50": {
-      "name": "Ashley Williams"
-    },
-    "51": {
-      "name": "Dorian Holmes"
-    },
-    "52": {
-      "name": "Frances Coronel"
-    },
-    "53": {
-      "name": "Hasan Özdemir"
-    },
-    "54": {
-      "name": "Tatiana Mac"
-    },
-    "55": {
-      "name": "Aga Naplocha"
-    },
-    "56": {
-      "name": "Eli Schutze"
-    },
-    "57": {
-      "name": "Emily Rose"
-    },
-    "58": {
-      "name": "Jenn Turner"
-    },
-    "59": {
-      "name": "Manjula Dube"
-    },
-    "60": {
-      "name": "Rachel White"
-    },
-    "61": {
-      "name": "Sareh Heidari"
-    },
-    "62": {
-      "name": "Whitney Williams"
-    },
-    "63": {
-      "name": "Tim Kadlec"
-    },
-    "64": {
-      "name": "Tammy Everts"
-    },
-    "65": {
-      "name": "Jeremy Keith"
-    },
-    "66": {
-      "name": "Harry Roberts"
-    },
-    "67": {
-      "name": "Ada Rose Cannon"
-    },
-    "68": {
-      "name": "Léonie Watson"
-    },
-    "69": {
-      "name": "Seren Davies"
-    },
-    "70": {
-      "name": "Bruce Lawson"
-    },
-    "71": {
-      "name": "Mark Leach"
-    },
-    "72": {
-      "name": "Andy Davies"
-    },
-    "73": {
-      "name": "Dora Militaru"
-    },
-    "74": {
-      "name": "Dan Shappir"
-    },
-    "75": {
-      "name": "Lauren Younger"
-    },
-    "76": {
-      "name": "Rhys Evans"
-    },
-    "77": {
-      "name": "uve"
-    },
-    "78": {
-      "name": "Sarah Dapul-Weberman"
-    },
-    "79": {
-      "name": "Inian Parameshwaran"
-    },
-    "80": {
-      "name": "Nick Webb"
-    },
-    "81": {
-      "name": "Laura Sheridan"
-    },
-    "82": {
-      "name": "Tobias Baldauf"
-    },
-    "83": {
-      "name": "Ian Feather"
-    },
-    "84": {
-      "name": "Denys Mishunov"
-    },
-    "85": {
-      "name": "Robin Marx"
-    },
-    "86": {
-      "name": "Andrés Cuervo"
-    },
-    "87": {
-      "name": "Rachel Andrew"
-    },
-    "88": {
-      "name": "Chen Hui Jing"
-    },
-    "89": {
-      "name": "Jason Pamental"
-    },
-    "90": {
-      "name": "Gil Tayar"
-    },
-    "91": {
-      "name": "Ben Ilegbodu"
-    },
-    "92": {
-      "name": "Manuel Rego"
-    },
-    "93": {
-      "name": "Estefany Aguilar"
-    },
-    "94": {
-      "name": "Alex Tait"
-    },
-    "95": {
-      "name": "Elyse Holladay"
-    },
-    "96": {
-      "name": "Samuel Richard"
-    },
-    "97": {
-      "name": "Trent Willis"
-    },
-    "98": {
-      "name": "Jackie Balzer"
-    },
-    "99": {
-      "name": "Chen Hui Jing"
-    },
-    "100": {
-      "name": "Oliver Williams"
-    },
-    "101": {
-      "name": "Razvan Caliman"
-    },
-    "102": {
-      "name": "Mike Riethmuller"
-    },
-    "103": {
-      "name": "Dag-Inge Aas"
-    },
-    "104": {
-      "name": "Ida Aalen"
-    },
-    "105": {
-      "name": "Lara Schenck"
-    },
-    "106": {
-      "name": "Philip Walton"
-    },
-    "107": {
-      "name": "Claudina Sarahe"
-    }
+    "0": { "name": "Una Kravets" },
+    "1": { "name": "Sher Minn Chong" },
+    "2": { "name": "Ziran Sun" },
+    "3": { "name": "TC39 Committee" },
+    "4": { "name": "Tara Z. Manicsic" },
+    "5": { "name": "Stefan Judis" },
+    "6": { "name": "Stanimira Vlaeva" },
+    "7": { "name": "Shwetank Dixit" },
+    "8": { "name": "Pier Paolo Fumagalli" },
+    "9": { "name": "Roshan Gautam" },
+    "10": { "name": "Vitalii Bobrov" },
+    "11": { "name": "Paulo Lopes" },
+    "12": { "name": "Laurie Voss" },
+    "13": { "name": "Jenn Schiffer" },
+    "14": { "name": "Henri Helvetica" },
+    "15": { "name": "C J Silverio" },
+    "16": { "name": "OpenJS Foundation" },
+    "17": { "name": "Michael Mifsud" },
+    "18": { "name": "Manu Martinez-Almeida" },
+    "19": { "name": "Kat Marchán" },
+    "20": { "name": "Jessica Jordan" },
+    "21": { "name": "Jason Williams" },
+    "22": { "name": "Houssein Djirdeh" },
+    "23": { "name": "Garann Means" },
+    "24": { "name": "Bryan Hughes" },
+    "25": { "name": "Chidinma Kalu" },
+    "26": { "name": "Allison McMillan" },
+    "27": { "name": "Alexandra Sunderland" },
+    "28": { "name": "Aditya Mukerjee" },
+    "29": { "name": "Nikhil Thorat" },
+    "30": { "name": "Nick Kreeger" },
+    "31": { "name": "Nat Alison" },
+    "32": { "name": "Meya Stephen Kenigbolo" },
+    "33": { "name": "Maximiliano Firtman" },
+    "34": { "name": "Maxim Koretskyi" },
+    "35": { "name": "max bittker" },
+    "36": { "name": "Martin Sonnenholzer" },
+    "37": { "name": "Marley Rafson" },
+    "38": { "name": "Maël Nison" },
+    "39": { "name": "Leandro Ostera" },
+    "40": { "name": "Kevin Doran" },
+    "41": { "name": "Joyee Cheung" },
+    "42": { "name": "Johnny Austin" },
+    "43": { "name": "Joe Sepi" },
+    "44": { "name": "Jason Straughan" },
+    "45": { "name": "Fedor Indutny" },
+    "46": { "name": "Ella van Durpe" },
+    "47": { "name": "Amanda Sopkin" },
+    "48": { "name": "Constanza Yáñez Calderón" },
+    "49": { "name": "Havi Hoffman" },
+    "50": { "name": "Ashley Williams" },
+    "51": { "name": "Dorian Holmes" },
+    "52": { "name": "Frances Coronel" },
+    "53": { "name": "Hasan Özdemir" },
+    "54": { "name": "Tatiana Mac" },
+    "55": { "name": "Aga Naplocha" },
+    "56": { "name": "Eli Schutze" },
+    "57": { "name": "Emily Rose" },
+    "58": { "name": "Jenn Turner" },
+    "59": { "name": "Manjula Dube" },
+    "60": { "name": "Rachel White" },
+    "61": { "name": "Sareh Heidari" },
+    "62": { "name": "Whitney Williams" },
+    "63": { "name": "Tim Kadlec" },
+    "64": { "name": "Tammy Everts" },
+    "65": { "name": "Jeremy Keith" },
+    "66": { "name": "Harry Roberts" },
+    "67": { "name": "Ada Rose Cannon" },
+    "68": { "name": "Léonie Watson" },
+    "69": { "name": "Seren Davies" },
+    "70": { "name": "Bruce Lawson" },
+    "71": { "name": "Mark Leach" },
+    "72": { "name": "Andy Davies" },
+    "73": { "name": "Dora Militaru" },
+    "74": { "name": "Dan Shappir" },
+    "75": { "name": "Lauren Younger" },
+    "76": { "name": "Rhys Evans" },
+    "77": { "name": "uve" },
+    "78": { "name": "Sarah Dapul-Weberman" },
+    "79": { "name": "Inian Parameshwaran" },
+    "80": { "name": "Nick Webb" },
+    "81": { "name": "Laura Sheridan" },
+    "82": { "name": "Tobias Baldauf" },
+    "83": { "name": "Ian Feather" },
+    "84": { "name": "Denys Mishunov" },
+    "85": { "name": "Robin Marx" },
+    "86": { "name": "Andrés Cuervo" },
+    "87": { "name": "Rachel Andrew" },
+    "88": { "name": "Chen Hui Jing" },
+    "89": { "name": "Jason Pamental" },
+    "90": { "name": "Gil Tayar" },
+    "91": { "name": "Ben Ilegbodu" },
+    "92": { "name": "Manuel Rego" },
+    "93": { "name": "Estefany Aguilar" },
+    "94": { "name": "Alex Tait" },
+    "95": { "name": "Elyse Holladay" },
+    "96": { "name": "Samuel Richard" },
+    "97": { "name": "Trent Willis" },
+    "98": { "name": "Jackie Balzer" },
+    "99": { "name": "Chen Hui Jing" },
+    "100": { "name": "Oliver Williams" },
+    "101": { "name": "Razvan Caliman" },
+    "102": { "name": "Mike Riethmuller" },
+    "103": { "name": "Dag-Inge Aas" },
+    "104": { "name": "Ida Aalen" },
+    "105": { "name": "Lara Schenck" },
+    "106": { "name": "Philip Walton" },
+    "107": { "name": "Claudina Sarahe" }
   }
 }
