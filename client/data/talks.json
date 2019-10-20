@@ -470,7 +470,11 @@
     },
     "52": {
       "speakers": [65],
-
+      "main_title": "Any Site can be a Progressive Web App",	
+      "alternative_titles": [],	
+      "categories": [1, 8],	
+      "video_url": "https://www.youtube.com/watch?v=GXv4W94qsQ0",	
+      "video_upload_date": "2018-06-11",
       "conferences": [2]
     },
     "53": {
