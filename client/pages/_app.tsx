@@ -113,14 +113,53 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
+const HeadTags = ({ description = "ConfTalks is an open source index of already recorded and scheduled conference talks to help you decide if you should go."}) => (
+  <Head>
+    <title>ConfTalks.org</title>
+    <meta name="description" content={description}/>
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <link rel="icon" href="/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/favicon/safari-pinned-tab.svg"
+      color="#202020"
+    />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
+    <meta name="theme-color" content="#36DEBA" />
+    <meta property="og:title" content="ConfTalks"/>
+    <meta property="og:url" content="https://conftalks.org"/>
+    <meta property="og:image" content="/conftalks.jpg"/>
+    <meta property="og:site_name" content="ConfTalks"/>
+    <meta property="og:description" content={description}/>
+  </Head>
+);
+
 export default class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
     return (
       <>
-        <Head>
-          <link rel="stylesheet" href="/fonts/fonts.css" />
-        </Head>
+        <HeadTags />
         <GlobalStyle />
         <ThemeProvider theme={theme}>
           <Component {...pageProps} />
