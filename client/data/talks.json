@@ -746,6 +746,240 @@
       "video_url": "https://www.youtube.com/watch?v=S2iI52SfoKE",
       "video_upload_date": "2019-07-17",
       "conferences": [3]
+    },
+    "83": {
+      "speakers": [88, 97],
+      "main_title": "Loop of Fortune",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=Ru8pmAyZARI",
+      "video_upload_date": "2019-07-17",
+      "conferences": [4]
+    },
+    "84": {
+      "speakers": [88, 97],
+      "main_title": "artistic.css",
+      "alternative_titles": [],
+      "categories": [0, 1],
+      "video_url": "https://www.youtube.com/watch?v=aQBYAkaABkU",
+      "video_upload_date": "2019-06-28",
+      "conferences": [4]
+    },
+    "85": {
+      "speakers": [98],
+      "main_title": "artistic.css",
+      "alternative_titles": [],
+      "categories": [0, 1],
+      "video_url": "https://www.youtube.com/watch?v=aQBYAkaABkU",
+      "video_upload_date": "2019-06-21",
+      "conferences": [4]
+    },
+    "86": {
+      "speakers": [99],
+      "main_title": "Designing Components for Fun, Profit and Sanity",
+      "alternative_titles": [],
+      "categories": [1, 6],
+      "video_url": "https://www.youtube.com/watch?v=pEVGAn2qNtU",
+      "video_upload_date": "2019-06-22",
+      "conferences": [4]
+    },
+    "87": {
+      "speakers": [99],
+      "main_title": "Variable Fonts and the Flexible Nature of Screens and Devices",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=BBWMIxXqr-E",
+      "video_upload_date": "2019-06-20",
+      "conferences": [4]
+    },
+    "88": {
+      "speakers": [100],
+      "main_title": "Variable Fonts and the Flexible Nature of Screens and Devices",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=BBWMIxXqr-E",
+      "video_upload_date": "2019-06-20",
+      "conferences": [4]
+    },
+    "89": {
+      "speakers": [68],
+      "main_title": "Web Components and the AOM",
+      "alternative_titles": [],
+      "categories": [2, 7, 8],
+      "video_url": "https://www.youtube.com/watch?v=ZMZMMuXRFcE",
+      "video_upload_date": "2019-06-25",
+      "conferences": [4]
+    },
+    "90": {
+      "speakers": [90],
+      "main_title": "Navigating the Wild Seas of Native ES Modules",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=Zyoztl_7l7g",
+      "video_upload_date": "2019-06-21",
+      "conferences": [4]
+    },
+    "91": {
+      "speakers": [101],
+      "main_title": "The Browser as a Modular, Networked Video Synthesizer",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=v2Au9Rlj6XM",
+      "video_upload_date": "2019-06-20",
+      "conferences": [4]
+    },
+    "92": {
+      "speakers": [102],
+      "main_title": "Real World Problems - Internet beyond the 1st World Bubble",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=skml8SjOtKg",
+      "video_upload_date": "2019-06-23",
+      "conferences": [4]
+    },
+    "93": {
+      "speakers": [103],
+      "main_title": "Music and Art with ML",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=_0ij8vY2gzE",
+      "video_upload_date": "2019-06-26",
+      "conferences": [4]
+    },
+    "94": {
+      "speakers": [104],
+      "main_title": "State Machines Meet React Hooks",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=ioh7aqrBcs0",
+      "video_upload_date": "2019-06-28",
+      "conferences": [4]
+    },
+    "95": {
+      "speakers": [105],
+      "main_title": "Machine Learning for Front-End Developers",
+      "alternative_titles": [],
+      "categories": [1, 2],
+      "video_url": "https://www.youtube.com/watch?v=rwFiFWI23Rw",
+      "video_upload_date": "2019-06-30",
+      "conferences": [4]
+    },
+    "96": {
+      "speakers": [106],
+      "main_title": "Rapid Development on Offline First Data Sync",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=u8X7zL7RuwA",
+      "video_upload_date": "2019-07-06",
+      "conferences": [4]
+    },
+    "97": {
+      "speakers": [107],
+      "main_title": "Introduction to the Component-based API",
+      "alternative_titles": [],
+      "categories": [1, 4],
+      "video_url": "https://www.youtube.com/watch?v=9pT-q0SSYow",
+      "video_upload_date": "2019-07-06",
+      "conferences": [4]
+    },
+    "98": {
+      "speakers": [108],
+      "main_title": "Getting Closure on React Hooks",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=KJP1E-Y-xyo",
+      "video_upload_date": "2019-07-01",
+      "conferences": [4]
+    },
+    "99": {
+      "speakers": [109],
+      "main_title": "Making It All Fit Together with React and GraphQL",
+      "alternative_titles": [],
+      "categories": [1, 4],
+      "video_url": "https://www.youtube.com/watch?v=EjJVf2s60s8",
+      "video_upload_date": "2019-07-12",
+      "conferences": [4]
+    },
+    "100": {
+      "speakers": [110],
+      "main_title": "Evan You on Vue.js: Seeking the Balance in Framework Design",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=ANtSWq-zI0s",
+      "video_upload_date": "2019-07-13",
+      "conferences": [4]
+    },
+    "101": {
+      "speakers": [111],
+      "main_title": "Learning From Machines",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=02cFoST40K8",
+      "video_upload_date": "2019-07-03",
+      "conferences": [4]
+    },
+    "102": {
+      "speakers": [112],
+      "main_title": "The Future of JavaScript and AI",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=AoUI8so8vpU",
+      "video_upload_date": "2019-07-07",
+      "conferences": [4]
+    },
+    "103": {
+      "speakers": [113],
+      "main_title": "Double the Beyoncé: Navigating Numbers in JavaScript",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=4zveh5TzB6U",
+      "video_upload_date": "2019-07-08",
+      "conferences": [4]
+    },
+    "104": {
+      "speakers": [114],
+      "main_title": "Race Conditions in JavaScript Apps",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=DWZj56qUNfs",
+      "video_upload_date": "2019-07-04",
+      "conferences": [4]
+    },
+    "105": {
+      "speakers": [115],
+      "main_title": "The *Other* Spec: Internationalization in JavaScript",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=dcoWYgR7LA8",
+      "video_upload_date": "2019-07-09",
+      "conferences": [4]
+    },
+    "106": {
+      "speakers": [116],
+      "main_title": "The Different Transformation Stages of AOT Compilers",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=B1IUxzOdmyc",
+      "video_upload_date": "2019-07-10",
+      "conferences": [4]
+    },
+    "107": {
+      "speakers": [117],
+      "main_title": "Web Assembly: The Future of JS and a Multi-Language Web",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=qDTpLKJ6e4M",
+      "video_upload_date": "2019-07-06",
+      "conferences": [4]
+    },
+    "108": {
+      "speakers": [12],
+      "main_title": "npm's Laurie Voss: JavaScript - Who, What, Where, Why and Next",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=H8IaDYrv-3E",
+      "video_upload_date": "2019-07-11",
+      "conferences": [4]
     }
   }
 }
