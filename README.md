@@ -7,6 +7,8 @@ Check it out here: https://conftalks.org
 Subscribe to the [newsletter](https://emailoctopus.com/lists/b6cc50a1-f282-11e9-be00-06b4694bee2a/forms/subscribe)! Newsletters include news about ConfTalks and also occasionally exclusive conference related offers. You will only receive newsletters when we have something to say.
 No spam 🚫
 
+## Announcement
+
 Read more about the release of Conftalks on [DEV](https://dev.to/eddyvinck/i-created-my-first-open-source-project-in-7-days-and-released-it-today-12d5)
 
 [![Read more about the release of Conftalks on DEV.to](https://github.com/EddyVinck/ConfTalks/blob/master/client/assets/readme/announcement-post-dev.png)](https://dev.to/eddyvinck/i-created-my-first-open-source-project-in-7-days-and-released-it-today-12d5)
