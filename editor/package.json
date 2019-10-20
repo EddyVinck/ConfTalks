@@ -1,0 +1,14 @@
+{
+  "name": "conftalks-cli-editor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A CLI tool for editing ConfTalks DB",
+  "scripts": {
+    "editor": "node src/cli",
+    "migrate": "node src/migration"
+  },
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "lowdb": "^1.0.0"
+  }
+}
