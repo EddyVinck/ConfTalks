@@ -1,7 +1,13 @@
 {
   "categories": {
-    "0": { "name": "CSS", "alternative_spelling": [] },
-    "1": { "name": "JavaScript", "alternative_spelling": [] },
+    "0": {
+      "name": "CSS",
+      "alternative_spelling": []
+    },
+    "1": {
+      "name": "JavaScript",
+      "alternative_spelling": []
+    },
     "2": {
       "name": "Front-end",
       "alternative_spelling": ["frontend", "front end"]
@@ -13,6 +19,22 @@
     "4": {
       "name": "GraphQL",
       "alternative_spelling": []
+    },
+    "5": {
+      "name": "Web Performance",
+      "alternative_spelling": []
+    },
+    "6": {
+      "name": "UX",
+      "alternative_spelling": []
+    },
+    "7": {
+      "name": "Accessibility",
+      "alternative_spelling": ["a11y"]
+    },
+    "8": {
+      "name": "Progressive Web App",
+      "alternative_spelling": ["pwa"]
     }
   }
 }

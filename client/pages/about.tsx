@@ -7,7 +7,6 @@ import { NewsletterSection } from "../components/forms";
 const HeadTags = () => (
   <Head>
     <title>ConfTalks.org</title>
-    <link rel="icon" href="/favicon.ico" />
   </Head>
 );
 

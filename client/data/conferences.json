@@ -13,6 +13,18 @@
       "locations": ["Arena Berlin. Eichenstraße 4, 12435 Berlin, Germany"]
     },
     "2": {
+      "name": "DeltaV Conference London 2018",
+      "start_date": "2018-05-10",
+      "end_date": "2018-05-11",
+      "locations": ["QEII Centre. SW1P 3EE London, UK"]
+    },
+    "3": {
+      "name": "CSSconf EU 2019",
+      "start_date": "2019-05-31",
+      "end_date": "2019-05-31",
+      "locations": ["Arena Berlin. Eichenstraße 4, 12435 Berlin, Germany"]
+    },
+    "4": {
       "name": "CSS Conf EU 2018 ",
       "start_date": "2018-06-01",
       "end_date": "2018-06-02",

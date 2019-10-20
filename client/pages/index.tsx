@@ -110,7 +110,6 @@ export const FilterContext = React.createContext({
 const HeadTags = () => (
   <Head>
     <title>ConfTalks.org</title>
-    <link rel="icon" href="/favicon.ico" />
   </Head>
 );
 
