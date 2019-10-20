@@ -202,7 +202,7 @@
       "speakers": [22],
       "main_title": "Performance Empathy",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 5],
       "video_url": "https://www.youtube.com/watch?v=uIBYN6w9cBc",
       "video_upload_date": "2019-06-20",
       "conferences": [1]
@@ -220,7 +220,7 @@
       "speakers": [24],
       "main_title": "The Contentious Relationship Between the LGBTQ+ community and Tech",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 3],
       "video_url": "https://www.youtube.com/watch?v=fSN3LVbXTkg",
       "video_upload_date": "2019-06-13",
       "conferences": [1]
@@ -292,7 +292,7 @@
       "speakers": [33],
       "main_title": "The modern PWA Cheat Sheet",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 8],
       "video_url": "https://www.youtube.com/watch?v=cybhV88KLfI",
       "video_upload_date": "2019-06-11",
       "conferences": [1]
@@ -301,7 +301,7 @@
       "speakers": [34],
       "main_title": "A sneak peek into super optimized code in JS frameworks",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 5],
       "video_url": "https://www.youtube.com/watch?v=_VHNTC67NR8",
       "video_upload_date": "2019-06-12",
       "conferences": [1]
@@ -449,6 +449,195 @@
       "video_url": "https://www.youtube.com/watch?v=MBndZddVQdw",
       "video_upload_date": "2019-06-03",
       "conferences": [1]
+    },
+    "50": {
+      "speakers": [63],
+      "main_title": "Redefining Web Performance",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=JJGxNjrIYVc",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "51": {
+      "speakers": [64],
+      "main_title": "Hunting the Unicorn",
+      "alternative_titles": [],
+      "categories": [2, 5, 6],
+      "video_url": "https://www.youtube.com/watch?v=-PqL4qhvnE8",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "52": {
+      "speakers": [65],
+      "main_title": "Any Site can be a Progressive Web App",
+      "alternative_titles": [],
+      "categories": [1, 8],
+      "video_url": "https://www.youtube.com/watch?v=GXv4W94qsQ0",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "53": {
+      "speakers": [66],
+      "main_title": "It’s My (Third) Party and I'll Cry If I Want To",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=rzMID7ES6q4",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "54": {
+      "speakers": [67],
+      "main_title": "A Rube Goldberg Machine and New Web Technology",
+      "alternative_titles": [],
+      "categories": [0, 1, 2],
+      "video_url": "https://www.youtube.com/watch?v=DCRN1cG7sOA",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "55": {
+      "speakers": [14],
+      "main_title": "The Shape of the Web",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=9BadRPRQN70",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "56": {
+      "speakers": [68],
+      "main_title": "There's more to Performance than meets the Eye",
+      "alternative_titles": [],
+      "categories": [5, 7],
+      "video_url": "https://www.youtube.com/watch?v=n1sXj9oAXFU",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "57": {
+      "speakers": [69, 70],
+      "main_title": "This is for Everyone",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=o36RiEbI2IU",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "58": {
+      "speakers": [71, 72],
+      "main_title": "Fast Fashion - How Missguided Revolutionised their Approach to Site Performance",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=mLzt23ZVGx0",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "59": {
+      "speakers": [73],
+      "main_title": "Where are the Women?",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=LVGaVLJoIGY",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "60": {
+      "speakers": [74],
+      "main_title": "Improving Load Time for 100 Million Websites - Wix Case-Study",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=4QqlGgF8Y2I",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "61": {
+      "speakers": [75],
+      "main_title": "How To Manage Performance Like a Product",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=PhKPQPX4y-o",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "62": {
+      "speakers": [76],
+      "main_title": "Speeding up Without Slowing down",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=OS1fKsFXLKg",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "63": {
+      "speakers": [77],
+      "main_title": "Let's Build a Progressive Web App",
+      "alternative_titles": [],
+      "categories": [8],
+      "video_url": "https://www.youtube.com/watch?v=oCjDpObOZPM",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "64": {
+      "speakers": [78],
+      "main_title": "Starting a Dedicated Web Performance Team: the First Ten Months",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=ne_UYfDmDYc",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "65": {
+      "speakers": [79],
+      "main_title": "Chrome User Experience Report",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=wVY3-acLIoI",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "66": {
+      "speakers": [80, 81],
+      "main_title": "Web Performance @ NBrown: It's a Business Affair",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=z-mhV-pn68Q",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "67": {
+      "speakers": [82],
+      "main_title": "25% Faster Hotel Search. Web Performance? - Trivago",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=9f2sjQmJCKY",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "68": {
+      "speakers": [83],
+      "main_title": "Front-end Resilience",
+      "alternative_titles": [],
+      "categories": [2, 5],
+      "video_url": "https://www.youtube.com/watch?v=iUfymdAZ1wI",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "69": {
+      "speakers": [84],
+      "main_title": "Debugger; for Developers",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=seuOUunPUjw",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
+    },
+    "70": {
+      "speakers": [85],
+      "main_title": "QUIC: in Theory and Practice",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=B1SQFjIXJtc",
+      "video_upload_date": "2018-06-11",
+      "conferences": [2]
     }
   }
 }
