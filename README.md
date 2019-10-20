@@ -4,6 +4,13 @@
 
 Check it out here: https://conftalks.org
 
+Subscribe to the [newsletter](https://emailoctopus.com/lists/b6cc50a1-f282-11e9-be00-06b4694bee2a/forms/subscribe)! Newsletters include news about ConfTalks and also occasionally exclusive conference related offers. You will only receive newsletters when we have something to say.
+No spam 🚫
+
+## Community
+
+Join our [community Slack](https://join.slack.com/t/conftalks/shared_invite/enQtNzk1MjA1ODQ2NzM3LTRkMmU0YmRhZDEzYmUxZTEyYjhlMWYzOWIyYTU0NDBkMGFlN2U3MjJmNWE5MjM4ZDM1Yzg0M2QwZWUzODllMzM)! If the link expires, please create an issue on GitHub so we can update it.
+
 ## Motivation
 
 When I got the idea for ConfTalks, I wrote down the problem I wanted to solve:
@@ -15,7 +22,3 @@ When I got the idea for ConfTalks, I wrote down the problem I wanted to solve:
 ConfTalks is open for contributions. A contribution can be anything like a feature or just some conference talks added to the JSON files in `/client/data`.
 
 Please see the [contributing guidelines](https://github.com/EddyVinck/ConfTalks/blob/master/CONTRIBUTING.md).
-
-## Community
-
-Join our [community Slack](https://join.slack.com/t/conftalks/shared_invite/enQtNzk1MjA1ODQ2NzM3LTRkMmU0YmRhZDEzYmUxZTEyYjhlMWYzOWIyYTU0NDBkMGFlN2U3MjJmNWE5MjM4ZDM1Yzg0M2QwZWUzODllMzM)! If the link expires, please create an issue on GitHub so we can update it.
