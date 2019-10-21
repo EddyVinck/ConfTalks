@@ -748,6 +748,393 @@
       "conferences": [3]
     },
     "83": {
+      "speakers": [97],
+      "main_title": "Deep Learning in JS",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=SV-cgdobtTA",
+      "video_upload_date": "2018-06-06",
+      "conferences": [0]
+    },
+    "84": {
+      "speakers": [98],
+      "main_title": "10 Things I Regret About Node.js",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=M3BM9TB-8yA",
+      "video_upload_date": "2018-06-06",
+      "conferences": [0]
+    },
+    "85": {
+      "speakers": [99],
+      "main_title": "Aggressive Web Apps",
+      "alternative_titles": [],
+      "categories": [6],
+      "video_url": "https://www.youtube.com/watch?v=uo-UOvq3-0Y",
+      "video_upload_date": "2018-06-06",
+      "conferences": [0]
+    },
+    "86": {
+      "speakers": [100],
+      "main_title": "Exploring Augmented Reality on the Web",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=bqmT0_w6_qc",
+      "video_upload_date": "2018-06-13",
+      "conferences": [0]
+    },
+    "87": {
+      "speakers": [101],
+      "main_title": "Burn bright but don't burn out",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=Bys_QWm5rDE",
+      "video_upload_date": "2018-06-13",
+      "conferences": [0]
+    },
+    "88": {
+      "speakers": [102],
+      "main_title": "Look mum, no hands! — Brain controlled JavaScript",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=7KhFO-qCVyg",
+      "video_upload_date": "2018-06-13",
+      "conferences": [0]
+    },
+    "89": {
+      "speakers": [103],
+      "main_title": "Unintended Consequences: How to Reduce Exclusionary Practices",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=t8F12gZJ4AQ",
+      "video_upload_date": "2018-06-14",
+      "conferences": [0]
+    },
+    "90": {
+      "speakers": [104, 105],
+      "main_title": "JavaScript Engines: The Good Parts™",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=5nmpokoRaZI",
+      "video_upload_date": "2018-06-14",
+      "conferences": [0]
+    },
+    "91": {
+      "speakers": [106],
+      "main_title": "To push, or not to push?! - The future of HTTP/2 server push",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=cznVISavm-k",
+      "video_upload_date": "2018-06-15",
+      "conferences": [0]
+    },
+    "92": {
+      "speakers": [107],
+      "main_title": "From You Can't to You Can: The Welcoming Nature of Javascript",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=ONlLvZWXv1Y",
+      "video_upload_date": "2018-06-18",
+      "conferences": [0]
+    },
+    "93": {
+      "speakers": [108],
+      "main_title": "Computer, build me an app",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=qqt6YxAZoOc",
+      "video_upload_date": "2018-06-18",
+      "conferences": [0]
+    },
+    "94": {
+      "speakers": [109],
+      "main_title": "Baby’s First Rust+WebAssembly module: Say hi to JSConf EU!",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=1meg-Dl_Urw",
+      "video_upload_date": "2018-06-18",
+      "conferences": [0]
+    },
+    "95": {
+      "speakers": [110],
+      "main_title": "TCP - A story about hope, (pkg) loss && the missing link",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=aOPgTWVtX78",
+      "video_upload_date": "2018-06-20",
+      "conferences": [0]
+    },
+    "96": {
+      "speakers": [111],
+      "main_title": "Journey of JS community from 2 to 2k members",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=n8dv_3Pojo4",
+      "video_upload_date": "2018-06-20",
+      "conferences": [0]
+    },
+    "97": {
+      "speakers": [112],
+      "main_title": "Existential Engineering or How Ethics Precedes Error Handling",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=GxKLgs8Vgsc",
+      "video_upload_date": "2018-06-20",
+      "conferences": [0]
+    },
+    "98": {
+      "speakers": [113],
+      "main_title": "Hand-crafting WebAssembly",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=CfdmzVos1Fs",
+      "video_upload_date": "2018-06-20",
+      "conferences": [0]
+    },
+    "99": {
+      "speakers": [114],
+      "main_title": "Further Adventures of the Event Loop",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=u1kqx6AenYw",
+      "video_upload_date": "2018-06-21",
+      "conferences": [0]
+    },
+    "100": {
+      "speakers": [115],
+      "main_title": "Empathy-Driven Development",
+      "alternative_titles": [],
+      "categories": [7],
+      "video_url": "https://www.youtube.com/watch?v=l95VFLj3e2w",
+      "video_upload_date": "2018-06-21",
+      "conferences": [0]
+    },
+    "101": {
+      "speakers": [116],
+      "main_title": "Metro: Scaling JavaScript Build Systems",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=99QyAz3Wfqc",
+      "video_upload_date": "2018-06-26",
+      "conferences": [0]
+    },
+    "102": {
+      "speakers": [117],
+      "main_title": "The Etymology of Programming",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=2KTK2qD4-gs",
+      "video_upload_date": "2018-06-26",
+      "conferences": [0]
+    },
+    "103": {
+      "speakers": [118],
+      "main_title": "Metaphors We Compute By",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=JrjbX-KX6wQ",
+      "video_upload_date": "2018-06-26",
+      "conferences": [0]
+    },
+    "104": {
+      "speakers": [119],
+      "main_title": "Please wait... loading: a tale of two loaders",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=35ZMoH8T-gc",
+      "video_upload_date": "2018-06-27",
+      "conferences": [0]
+    },
+    "105": {
+      "speakers": [120],
+      "main_title": "Visualising Enterprise Data with D3",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=BJR5SF4cI_Y",
+      "video_upload_date": "2018-06-27",
+      "conferences": [0]
+    },
+    "106": {
+      "speakers": [121],
+      "main_title": "Asynchrony: Under the Hood",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=SrNQS8J67zc",
+      "video_upload_date": "2018-06-27",
+      "conferences": [0]
+    },
+    "107": {
+      "speakers": [122],
+      "main_title": "Time travel debugging: A step-by-step guide.",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=rDq1AN1kSn4",
+      "video_upload_date": "2018-07-02",
+      "conferences": [0]
+    },
+    "108": {
+      "speakers": [123],
+      "main_title": "Haute Codeture: Clothing as a Canvas",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=LT3OD6V6mtA",
+      "video_upload_date": "2018-07-02",
+      "conferences": [0]
+    },
+    "109": {
+      "speakers": [124],
+      "main_title": "Native BigInts in JavaScript: A Case Study in TC39",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=RiU5OzMZ7z8",
+      "video_upload_date": "2018-07-02",
+      "conferences": [0]
+    },
+    "110": {
+      "speakers": [125],
+      "main_title": "Securing your site like it's 1999",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=Tpzqu4EGFjc",
+      "video_upload_date": "2018-07-03",
+      "conferences": [0]
+    },
+    "111": {
+      "speakers": [126],
+      "main_title": "Tales From the Trenches: Fingerprints on the Web",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=hZg0Ks_IHjQ",
+      "video_upload_date": "2018-07-03",
+      "conferences": [0]
+    },
+    "112": {
+      "speakers": [127],
+      "main_title": "About Coding Kids and Screaming Carrots",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=t0m5rrKKMOA",
+      "video_upload_date": "2018-07-03",
+      "conferences": [0]
+    },
+    "113": {
+      "speakers": [128],
+      "main_title": "Quirks and surprises of webdev in China",
+      "alternative_titles": [],
+      "categories": [2, 3],
+      "video_url": "https://www.youtube.com/watch?v=tLUwq9NQExA",
+      "video_upload_date": "2018-07-10",
+      "conferences": [0]
+    },
+    "114": {
+      "speakers": [129],
+      "main_title": "Improving Low-Connectivity Experiences on the Web",
+      "alternative_titles": [],
+      "categories": [2, 6],
+      "video_url": "https://www.youtube.com/watch?v=G96ie93tn5Q",
+      "video_upload_date": "2018-07-10",
+      "conferences": [0]
+    },
+    "115": {
+      "speakers": [130],
+      "main_title": "Kablooie: A History of Errors & a Future of Solutions",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=tteIQBPPxqc",
+      "video_upload_date": "2018-07-10",
+      "conferences": [0]
+    },
+    "116": {
+      "speakers": [131],
+      "main_title": "Breaking Changes",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=StN9QKnhhHc",
+      "video_upload_date": "2018-07-10",
+      "conferences": [0]
+    },
+    "117": {
+      "speakers": [132],
+      "main_title": "Build Advanced Search Experiences with a Custom Query Language",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=P2yB_iEJXyI",
+      "video_upload_date": "2018-07-12",
+      "conferences": [0]
+    },
+    "118": {
+      "speakers": [133],
+      "main_title": "When Chomsky Met JavaScript: Exploring the Linguistics",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=ZbMj_ab29Js",
+      "video_upload_date": "2018-07-12",
+      "conferences": [0]
+    },
+    "119": {
+      "speakers": [134],
+      "main_title": "Hey you, do you even design?",
+      "alternative_titles": [],
+      "categories": [2, 6],
+      "video_url": "https://www.youtube.com/watch?v=Bmm4-2SJ8qQ",
+      "video_upload_date": "2018-07-17",
+      "conferences": [0]
+    },
+    "120": {
+      "speakers": [135],
+      "main_title": "Photorealistic Real Time Computer Graphics with Javascript",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=YHVKME6vYjY",
+      "video_upload_date": "2018-07-17",
+      "conferences": [0]
+    },
+    "121": {
+      "speakers": [136],
+      "main_title": "A Node.js Security Roadmap",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=1Gun2lRb5Gw",
+      "video_upload_date": "2018-07-17",
+      "conferences": [0]
+    },
+    "122": {
+      "speakers": [137],
+      "main_title": "Formalizing user rights on the Web",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=x-ffpAkviM0",
+      "video_upload_date": "2018-07-23",
+      "conferences": [0]
+    },
+    "123": {
+      "speakers": [138],
+      "main_title": "Imagine This: A Web Without Servers",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=rJ_WvfF3FN8",
+      "video_upload_date": "2018-07-26",
+      "conferences": [0]
+    },
+    "124": {
+      "speakers": [139],
+      "main_title": "From Rabbi to Coder: How To Prepare for the Technical Interview",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=tTZ3pWoDkjc",
+      "video_upload_date": "2018-07-31",
+      "conferences": [0]
+    },
+    "125": {
+      "speakers": [140],
+      "main_title": "Using a modern web to recreate 1980s horribly slow & loud loading screens",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=o3MNdxQFUe8",
+      "video_upload_date": "2018-08-02",
+      "conferences": [0]
+    },
+    "126": {
       "speakers": [88, 97],
       "main_title": "Loop of Fortune",
       "alternative_titles": [],
@@ -756,17 +1143,8 @@
       "video_upload_date": "2019-07-17",
       "conferences": [4]
     },
-    "84": {
-      "speakers": [88, 97],
-      "main_title": "artistic.css",
-      "alternative_titles": [],
-      "categories": [0, 1],
-      "video_url": "https://www.youtube.com/watch?v=aQBYAkaABkU",
-      "video_upload_date": "2019-06-28",
-      "conferences": [4]
-    },
-    "85": {
-      "speakers": [98],
+    "127": {
+      "speakers": [141],
       "main_title": "artistic.css",
       "alternative_titles": [],
       "categories": [0, 1],
@@ -774,8 +1152,8 @@
       "video_upload_date": "2019-06-21",
       "conferences": [4]
     },
-    "86": {
-      "speakers": [99],
+    "128": {
+      "speakers": [142],
       "main_title": "Designing Components for Fun, Profit and Sanity",
       "alternative_titles": [],
       "categories": [1, 6],
@@ -783,8 +1161,8 @@
       "video_upload_date": "2019-06-22",
       "conferences": [4]
     },
-    "87": {
-      "speakers": [99],
+    "129": {
+      "speakers": [143],
       "main_title": "Variable Fonts and the Flexible Nature of Screens and Devices",
       "alternative_titles": [],
       "categories": [0],
@@ -792,8 +1170,8 @@
       "video_upload_date": "2019-06-20",
       "conferences": [4]
     },
-    "88": {
-      "speakers": [100],
+    "139": {
+      "speakers": [144],
       "main_title": "Variable Fonts and the Flexible Nature of Screens and Devices",
       "alternative_titles": [],
       "categories": [0],
@@ -801,7 +1179,7 @@
       "video_upload_date": "2019-06-20",
       "conferences": [4]
     },
-    "89": {
+    "131": {
       "speakers": [68],
       "main_title": "Web Components and the AOM",
       "alternative_titles": [],
@@ -810,7 +1188,7 @@
       "video_upload_date": "2019-06-25",
       "conferences": [4]
     },
-    "90": {
+    "132": {
       "speakers": [90],
       "main_title": "Navigating the Wild Seas of Native ES Modules",
       "alternative_titles": [],
@@ -819,8 +1197,8 @@
       "video_upload_date": "2019-06-21",
       "conferences": [4]
     },
-    "91": {
-      "speakers": [101],
+    "133": {
+      "speakers": [145],
       "main_title": "The Browser as a Modular, Networked Video Synthesizer",
       "alternative_titles": [],
       "categories": [1],
@@ -828,8 +1206,8 @@
       "video_upload_date": "2019-06-20",
       "conferences": [4]
     },
-    "92": {
-      "speakers": [102],
+    "134": {
+      "speakers": [146],
       "main_title": "Real World Problems - Internet beyond the 1st World Bubble",
       "alternative_titles": [],
       "categories": [3],
@@ -837,8 +1215,8 @@
       "video_upload_date": "2019-06-23",
       "conferences": [4]
     },
-    "93": {
-      "speakers": [103],
+    "135": {
+      "speakers": [147],
       "main_title": "Music and Art with ML",
       "alternative_titles": [],
       "categories": [1],
@@ -846,8 +1224,8 @@
       "video_upload_date": "2019-06-26",
       "conferences": [4]
     },
-    "94": {
-      "speakers": [104],
+    "136": {
+      "speakers": [148],
       "main_title": "State Machines Meet React Hooks",
       "alternative_titles": [],
       "categories": [1],
@@ -855,8 +1233,8 @@
       "video_upload_date": "2019-06-28",
       "conferences": [4]
     },
-    "95": {
-      "speakers": [105],
+    "137": {
+      "speakers": [149],
       "main_title": "Machine Learning for Front-End Developers",
       "alternative_titles": [],
       "categories": [1, 2],
@@ -864,8 +1242,8 @@
       "video_upload_date": "2019-06-30",
       "conferences": [4]
     },
-    "96": {
-      "speakers": [106],
+    "138": {
+      "speakers": [150],
       "main_title": "Rapid Development on Offline First Data Sync",
       "alternative_titles": [],
       "categories": [1],
@@ -873,8 +1251,8 @@
       "video_upload_date": "2019-07-06",
       "conferences": [4]
     },
-    "97": {
-      "speakers": [107],
+    "139": {
+      "speakers": [151],
       "main_title": "Introduction to the Component-based API",
       "alternative_titles": [],
       "categories": [1, 4],
@@ -882,8 +1260,8 @@
       "video_upload_date": "2019-07-06",
       "conferences": [4]
     },
-    "98": {
-      "speakers": [108],
+    "140": {
+      "speakers": [152],
       "main_title": "Getting Closure on React Hooks",
       "alternative_titles": [],
       "categories": [1],
@@ -891,8 +1269,8 @@
       "video_upload_date": "2019-07-01",
       "conferences": [4]
     },
-    "99": {
-      "speakers": [109],
+    "141": {
+      "speakers": [153],
       "main_title": "Making It All Fit Together with React and GraphQL",
       "alternative_titles": [],
       "categories": [1, 4],
@@ -900,8 +1278,8 @@
       "video_upload_date": "2019-07-12",
       "conferences": [4]
     },
-    "100": {
-      "speakers": [110],
+    "142": {
+      "speakers": [154],
       "main_title": "Evan You on Vue.js: Seeking the Balance in Framework Design",
       "alternative_titles": [],
       "categories": [1],
@@ -909,8 +1287,8 @@
       "video_upload_date": "2019-07-13",
       "conferences": [4]
     },
-    "101": {
-      "speakers": [111],
+    "143": {
+      "speakers": [155],
       "main_title": "Learning From Machines",
       "alternative_titles": [],
       "categories": [1],
@@ -918,8 +1296,8 @@
       "video_upload_date": "2019-07-03",
       "conferences": [4]
     },
-    "102": {
-      "speakers": [112],
+    "144": {
+      "speakers": [156],
       "main_title": "The Future of JavaScript and AI",
       "alternative_titles": [],
       "categories": [1],
@@ -927,8 +1305,8 @@
       "video_upload_date": "2019-07-07",
       "conferences": [4]
     },
-    "103": {
-      "speakers": [113],
+    "145": {
+      "speakers": [157],
       "main_title": "Double the Beyoncé: Navigating Numbers in JavaScript",
       "alternative_titles": [],
       "categories": [1],
@@ -936,8 +1314,8 @@
       "video_upload_date": "2019-07-08",
       "conferences": [4]
     },
-    "104": {
-      "speakers": [114],
+    "146": {
+      "speakers": [158],
       "main_title": "Race Conditions in JavaScript Apps",
       "alternative_titles": [],
       "categories": [1],
@@ -945,8 +1323,8 @@
       "video_upload_date": "2019-07-04",
       "conferences": [4]
     },
-    "105": {
-      "speakers": [115],
+    "147": {
+      "speakers": [159],
       "main_title": "The *Other* Spec: Internationalization in JavaScript",
       "alternative_titles": [],
       "categories": [1],
@@ -954,8 +1332,8 @@
       "video_upload_date": "2019-07-09",
       "conferences": [4]
     },
-    "106": {
-      "speakers": [116],
+    "148": {
+      "speakers": [160],
       "main_title": "The Different Transformation Stages of AOT Compilers",
       "alternative_titles": [],
       "categories": [1],
@@ -963,8 +1341,8 @@
       "video_upload_date": "2019-07-10",
       "conferences": [4]
     },
-    "107": {
-      "speakers": [117],
+    "149": {
+      "speakers": [161],
       "main_title": "Web Assembly: The Future of JS and a Multi-Language Web",
       "alternative_titles": [],
       "categories": [1],
@@ -972,7 +1350,7 @@
       "video_upload_date": "2019-07-06",
       "conferences": [4]
     },
-    "108": {
+    "150": {
       "speakers": [12],
       "main_title": "npm's Laurie Voss: JavaScript - Who, What, Where, Why and Next",
       "alternative_titles": [],
@@ -980,6 +1358,5 @@
       "video_url": "https://www.youtube.com/watch?v=H8IaDYrv-3E",
       "video_upload_date": "2019-07-11",
       "conferences": [4]
-    }
   }
 }
