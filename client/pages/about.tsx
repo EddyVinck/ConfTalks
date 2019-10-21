@@ -22,6 +22,15 @@ const About = () => {
           <Section>
             <h1>About ConfTalks</h1>
             <p>
+              Read more about{" "}
+              <a
+                href="https://dev.to/eddyvinck/i-created-my-first-open-source-project-in-7-days-and-released-it-today-12d5"
+                target="_blank"
+              >
+                the ConfTalks release on DEV.to!
+              </a>
+            </p>
+            <p>
               When I got the idea for ConfTalks, I wrote down the problem I
               wanted to solve:
             </p>
@@ -43,7 +52,12 @@ const About = () => {
                 target="_blank"
               >
                 community Slack!
+              </a>{" "}
+              and{" "}
+              <a href="https://twitter.com/Veinq_" target="_blank">
+                follow me on Twitter
               </a>
+              .
             </p>
           </Section>
         </Container>

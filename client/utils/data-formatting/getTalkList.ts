@@ -10,9 +10,10 @@ const getTalkList = () => {
   let temp = [];
   for (const talkId in combinedData) {
     if (combinedData.hasOwnProperty(talkId)) {
-      const categories = combinedData[talkId].categories.map(
-        catId => talkCategories.categories[catId]
-      );
+      const categories = combinedData[talkId].categories.map(catId => ({
+        id: catId,
+        ...talkCategories.categories[catId]
+      }));
       const speakersList = combinedData[talkId].speakers.map(speakerId => ({
         id: speakerId,
         ...speakers.speakers[speakerId]

@@ -98,6 +98,7 @@ export const initialFilters = {
   onlyShowBookmarkedTalks: false,
   speakerName: "",
   conference_id: "",
+  category_id: "",
   talkTitle: ""
 };
 export type initialFilters = typeof initialFilters;
@@ -114,6 +115,7 @@ const HeadTags = () => (
 );
 
 const filterTalks = (talkList, filters) => {
+  console.log({ talkList, filters });
   const filtered = talkList.filter(talk => {
     if (filters.onlyShowRecordedTalks) {
       if (talk.video_url === "" || !getYouTubeIdFromUrl(talk.video_url))
@@ -127,6 +129,13 @@ const filterTalks = (talkList, filters) => {
         talk.conferences.find(
           conf => String(conf.id) === filters.conference_id
         ) === undefined
+      )
+        return null;
+    }
+    if (filters.category_id) {
+      if (
+        talk.categories.find(cat => String(cat.id) === filters.category_id) ===
+        undefined
       )
         return null;
     }

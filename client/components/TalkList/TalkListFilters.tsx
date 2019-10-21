@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import { FilterContext, initialFilters } from "../../pages";
 import { conferences } from "../../data/conferences.json";
+import { categories } from "../../data/talk_categories.json";
 import { sortDatesDescending } from "../../utils/sorting/sortDatesDescending";
 import debounce from "lodash-es/debounce";
 import { FormStyles } from "../forms";
@@ -12,6 +13,15 @@ for (const key in conferences) {
   if (conferences.hasOwnProperty(key)) {
     const conf = conferences[key];
     conferencesList.push({ id: key, ...conf });
+  }
+}
+
+let categoryList = [];
+
+for (const key in categories) {
+  if (categories.hasOwnProperty(key)) {
+    const category = categories[key];
+    categoryList.push({ id: key, ...category });
   }
 }
 
@@ -62,11 +72,30 @@ const TalkListFilters = () => {
         }}
       >
         <option value="">Any conference</option>
-        {conferencesList.map(conf => (
-          <option key={conf.id} value={conf.id}>
-            {conf.name}
-          </option>
-        ))}
+        {conferencesList
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map(conf => (
+            <option key={conf.id} value={conf.id}>
+              {conf.name}
+            </option>
+          ))}
+      </select>
+      <label htmlFor="category-name">Category</label>
+      <select
+        name="category-name"
+        id="category-name"
+        onChange={(event: React.ChangeEvent<HTMLSelectElement>) => {
+          updateFilters({ category_id: event.target.value });
+        }}
+      >
+        <option value="">Any category</option>
+        {categoryList
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map(category => (
+            <option key={category.id} value={category.id}>
+              {category.name}
+            </option>
+          ))}
       </select>
       <label htmlFor="only-bookmarked-talks">
         Only bookmarked talks?
