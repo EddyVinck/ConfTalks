@@ -1,4 +1,5 @@
 {
+  "$schema": "./speakers.schema.json",
   "speakers": {
     "0": { "name": "Una Kravets" },
     "1": { "name": "Sher Minn Chong" },

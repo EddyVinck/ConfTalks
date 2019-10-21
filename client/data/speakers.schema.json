@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "description": "The schema to validate this file",
+      "type": "string"
+    },
+    "speakers": {
+      "description": "A list of speakers",
+      "type": "object",
+      "additionalProperties": false,
+      "patternProperties": {
+        "^\\d*$": {
+          "description": "Information about a speaker",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "description": "The name of the speaker",
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

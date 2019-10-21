@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "description": "The schema to validate this file",
+      "type": "string"
+    },
+    "talks": {
+      "description": "A list of talks",
+      "type": "object",
+      "additionalProperties": false,
+      "patternProperties": {
+        "^\\d*$": {
+          "description": "Information about a talk",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "speakers": {
+              "description": "The speaker of the talk",
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "number"
+              }
+            },
+            "main_title": {
+              "description": "Main title of the talk",
+              "type": "string"
+            },
+            "alternative_titles": {
+              "description": "Alternative titles for the talk",
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string"
+              }
+            },
+            "categories": {
+              "description": "A list of categories for this talk",
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "number"
+              }
+            },
+            "video_url": {
+              "description": "A URL to a video of the talk",
+              "type": "string"
+            },
+            "video_upload_date": {
+              "description": "The date when the video was uploaded",
+              "type": "string"
+            },
+            "conferences": {
+              "description": "A list of conferences where this talk was held",
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

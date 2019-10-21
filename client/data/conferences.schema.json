@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "description": "The schema to validate this file",
+      "type": "string"
+    },
+    "conferences": {
+      "description": "A list of conferences",
+      "type": "object",
+      "additionalProperties": false,
+      "patternProperties": {
+        "^\\d*$": {
+          "description": "Information about a conference",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "description": "The name of the conference",
+              "type": "string"
+            },
+            "start_date": {
+              "description": "The start date of the conference",
+              "type": "string"
+            },
+            "end_date": {
+              "description": "The end date of the conference",
+              "type": "string"
+            },
+            "locations": {
+              "description": "The location or locations of the conference",
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

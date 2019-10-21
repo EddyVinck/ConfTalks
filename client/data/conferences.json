@@ -1,4 +1,5 @@
 {
+  "$schema": "./conferences.schema.json",
   "conferences": {
     "0": {
       "name": "JSConf EU 2018",

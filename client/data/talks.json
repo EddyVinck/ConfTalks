@@ -1,4 +1,5 @@
 {
+  "$schema": "./talks.schema.json",
   "talks": {
     "0": {
       "speakers": [0],
