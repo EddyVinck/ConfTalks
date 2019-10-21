@@ -1135,7 +1135,7 @@
       "conferences": [0]
     },
     "126": {
-      "speakers": [88, 97],
+      "speakers": [88, 141],
       "main_title": "Loop of Fortune",
       "alternative_titles": [],
       "categories": [1],
@@ -1144,7 +1144,7 @@
       "conferences": [4]
     },
     "127": {
-      "speakers": [141],
+      "speakers": [142],
       "main_title": "artistic.css",
       "alternative_titles": [],
       "categories": [0, 1],
@@ -1153,7 +1153,7 @@
       "conferences": [4]
     },
     "128": {
-      "speakers": [142],
+      "speakers": [143],
       "main_title": "Designing Components for Fun, Profit and Sanity",
       "alternative_titles": [],
       "categories": [1, 6],
@@ -1162,15 +1162,6 @@
       "conferences": [4]
     },
     "129": {
-      "speakers": [143],
-      "main_title": "Variable Fonts and the Flexible Nature of Screens and Devices",
-      "alternative_titles": [],
-      "categories": [0],
-      "video_url": "https://www.youtube.com/watch?v=BBWMIxXqr-E",
-      "video_upload_date": "2019-06-20",
-      "conferences": [4]
-    },
-    "139": {
       "speakers": [144],
       "main_title": "Variable Fonts and the Flexible Nature of Screens and Devices",
       "alternative_titles": [],
@@ -1179,7 +1170,7 @@
       "video_upload_date": "2019-06-20",
       "conferences": [4]
     },
-    "131": {
+    "130": {
       "speakers": [68],
       "main_title": "Web Components and the AOM",
       "alternative_titles": [],
@@ -1188,7 +1179,7 @@
       "video_upload_date": "2019-06-25",
       "conferences": [4]
     },
-    "132": {
+    "131": {
       "speakers": [90],
       "main_title": "Navigating the Wild Seas of Native ES Modules",
       "alternative_titles": [],
@@ -1197,7 +1188,7 @@
       "video_upload_date": "2019-06-21",
       "conferences": [4]
     },
-    "133": {
+    "132": {
       "speakers": [145],
       "main_title": "The Browser as a Modular, Networked Video Synthesizer",
       "alternative_titles": [],
@@ -1206,7 +1197,7 @@
       "video_upload_date": "2019-06-20",
       "conferences": [4]
     },
-    "134": {
+    "133": {
       "speakers": [146],
       "main_title": "Real World Problems - Internet beyond the 1st World Bubble",
       "alternative_titles": [],
@@ -1215,7 +1206,7 @@
       "video_upload_date": "2019-06-23",
       "conferences": [4]
     },
-    "135": {
+    "134": {
       "speakers": [147],
       "main_title": "Music and Art with ML",
       "alternative_titles": [],
@@ -1224,7 +1215,7 @@
       "video_upload_date": "2019-06-26",
       "conferences": [4]
     },
-    "136": {
+    "135": {
       "speakers": [148],
       "main_title": "State Machines Meet React Hooks",
       "alternative_titles": [],
@@ -1233,7 +1224,7 @@
       "video_upload_date": "2019-06-28",
       "conferences": [4]
     },
-    "137": {
+    "136": {
       "speakers": [149],
       "main_title": "Machine Learning for Front-End Developers",
       "alternative_titles": [],
@@ -1242,7 +1233,7 @@
       "video_upload_date": "2019-06-30",
       "conferences": [4]
     },
-    "138": {
+    "137": {
       "speakers": [150],
       "main_title": "Rapid Development on Offline First Data Sync",
       "alternative_titles": [],
@@ -1251,7 +1242,7 @@
       "video_upload_date": "2019-07-06",
       "conferences": [4]
     },
-    "139": {
+    "138": {
       "speakers": [151],
       "main_title": "Introduction to the Component-based API",
       "alternative_titles": [],
@@ -1260,7 +1251,7 @@
       "video_upload_date": "2019-07-06",
       "conferences": [4]
     },
-    "140": {
+    "139": {
       "speakers": [152],
       "main_title": "Getting Closure on React Hooks",
       "alternative_titles": [],
@@ -1269,7 +1260,7 @@
       "video_upload_date": "2019-07-01",
       "conferences": [4]
     },
-    "141": {
+    "140": {
       "speakers": [153],
       "main_title": "Making It All Fit Together with React and GraphQL",
       "alternative_titles": [],
@@ -1278,7 +1269,7 @@
       "video_upload_date": "2019-07-12",
       "conferences": [4]
     },
-    "142": {
+    "141": {
       "speakers": [154],
       "main_title": "Evan You on Vue.js: Seeking the Balance in Framework Design",
       "alternative_titles": [],
@@ -1287,7 +1278,7 @@
       "video_upload_date": "2019-07-13",
       "conferences": [4]
     },
-    "143": {
+    "142": {
       "speakers": [155],
       "main_title": "Learning From Machines",
       "alternative_titles": [],
@@ -1296,7 +1287,7 @@
       "video_upload_date": "2019-07-03",
       "conferences": [4]
     },
-    "144": {
+    "143": {
       "speakers": [156],
       "main_title": "The Future of JavaScript and AI",
       "alternative_titles": [],
@@ -1305,7 +1296,7 @@
       "video_upload_date": "2019-07-07",
       "conferences": [4]
     },
-    "145": {
+    "144": {
       "speakers": [157],
       "main_title": "Double the Beyoncé: Navigating Numbers in JavaScript",
       "alternative_titles": [],
@@ -1314,7 +1305,7 @@
       "video_upload_date": "2019-07-08",
       "conferences": [4]
     },
-    "146": {
+    "145": {
       "speakers": [158],
       "main_title": "Race Conditions in JavaScript Apps",
       "alternative_titles": [],
@@ -1323,7 +1314,7 @@
       "video_upload_date": "2019-07-04",
       "conferences": [4]
     },
-    "147": {
+    "146": {
       "speakers": [159],
       "main_title": "The *Other* Spec: Internationalization in JavaScript",
       "alternative_titles": [],
@@ -1332,7 +1323,7 @@
       "video_upload_date": "2019-07-09",
       "conferences": [4]
     },
-    "148": {
+    "147": {
       "speakers": [160],
       "main_title": "The Different Transformation Stages of AOT Compilers",
       "alternative_titles": [],
@@ -1341,7 +1332,7 @@
       "video_upload_date": "2019-07-10",
       "conferences": [4]
     },
-    "149": {
+    "148": {
       "speakers": [161],
       "main_title": "Web Assembly: The Future of JS and a Multi-Language Web",
       "alternative_titles": [],
@@ -1350,7 +1341,7 @@
       "video_upload_date": "2019-07-06",
       "conferences": [4]
     },
-    "150": {
+    "149": {
       "speakers": [12],
       "main_title": "npm's Laurie Voss: JavaScript - Who, What, Where, Why and Next",
       "alternative_titles": [],
