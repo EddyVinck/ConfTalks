@@ -25,6 +25,12 @@
       "locations": ["Arena Berlin. Eichenstraße 4, 12435 Berlin, Germany"]
     },
     "4": {
+      "name": "JSConf Asia 2019",
+      "start_date": "2019-06-14",
+      "end_date": "2019-06-16",
+      "locations": ["LASALLE College of the Arts, 1 McNally St, Singapore"]
+    },
+    "5": {
       "name": "CSS Conf EU 2018 ",
       "start_date": "2018-06-01",
       "end_date": "2018-06-02",

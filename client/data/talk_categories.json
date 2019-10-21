@@ -35,6 +35,10 @@
     "8": {
       "name": "Progressive Web App",
       "alternative_spelling": ["pwa"]
+    },
+    "9": {
+      "name": "Design Systems",
+      "alternative_spelling": []
     }
   }
 }
