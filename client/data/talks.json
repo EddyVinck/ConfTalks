@@ -1349,6 +1349,105 @@
       "video_url": "https://www.youtube.com/watch?v=H8IaDYrv-3E",
       "video_upload_date": "2019-07-11",
       "conferences": [4]
+    },
+    "150": {
+      "speakers": [162],
+      "main_title": "It’s Dangerous To Go Alone! Take This Team",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=2aPjsb-kIks",
+      "video_upload_date": "2018-06-19",
+      "conferences": [5]
+    },
+    "151": {
+      "speakers": [163],
+      "main_title": "Preprocessors, Components, and CSS in JS",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=vLBBq6oizEI",
+      "video_upload_date": "2018-06-19",
+      "conferences": [5]
+    },
+    "152": {
+      "speakers": [88],
+      "main_title": "The Web Is Not Just Left-to-Right",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=YpqKrVcth34",
+      "video_upload_date": "2018-07-09",
+      "conferences": [5]
+    },
+    "153": {
+      "speakers": [164],
+      "main_title": "Refactoring with CSS Grid",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=tmQuGgtq5SI",
+      "video_upload_date": "2018-07-09",
+      "conferences": [5]
+    },
+    "154": {
+      "speakers": [165],
+      "main_title": "We have DevTools. What about DesignTools?",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=oGobLmA_WVQ",
+      "video_upload_date": "2018-07-09",
+      "conferences": [5]
+    },
+    "155": {
+      "speakers": [7],
+      "main_title": "Simulating Low-Vision Conditions with CSS, SVG and WebRTC",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=aWoeK2SFSpI",
+      "video_upload_date": "2018-07-09",
+      "conferences": [5]
+    },
+    "156": {
+      "speakers": [167, 168],
+      "main_title": "Generating Colors with JS and CSS Custom Properties",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=zi6L0ZqrKfA",
+      "video_upload_date": "2018-07-09",
+      "conferences": [5]
+    },
+    "157": {
+      "speakers": [169],
+      "main_title": "The Algorithms of CSS",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=cCeqH6m_K20",
+      "video_upload_date": "2018-07-09",
+      "conferences": [5]
+    },
+    "158": {
+      "speakers": [170],
+      "main_title": "Container Queries",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=0wA4CMo9_EU",
+      "video_upload_date": "2018-07-09",
+      "conferences": [5]
+    },
+    "159": {
+      "speakers": [171],
+      "main_title": "Design Systems as Facilitators",
+      "alternative_titles": [],
+      "categories": [0, 9],
+      "video_url": "https://www.youtube.com/watch?v=RCdGIrgSaBQ",
+      "video_upload_date": "2018-07-09",
+      "conferences": [5]
+    },
+    "160": {
+      "speakers": [166],
+      "main_title": "Strategy Guide for CSS Custom Properties",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=RCdGIrgSaBQ",
+      "video_upload_date": "2018-07-09",
+      "conferences": [5]
     }
   }
 }
