@@ -16,6 +16,7 @@
           "description": "Information about a speaker",
           "type": "object",
           "additionalProperties": false,
+          "required": ["name"],
           "properties": {
             "name": {
               "description": "The name of the speaker",

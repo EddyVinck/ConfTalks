@@ -16,6 +16,7 @@
           "description": "Information about a conference",
           "type": "object",
           "additionalProperties": false,
+          "required": ["name", "start_date", "end_date", "locations"],
           "properties": {
             "name": {
               "description": "The name of the conference",

@@ -16,6 +16,15 @@
           "description": "Information about a talk",
           "type": "object",
           "additionalProperties": false,
+          "required": [
+            "speakers",
+            "main_title",
+            "alternative_titles",
+            "categories",
+            "video_url",
+            "video_upload_date",
+            "conferences"
+          ],
           "properties": {
             "speakers": {
               "description": "The speaker of the talk",

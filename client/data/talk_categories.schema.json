@@ -16,6 +16,7 @@
           "description": "Information about a talk category",
           "type": "object",
           "additionalProperties": false,
+          "required": ["name", "alternative_spelling"],
           "properties": {
             "name": {
               "description": "The name of the talk category",
