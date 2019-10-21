@@ -1453,7 +1453,7 @@
       "speakers": [196],
       "main_title": "Requisite React",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=tO8qHlr6Wqg",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1462,7 +1462,7 @@
       "speakers": [197],
       "main_title": "Building React Native",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=5sQw8C36Xa4",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1471,7 +1471,7 @@
       "speakers": [198],
       "main_title": "Refactoring React",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=2Dw8gA60d_k",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1480,7 +1480,7 @@
       "speakers": [199],
       "main_title": "Practical Performance for React (Native)",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=jTdi9oTM22c",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1489,7 +1489,7 @@
       "speakers": [200],
       "main_title": "Designing with React",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=orPcyJMJh7Y",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1498,7 +1498,7 @@
       "speakers": [201],
       "main_title": "Sharing Code Between React and React-Native: What Not to Share",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=QO7SkFqRd7s",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1516,7 +1516,7 @@
       "speakers": [203],
       "main_title": "Building for a Bigger World Than Mobile",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=qBANCoU6Cjs",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1525,7 +1525,7 @@
       "speakers": [204],
       "main_title": "Tech Regrets at Spectrum",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=UC-bUkbuvZs",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1534,7 +1534,7 @@
       "speakers": [205],
       "main_title": "Make Your React Native Apps Accessible",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=FqKlsmoaxs0",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1552,7 +1552,7 @@
       "speakers": [207],
       "main_title": "Native Web Apps: React and WebAssembly to Rewrite Native Apps",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=G_cTW7zQtCc",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1570,7 +1570,7 @@
       "speakers": [209],
       "main_title": "Lightning fast SSR React apps with top perceived performance and no (client side) JavaScript",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=cSaFLPciWP8",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1579,7 +1579,7 @@
       "speakers": [210],
       "main_title": "Demystifying server-rendered React apps: Performance & Security",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=cSaFLPciWP8",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1597,7 +1597,7 @@
       "speakers": [212],
       "main_title": "Speeding up React SSR",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=FaJosYCMnRA",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1606,7 +1606,7 @@
       "speakers": [213],
       "main_title": "Full-stack React Native in the Era of Serverless Computing",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=VQ-umMTEQq4",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1624,7 +1624,7 @@
       "speakers": [215],
       "main_title": "Demystifying Complex Animations Creation Process in React Native",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=aOiq-xNSqRo",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1633,7 +1633,7 @@
       "speakers": [97],
       "main_title": "Painting Pixels with WebGL with React Hooks",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=1NZvwicGK4U",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
@@ -1642,7 +1642,7 @@
       "speakers": [216],
       "main_title": "Strangling Legacy with React Native",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [18],
       "video_url": "https://www.youtube.com/watch?v=sBbRQK58Fg8",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
