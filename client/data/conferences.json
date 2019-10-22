@@ -41,6 +41,12 @@
       "start_date": "2019-10-16",
       "end_date": "2019-10-18",
       "locations": ["City View. Metreon, San Francisco, United States"]
+    },
+    "7": {
+      "name": "React Amsterdam 2019",
+      "start_date": "2019-04-10",
+      "end_date": "2019-04-12",
+      "locations": ["Kromhouthal. Gedempt Hamerkanaal 231, 1021 KP Amsterdam"]
     }
   }
 }
