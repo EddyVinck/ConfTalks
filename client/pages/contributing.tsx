@@ -44,6 +44,14 @@ const Contributing = () => {
                 community Slack!
               </a>
             </p>
+            <h2 id="development-related">
+              All development related topics can be contributed
+            </h2>
+            <p>
+              Feel free to suggest and contribute any conference if it has
+              something to do with writing code or managing code. Topics like
+              devops, for example, are a great fit for ConfTalks!
+            </p>
           </Section>
         </Container>
         <NewsletterSection />
