@@ -40,6 +40,38 @@
     "9": {
       "name": "Design Systems",
       "alternative_spelling": []
+    },
+    "10": {
+      "name": "Markup",
+      "alternative_spelling": []
+    },
+    "11": {
+      "name": "Wordpress",
+      "alternative_spelling": []
+    },
+    "12": {
+      "name": "Digital Experiences",
+      "alternative_spelling": []
+    },
+    "13": {
+      "name": "Netlify",
+      "alternative_spelling": []
+    },
+    "14": {
+      "name": "Stackbit",
+      "alternative_spelling": []
+    },
+    "15": {
+      "name": "JAMstack",
+      "alternative_spelling": []
+    },
+    "16": {
+      "name": "Git",
+      "alternative_spelling": []
+    },
+    "17": {
+      "name": "Typography",
+      "alternative_spelling": []
     }
   }
 }

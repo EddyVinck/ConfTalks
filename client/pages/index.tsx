@@ -23,6 +23,9 @@ import AsideBlock from "../components/layout/AsideBlock";
 import { EmailOctopus } from "../components/forms/EmailOctopus";
 import ThreeColumnLayout from "../components/layout/ThreeColumnLayout";
 import { getYouTubeIdFromUrl } from "../utils/youtube/getYouTubeIdFromUrl";
+import Link from "next/link";
+import { PaginationStyles } from "../components/Pagination";
+import LinkButton from "../components/generic/LinkButton";
 
 interface Conference {
   id: number;
@@ -115,7 +118,6 @@ const HeadTags = () => (
 );
 
 const filterTalks = (talkList, filters) => {
-  console.log({ talkList, filters });
   const filtered = talkList.filter(talk => {
     if (filters.onlyShowRecordedTalks) {
       if (talk.video_url === "" || !getYouTubeIdFromUrl(talk.video_url))
@@ -176,7 +178,7 @@ const Home = () => {
     activePage: 1,
     boundaryRange: 1,
     siblingRange: 1,
-    showEllipsis: true,
+    showEllipsis: false,
     showFirstAndLastNav: true,
     showPreviousAndNextNav: true
   });
@@ -240,8 +242,11 @@ const Home = () => {
                   —{" "}
                   <i>&ldquo;Only a few of these talks interest me...&rdquo;</i>{" "}
                   — <i>&ldquo;Is it worth my time?&rdquo;</i> ConfTalks is an
-                  open source index of already recorded and scheduled conference
-                  talks to help you decide if you should go.
+                  open source index of already recorded and scheduled{" "}
+                  <Link href="/contributing#development-related">
+                    <a>development related</a>
+                  </Link>{" "}
+                  related conference talks to help you decide if you should go.
                 </p>
               </div>
             </ContentWrapper>
@@ -286,25 +291,29 @@ const Home = () => {
                     </AsideBlock>
                     <AsideBlock className="join-community">
                       <h2>Newsletter</h2>
-                      <p>Get the latest news!</p>
                       <EmailOctopus className="full-width-fields" />
                     </AsideBlock>
                   </aside>
                   <div className="talk-list">
-                    <Pagination
-                      id="videos"
-                      activePage={activePage}
-                      boundaryRange={boundaryRange}
-                      // @ts-ignore
-                      onPageChange={handlePaginationChange}
-                      siblingRange={siblingRange}
-                      totalPages={totalPages}
-                      ellipsisItem={showEllipsis ? undefined : null}
-                      firstItem={null}
-                      lastItem={null}
-                      prevItem={showPreviousAndNextNav ? undefined : null}
-                      nextItem={showPreviousAndNextNav ? undefined : null}
-                    />
+                    <PaginationStyles>
+                      <Pagination
+                        id="videos"
+                        activePage={activePage}
+                        boundaryRange={boundaryRange}
+                        // @ts-ignore
+                        onPageChange={handlePaginationChange}
+                        siblingRange={siblingRange}
+                        totalPages={totalPages}
+                        ellipsisItem={showEllipsis ? undefined : null}
+                        firstItem={null}
+                        lastItem={null}
+                        prevItem={showPreviousAndNextNav ? undefined : null}
+                        nextItem={showPreviousAndNextNav ? undefined : null}
+                      />
+                    </PaginationStyles>
+                    <LinkButton href="/contributing" variant="primary">
+                      Contribute talks
+                    </LinkButton>
                     <TalkListStyles>
                       <TalkList
                         offset={offset}

@@ -12,8 +12,9 @@ const Hero = styled.section({
   },
   "p, label": {
     color: "#185146",
-    i: {
-      // color: "#027d60"
+    a: {
+      color: "inherit",
+      textDecoration: "underline"
     }
   }
 });
