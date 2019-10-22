@@ -1,1 +1,1 @@
-![10]{https://imgur.com/JP10EdI}
+![10](https://imgur.com/JP10EdI)
