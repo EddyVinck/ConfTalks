@@ -1516,7 +1516,7 @@
       "speakers": [179],
       "main_title": "Supercharging JAMstack apps with multiple APIs via GraphQL Pipelines",
       "alternative_titles": [],
-      "categories": [4,15],
+      "categories": [4, 15],
       "video_url": "https://youtu.be/O3j1ho9FBkk",
       "video_upload_date": "2019-10-16",
       "conferences": [6]
@@ -1862,6 +1862,222 @@
       "video_url": "https://www.youtube.com/watch?v=sBbRQK58Fg8",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
+    },
+    "207": {
+      "speakers": [217],
+      "main_title": "HI and AI",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=AGtDAO_a9Mk",
+      "video_upload_date": "2019-06-15",
+      "conferences": [8]
+    },
+    "208": {
+      "speakers": [218],
+      "main_title": "How to Cheat at Life with JS, CV, and AR",
+      "alternative_titles": [],
+      "categories": [1, 20],
+      "video_url": "https://www.youtube.com/watch?v=5vU6shMFiPA",
+      "video_upload_date": "2019-06-15",
+      "conferences": [8]
+    },
+    "209": {
+      "speakers": [219],
+      "main_title": "Offline P2P Mapping",
+      "alternative_titles": [],
+      "categories": [20],
+      "video_url": "https://www.youtube.com/watch?v=_ACizzhxVqY",
+      "video_upload_date": "2019-06-15",
+      "conferences": [8]
+    },
+    "210": {
+      "speakers": [220],
+      "main_title": "The Immersive Web in 2019",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=i8iylI6JDmc",
+      "video_upload_date": "2019-06-16",
+      "conferences": [8]
+    },
+    "211": {
+      "speakers": [145],
+      "main_title": "The Browser as a Modular, Networked Video Synthesizer",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=icrY_LURPY4",
+      "video_upload_date": "2019-06-15",
+      "conferences": [8]
+    },
+    "212": {
+      "speakers": [221],
+      "main_title": "Collaborative, Remote, Design Working-Sessions",
+      "alternative_titles": [],
+      "categories": [22],
+      "video_url": "https://www.youtube.com/watch?v=61ji5L3GMeI",
+      "video_upload_date": "2019-06-16",
+      "conferences": [8]
+    },
+    "213": {
+      "speakers": [222],
+      "main_title": "Back to the Future of JS ||",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=yWMlLhx3foI",
+      "video_upload_date": "2019-06-16",
+      "conferences": [8]
+    },
+    "214": {
+      "speakers": [152],
+      "main_title": "I Can Babel Macros (and So Can You!)",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=1WNT5RCENfo",
+      "video_upload_date": "2019-06-15",
+      "conferences": [8]
+    },
+    "215": {
+      "speakers": [223],
+      "main_title": "Adopting Typescript at Scale",
+      "alternative_titles": [],
+      "categories": [23],
+      "video_url": "https://www.youtube.com/watch?v=P-J9Eg7hJwE",
+      "video_upload_date": "2019-06-16",
+      "conferences": [8]
+    },
+    "216": {
+      "speakers": [109, 224],
+      "main_title": "New Adventures for WASM",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=MowRVWn02HM",
+      "video_upload_date": "2019-06-15",
+      "conferences": [8]
+    },
+    "217": {
+      "speakers": [225],
+      "main_title": "Bubble Up Your Node.JS I/O",
+      "alternative_titles": [],
+      "categories": [24],
+      "video_url": "https://www.youtube.com/watch?v=rYqh5LYfw0Y",
+      "video_upload_date": "2019-06-15",
+      "conferences": [8]
+    },
+    "218": {
+      "speakers": [6],
+      "main_title": "Embedding V8 in the Real World",
+      "alternative_titles": [],
+      "categories": [24, 1],
+      "video_url": "https://www.youtube.com/watch?v=yde3oKsWltw",
+      "video_upload_date": "2019-06-16",
+      "conferences": [8]
+    },
+    "219": {
+      "speakers": [226],
+      "main_title": "What Tamagotchis Can Teach You About ES6",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=09V_JAGTs2E",
+      "video_upload_date": "2019-06-24",
+      "conferences": [8]
+    },
+    "220": {
+      "speakers": [227],
+      "main_title": "Building Up the Electron Project: Team and Community Engineering",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=I4ugdJRCj9Q",
+      "video_upload_date": "2019-06-24",
+      "conferences": [8]
+    },
+    "221": {
+      "speakers": [228],
+      "main_title": "How to Calculate the Phase of the Moon",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=JybbgAz3meQ",
+      "video_upload_date": "2019-06-24",
+      "conferences": [8]
+    },
+    "222": {
+      "speakers": [229],
+      "main_title": "GraphQL, the Domain Way",
+      "alternative_titles": [],
+      "categories": [4],
+      "video_url": "https://www.youtube.com/watch?v=UM-RhglTyKA",
+      "video_upload_date": "2019-06-24",
+      "conferences": [8]
+    },
+    "223": {
+      "speakers": [230],
+      "main_title": "Improving React Native Performance at Facebook",
+      "alternative_titles": [],
+      "categories": [2, 25],
+      "video_url": "https://www.youtube.com/watch?v=g3jwd0kAIDU",
+      "video_upload_date": "2019-06-24",
+      "conferences": [8]
+    },
+    "224": {
+      "speakers": [231],
+      "main_title": "How to Make Your Website Not Ugly",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=F4G2i4eS7x0",
+      "video_upload_date": "2019-06-24",
+      "conferences": [8]
+    },
+    "225": {
+      "speakers": [],
+      "main_title": "JSParty Live at JSConf Hawaii 2019 on the Future of JavaScript",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=HkRrJvvnlvU",
+      "video_upload_date": "2019-06-24",
+      "conferences": [8]
+    },
+    "226": {
+      "speakers": [232],
+      "main_title": "Where Did All My Servers Go?",
+      "alternative_titles": [],
+      "categories": [26],
+      "video_url": "https://www.youtube.com/watch?v=LFUnn-8IAjQ",
+      "video_upload_date": "2019-06-24",
+      "conferences": [8]
+    },
+    "227": {
+      "speakers": [233],
+      "main_title": "How (Not) to Fail at Accessibility",
+      "alternative_titles": [],
+      "categories": [7],
+      "video_url": "https://www.youtube.com/watch?v=Mnc8ck_DuaE",
+      "video_upload_date": "2019-06-24",
+      "conferences": [8]
+    },
+    "228": {
+      "speakers": [234],
+      "main_title": "The Teenage Mutant Ninja Turtle Guide to Color Theory",
+      "alternative_titles": [],
+      "categories": [9],
+      "video_url": "https://www.youtube.com/watch?v=NdKAUXAvt8E",
+      "video_upload_date": "2019-06-24",
+      "conferences": [8]
+    },
+    "229": {
+      "speakers": [235],
+      "main_title": "Navigating Unconscious Bias",
+      "alternative_titles": [],
+      "categories": [27],
+      "video_url": "https://www.youtube.com/watch?v=VGcqkF2XDgA",
+      "video_upload_date": "2019-06-24",
+      "conferences": [8]
+    },
+    "230": {
+      "speakers": [236],
+      "main_title": "JavaScript is AsynchroWAT?",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=el9fhSbby5E",
+      "video_upload_date": "2019-06-24",
+      "conferences": [8]
     }
   }
 }
