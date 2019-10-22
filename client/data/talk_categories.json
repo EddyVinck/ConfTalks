@@ -39,6 +39,22 @@
     "9": {
       "name": "Design Systems",
       "alternative_spelling": []
+    },
+    "10": {
+      "name": "Testing",
+      "alternative_spelling": []
+    },
+    "11": {
+      "name": "Security",
+      "alternative_spelling": []
+    },
+    "12": {
+      "name": "Backend",
+      "alternative_spelling": ["Back-end", "Back end"]
+    }, 
+    "13": {
+      "name": "Debugging",
+      "alternative_spelling": []
     }
   }
 }
