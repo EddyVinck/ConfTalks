@@ -36,6 +36,12 @@
       "end_date": "2018-06-02",
       "locations": ["Arena Berlin. Eichenstraße 4, 12435 Berlin, Germany"]
     },
+    "6": {
+      "name": "JAMstack Conf SF 2019",
+      "start_date": "2019-10-16",
+      "end_date": "2019-10-18",
+      "locations": ["City View. Metreon, San Francisco, United States"]ter
+    },
     "7": {
       "name": "React Amsterdam 2019",
       "start_date": "2019-04-10",

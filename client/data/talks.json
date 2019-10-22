@@ -1449,6 +1449,222 @@
       "video_upload_date": "2018-07-09",
       "conferences": [5]
     },
+    "161": {
+      "speakers": [172],
+      "main_title": "JAMstack at Scale: why pre-built markup is critical",
+      "alternative_titles": [],
+      "categories": [10, 15],
+      "video_url": "https://youtu.be/LnYrJ7X00XM",
+      "video_upload_date": "2019-10-16",
+      "conferences": [6]
+    },
+    "162": {
+      "speakers": [173],
+      "main_title": "What got us here, won't get us there",
+      "alternative_titles": [],
+      "categories": [3, 12, 15],
+      "video_url": "https://youtu.be/6VGu4PvEBag",
+      "video_upload_date": "2019-10-16",
+      "conferences": [6]
+    },
+    "163": {
+      "speakers": [174],
+      "main_title": "JAMstack with WordPress",
+      "alternative_titles": [],
+      "categories": [11, 15],
+      "video_url": "https://youtu.be/g0OfnWCcBk4",
+      "video_upload_date": "2019-10-16",
+      "conferences": [6]
+    },
+    "164": {
+      "speakers": [175],
+      "main_title": "Static generated sites === great performance. What are you waiting for?",
+      "alternative_titles": [],
+      "categories": [2, 5],
+      "video_url": "https://youtu.be/H793eyVM_04",
+      "video_upload_date": "2019-10-16",
+      "conferences": [6]
+    },
+    "165": {
+      "speakers": [176],
+      "main_title": "Building e-commerce storefronts on the JAMstack",
+      "alternative_titles": [],
+      "categories": [8, 15],
+      "video_url": "https://youtu.be/Wnm_ErMrjDM",
+      "video_upload_date": "2019-10-16",
+      "conferences": [6]
+    },
+    "166": {
+      "speakers": [177],
+      "main_title": "Introducing Netlify Build Plugins",
+      "alternative_titles": [],
+      "categories": [13, 15],
+      "video_url": "https://youtu.be/4m6Hi4_qEVE",
+      "video_upload_date": "2019-10-16",
+      "conferences": [6]
+    },
+    "167": {
+      "speakers": [177],
+      "main_title": "Lightning launch - Stackbit",
+      "alternative_titles": [],
+      "categories": [8, 14, 15],
+      "video_url": "https://youtu.be/fsscw6Viv_c",
+      "video_upload_date": "2019-10-16",
+      "conferences": [6]
+    },
+    "168": {
+      "speakers": [179],
+      "main_title": "Supercharging JAMstack apps with multiple APIs via GraphQL Pipelines",
+      "alternative_titles": [],
+      "categories": [4,15],
+      "video_url": "https://youtu.be/O3j1ho9FBkk",
+      "video_upload_date": "2019-10-16",
+      "conferences": [6]
+    },
+    "169": {
+      "speakers": [180],
+      "main_title": "Building a shopping cart on a static website",
+      "alternative_titles": [],
+      "categories": [1, 2, 8, 15],
+      "video_url": "https://youtu.be/JO48ooTpOOA",
+      "video_upload_date": "2019-10-16",
+      "conferences": [6]
+    },
+    "170": {
+      "speakers": [181],
+      "main_title": "The visual future of content editing",
+      "alternative_titles": [],
+      "categories": [6],
+      "video_url": "https://youtu.be/iPDCmbaEF0Y",
+      "video_upload_date": "2019-10-16",
+      "conferences": [6]
+    },
+    "171": {
+      "speakers": [182],
+      "main_title": "Migrating to JAMstack and OhShitGit!",
+      "alternative_titles": [],
+      "categories": [15, 16],
+      "video_url": "https://youtu.be/PqlhYVqLDm0",
+      "video_upload_date": "2019-10-16",
+      "conferences": [6]
+    },
+    "172": {
+      "speakers": [183],
+      "main_title": "Oops—I guess we're full-stack developers now",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://youtu.be/lFOfQsi5ye0",
+      "video_upload_date": "2019-10-16",
+      "conferences": [6]
+    },
+    "173": {
+      "speakers": [195],
+      "main_title": "How Therefore Interactive is modernizing Longos on the JAMstack",
+      "alternative_titles": [],
+      "categories": [15],
+      "video_url": "https://youtu.be/Kh2GGhOXTzM",
+      "video_upload_date": "2019-10-17",
+      "conferences": [6]
+    },
+    "174": {
+      "speakers": [192],
+      "main_title": "Matter Supply fast tracks iconic Nike campaign with the JAMstack",
+      "alternative_titles": [],
+      "categories": [15],
+      "video_url": "https://youtu.be/2rA_ucpQ_Fk",
+      "video_upload_date": "2019-10-17",
+      "conferences": [6]
+    },
+    "175": {
+      "speakers": [191],
+      "main_title": "Responsive Typography",
+      "alternative_titles": [],
+      "categories": [17],
+      "video_url": "https://youtu.be/mnyPr8-t8bI",
+      "video_upload_date": "2019-10-17",
+      "conferences": [6]
+    },
+    "176": {
+      "speakers": [190],
+      "main_title": "The Git Powered CMS Content Management with No Server",
+      "alternative_titles": [],
+      "categories": [15, 16],
+      "video_url": "https://youtu.be/Y2ak5o0IqLw",
+      "video_upload_date": "2019-10-17",
+      "conferences": [6]
+    },
+    "177": {
+      "speakers": [189],
+      "main_title": "Um, its about your JavaScript...",
+      "alternative_titles": [],
+      "categories": [1, 15],
+      "video_url": "https://youtu.be/31WieWrYPqc",
+      "video_upload_date": "2019-10-17",
+      "conferences": [6]
+    },
+    "178": {
+      "speakers": [193],
+      "main_title": "How to rebuild digital services for a multi-national restaurant chain from scratch",
+      "alternative_titles": [],
+      "categories": [12, 15],
+      "video_url": "https://youtu.be/dKBDUhGi76o",
+      "video_upload_date": "2019-10-17",
+      "conferences": [6]
+    },
+    "179": {
+      "speakers": [188],
+      "main_title": "Lightning launch - Uniform",
+      "alternative_titles": [],
+      "categories": [15],
+      "video_url": "https://youtu.be/Ntnl_8lUPQc",
+      "video_upload_date": "2019-10-17",
+      "conferences": [6]
+    },
+    "180": {
+      "speakers": [187],
+      "main_title": "Lightning launch - TakeShape",
+      "alternative_titles": [],
+      "categories": [15],
+      "video_url": "https://youtu.be/ov9nZ2uBr2A",
+      "video_upload_date": "2019-10-17",
+      "conferences": [6]
+    },
+    "181": {
+      "speakers": [186],
+      "main_title": "Design systems, frameworks and browsers",
+      "alternative_titles": [],
+      "categories": [2, 9],
+      "video_url": "https://youtu.be/3gIY_jaDOK0",
+      "video_upload_date": "2019-10-17",
+      "conferences": [6]
+    },
+    "182": {
+      "speakers": [185],
+      "main_title": "Headless Chrome & Cloudinary for progressively enhanced dynamic content",
+      "alternative_titles": [],
+      "categories": [1, 8],
+      "video_url": "https://youtu.be/rm58d5proWI",
+      "video_upload_date": "2019-10-17",
+      "conferences": [6]
+    },
+    "183": {
+      "speakers": [183, 194],
+      "main_title": "ShopTalk Show Live Recording",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://youtu.be/0YlGiPwX6ys",
+      "video_upload_date": "2019-10-18",
+      "conferences": [6]
+    },
+    "184": {
+      "speakers": [184],
+      "main_title": "Own your content on Social Media using the IndieWeb",
+      "alternative_titles": [],
+      "categories": [18],
+      "video_url": "https://youtu.be/X3SrZuH00GQ",
+      "video_upload_date": "2019-10-17",
+      "conferences": [6]
+    },
     "185": {
       "speakers": [196],
       "main_title": "Requisite React",

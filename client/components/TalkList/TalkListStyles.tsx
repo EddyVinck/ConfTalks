@@ -46,13 +46,16 @@ const TalkListStyles = styled.ol({
       listStyle: "none",
       padding: 0,
       marginLeft: 0,
+      maxWidth: "100%",
+      flexWrap: "wrap",
       li: {
-        marginBottom: "0.6rem"
-      },
-      "li + li": {
-        "::before": {
-          content: "', '",
+        marginBottom: "0.6rem",
+        ":after": {
+          content: "',\\00a0'",
           border: ""
+        },
+        "&:last-of-type:after": {
+          content: "''"
         }
       }
     },
@@ -76,7 +79,8 @@ const TalkListStyles = styled.ol({
   "@media (min-width: 800px)": {
     ".details-wrapper": {
       display: "flex",
-      flexDirection: "column"
+      flexDirection: "column",
+      flex: "0 1 60%"
     },
     ".talk-info": {
       display: "flex",
