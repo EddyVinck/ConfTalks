@@ -1,1 +1,1 @@
-![10](https://imgur.com/JP10EdI)
+![ConfTalks](https://i.imgur.com/JP10EdI.png)
