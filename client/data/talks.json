@@ -1462,7 +1462,7 @@
       "speakers": [173],
       "main_title": "Securing the DOM from the Bottom Up",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 11],
       "video_url": "https://www.youtube.com/watch?v=1KQngEZ8qH4",
       "video_upload_date": "2019-06-19",
       "conferences": [6]
@@ -1471,7 +1471,7 @@
       "speakers": [174],
       "main_title": "Testing Tools and Their Friends",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 10],
       "video_url": "https://www.youtube.com/watch?v=OYUdlXY1joQ",
       "video_upload_date": "2019-06-19",
       "conferences": [6]
@@ -1498,7 +1498,7 @@
       "speakers": [177],
       "main_title": "Open Source: Charity or Business?",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 3],
       "video_url": "https://www.youtube.com/watch?v=fpQRi5ZIq1Q",
       "video_upload_date": "2019-06-19",
       "conferences": [6]
@@ -1507,7 +1507,7 @@
       "speakers": [178],
       "main_title": "The search for App-iness",
       "alternative_titles": ["Lightning talks"],
-      "categories": [1],
+      "categories": [1, 8],
       "video_url": "https://www.youtube.com/watch?v=4vl2y24IzPw",
       "video_upload_date": "2019-06-19",
       "conferences": [6]
@@ -1516,7 +1516,7 @@
       "speakers": [179],
       "main_title": "A11Y and React",
       "alternative_titles": ["Lightning talks"],
-      "categories": [1],
+      "categories": [1, 7],
       "video_url": "https://www.youtube.com/watch?v=JXctIexfAvM",
       "video_upload_date": "2019-06-19",
       "conferences": [6]
@@ -1541,9 +1541,9 @@
     },
     "171": {
       "speakers": [182],
-      "main_title": "Building Fast Angular Applications from End",
+      "main_title": "Building Fast Angular Applications from End-to-End",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 5],
       "video_url": "https://www.youtube.com/watch?v=gL8LD67xKNk",
       "video_upload_date": "2019-06-19",
       "conferences": [6]
@@ -1570,7 +1570,7 @@
       "speakers": [185],
       "main_title": "Automated Performance Testing With WebDriver",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1,10],
       "video_url": "https://www.youtube.com/watch?v=Al7zlLdd_es",
       "video_upload_date": "2019-06-19",
       "conferences": [6]
@@ -1588,7 +1588,7 @@
       "speakers": [187],
       "main_title": "Post mortem NodeJS debugging",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 12, 13],
       "video_url": "https://www.youtube.com/watch?v=dyaux-pqq7o",
       "video_upload_date": "2019-07-01",
       "conferences": [6]
@@ -1633,7 +1633,7 @@
       "speakers": [11],
       "main_title": "10 things I learned making the fastest JS server runtime in the world",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 12],
       "video_url": "https://www.youtube.com/watch?v=JUJ85k3aEg4",
       "video_upload_date": "2019-07-01",
       "conferences": [6]
@@ -1642,7 +1642,7 @@
       "speakers": [192],
       "main_title": "RabbitMQ and PM2 in Node.js for managing Multiple Processes",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 12],
       "video_url": "https://www.youtube.com/watch?v=fM9qwbofop0",
       "video_upload_date": "2019-07-01",
       "conferences": [6]
@@ -1651,7 +1651,7 @@
       "speakers": [193],
       "main_title": "The working Architecture of Node.js Applications",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 12],
       "video_url": "https://www.youtube.com/watch?v=eVGdV53q68I",
       "video_upload_date": "2019-07-01",
       "conferences": [6]
@@ -1660,7 +1660,7 @@
       "speakers": [194],
       "main_title": "Building Zero-Knowledge Backends",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 12],
       "video_url": "https://www.youtube.com/watch?v=1QueApYNfPI",
       "video_upload_date": "2019-07-01",
       "conferences": [6]
@@ -1678,7 +1678,7 @@
       "speakers": [196, 197],
       "main_title": "What's your backend written with? JavaScript?!",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 12],
       "video_url": "https://www.youtube.com/watch?v=S41Qfbzqu28",
       "video_upload_date": "2019-07-01",
       "conferences": [6]
@@ -1687,7 +1687,7 @@
       "speakers": [198],
       "main_title": "SSR with Quasar Framework",
       "alternative_titles": [],
-      "categories": [1],
+      "categories": [1, 12],
       "video_url": "https://www.youtube.com/watch?v=RUWawfKVomw",
       "video_upload_date": "2019-07-01",
       "conferences": [6]
