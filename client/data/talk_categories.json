@@ -75,6 +75,42 @@
     "18": {
       "name": "React",
       "alternative_spelling": []
+    },
+    "19": {
+      "name": "artificial intelligence",
+      "alternative_spelling": ["ai"]
+    },
+    "20": {
+      "name": "augmented reality",
+      "alternative_spelling": ["AR"]
+    },
+    "21": {
+      "name": "P2P",
+      "alternative_spelling": []
+    },
+    "22": {
+      "name": "Remote work",
+      "alternative_spelling": []
+    },
+    "23": {
+      "name": "TypeScript",
+      "alternative_spelling": ["ts"]
+    },
+    "24": {
+      "name": "Node",
+      "alternative_spelling": ["node.js"]
+    },
+    "25": {
+      "name": "React Native",
+      "alternative_spelling": ["react-native"]
+    },
+    "26": {
+      "name": "Serverless",
+      "alternative_spelling": []
+    },
+    "27": {
+      "name": "psychology",
+      "alternative_spelling": []
     }
   }
 }

@@ -1,4 +1,4 @@
-{
+{  
   "conferences": {
     "0": {
       "name": "JSConf EU 2018",
@@ -47,6 +47,12 @@
       "start_date": "2019-04-10",
       "end_date": "2019-04-12",
       "locations": ["Kromhouthal. Gedempt Hamerkanaal 231, 1021 KP Amsterdam"]
+    },
+    "8": {
+      "name": "JSConf HI 2019",
+      "start_date": "2019-02-07",
+      "end_date": "2019-02-08",
+      "locations": ["Alohilani Resort. Honolulu, Hawaii, United States"]
     }
   }
 }
