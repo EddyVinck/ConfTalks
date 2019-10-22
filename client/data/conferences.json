@@ -36,5 +36,12 @@
       "end_date": "2018-06-02",
       "locations": ["Arena Berlin. Eichenstraße 4, 12435 Berlin, Germany"]
     }
+	,
+    "6": {
+      "name": "RustConf 2019",
+      "start_date": "2019-08-22",
+      "end_date": "2019-08-23",
+      "locations": ["Oregon Convention Center, 777 NE Martin Luther King Jr Blvd, Portland, OR 97232, United States"]
+    }
   }
 }
