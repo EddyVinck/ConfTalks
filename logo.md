@@ -1,1 +1,1 @@
-![10]{ncui.jpg}
+![10]{https://imgur.com/JP10EdI}
