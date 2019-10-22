@@ -35,6 +35,12 @@
       "start_date": "2018-06-01",
       "end_date": "2018-06-02",
       "locations": ["Arena Berlin. Eichenstraße 4, 12435 Berlin, Germany"]
+    },
+    "6": {
+      "name": "PyCon 2018",
+      "start_date": "2018-05-09",
+      "end_date": "2018-05-17",
+      "locations": ["Cleveland, Ohio, USA"]
     }
   }
 }

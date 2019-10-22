@@ -2,7 +2,7 @@
   "categories": {
     "0": {
       "name": "CSS",
-      "alternative_spelling": []
+      "alternative_spelling": ["custom stylesheets", "custom style sheets"]
     },
     "1": {
       "name": "JavaScript",
@@ -26,7 +26,7 @@
     },
     "6": {
       "name": "UX",
-      "alternative_spelling": []
+      "alternative_spelling": ["user experience"]
     },
     "7": {
       "name": "Accessibility",
@@ -39,6 +39,66 @@
     "9": {
       "name": "Design Systems",
       "alternative_spelling": []
+    },
+    "10": {
+      "name": "Python",
+      "alternative_spelling": []
+    },
+    "11": {
+      "name": "Logging",
+      "alternative_spelling": ["logs"]
+    },
+    "12": {
+      "name": "Rust",
+      "alternative_spelling": []
+    },
+    "13": {
+      "name": "Identity",
+      "alternative_spelling": ["user identity"]
+    },
+    "14": {
+      "name": "Project Management",
+      "alternative_spelling": []
+    },
+    "15": {
+      "name": "Linux",
+      "alternative_spelling": []
+    },
+    "16": {
+      "name": "Deployment",
+      "alternative_spelling": ["deploying"]
+    },
+    "17": {
+      "name": "Code Performance",
+      "alternative_spelling": []
+    },
+    "18": {
+      "name": "API",
+      "alternative_spelling": ["APIs"]
+    },
+    "19": {
+      "name": "Message-Routing",
+      "alternative_spelling": ["message routing"]
+    },
+    "20": {
+      "name": "Distributed Applications",
+      "alternative_spelling": []
+    },
+    "21": {
+      "name": "Memory Management",
+      "alternative_spelling": []
+    },
+    "22": {
+      "name": "Data Science",
+      "alternative_spelling": []
+    },
+    "23": {
+      "name": "Leadership",
+      "alternative_spelling": []
+    },
+    "24": {
+      "name": "Testing",
+      "alternative_spelling": ["software testing"]
     }
   }
 }
