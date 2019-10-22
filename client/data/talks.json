@@ -1448,6 +1448,348 @@
       "video_url": "https://www.youtube.com/watch?v=RCdGIrgSaBQ",
       "video_upload_date": "2018-07-09",
       "conferences": [5]
+    },
+    "161": {
+      "speakers": [172],
+      "main_title": "Composing Music with composed function",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=PTbbqsR9twA",
+      "video_upload_date": "2019-09-10",
+      "conferences": [6]
+    },
+    "162": {
+      "speakers": [173],
+      "main_title": "Test Driven Component Development",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=SDoq37lXHEw",
+      "video_upload_date": "2019-09-10",
+      "conferences": [6]
+    },
+    "163": {
+      "speakers": [174],
+      "main_title": "Make it Boring",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=OikwaVcdHG4",
+      "video_upload_date": "2019-09-10",
+      "conferences": [6]
+    },
+    "164": {
+      "speakers": [175],
+      "main_title": "Evolving Chrome Extensions with Manifest V3",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=e_nEP--FOHE",
+      "video_upload_date": "2019-09-10",
+      "conferences": [6]
+    },
+    "165": {
+      "speakers": [176],
+      "main_title": "Web Norms of the World",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=iqoq7RAw9io",
+      "video_upload_date": "2019-09-10",
+      "conferences": [6]
+    },
+    "166": {
+      "speakers": [177],
+      "main_title": "The (Full)stack Trace: Understand Your App with Distributed Tracing",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=n4oIrB4_pCA",
+      "video_upload_date": "2019-09-10",
+      "conferences": [6]
+    },
+    "167": {
+      "speakers": [179],
+      "main_title": "A11Y IRL (Accessibility in real life) ",
+      "alternative_titles": [],
+      "categories": [7],
+      "video_url": "https://www.youtube.com/watch?v=Mnj_VBPAC5w",
+      "video_upload_date": "2019-09-11",
+      "conferences": [6]
+    },
+    "168": {
+      "speakers": [178],
+      "main_title": "Tour de Bikeshare: Setting World Records with JavaScript  ",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=XSQX41RBspQ",
+      "video_upload_date": "2019-09-11",
+      "conferences": [6]
+    },
+    "169": {
+      "speakers": [180],
+      "main_title": "Trans Eye for the Cis Ally: Ensuring an Inclusive Community",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=38r2nf152jk",
+      "video_upload_date": "2019-09-11",
+      "conferences": [6]
+    },
+    "170": {
+      "speakers": [181],
+      "main_title": "Componentizing end-to-end test",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=Pv2YHXQOEJY",
+      "video_upload_date": "2019-09-11",
+      "conferences": [6]
+    },
+    "171": {
+      "speakers": [182],
+      "main_title": "How audio travels into your browser",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=x3sdyyzdeCY",
+      "video_upload_date": "2019-09-11",
+      "conferences": [6]
+    },
+    "172": {
+      "speakers": [183],
+      "main_title": "Advancing Focus ",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=TBaqTNAcgPI",
+      "video_upload_date": "2019-09-11",
+      "conferences": [6]
+    },
+    "173": {
+      "speakers": [184],
+      "main_title": "¿Donde Esta La BiblioTech?  ",
+      "alternative_titles": [],
+      "categories": [6],
+      "video_url": "https://www.youtube.com/watch?v=JKNRWAg3LdY",
+      "video_upload_date": "2019-09-12",
+      "conferences": [6]
+    },
+    "174": {
+      "speakers": [185],
+      "main_title": "Decoupling Applications from Architectures ",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=qKtHo3WOkW8",
+      "video_upload_date": "2019-09-12",
+      "conferences": [6]
+    },
+    "175": {
+      "speakers": [186],
+      "main_title": "Creating Beautiful LED Art with JavaScript ",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=GqsdiMc49yM",
+      "video_upload_date": "2019-09-12",
+      "conferences": [6]
+    },
+    "176": {
+      "speakers": [187],
+      "main_title": "Staying confident without feeling like an imposter",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=pp1_19Sslxw",
+      "video_upload_date": "2019-09-12",
+      "conferences": [6]
+    },
+    "177": {
+      "speakers": [188],
+      "main_title": "Just go for it: The story of dance-mat.js",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=EFJxP93s5Tg",
+      "video_upload_date": "2019-09-12",
+      "conferences": [6]
+    },
+    "178": {
+      "speakers": [189, 190],
+      "main_title": "Yoga Pose",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=aGBnDhDI-Ds",
+      "video_upload_date": "2019-09-12",
+      "conferences": [6]
+    },
+    "179": {
+      "speakers": [191],
+      "main_title": "Empathy is not enough - the power of engaging hard-to-reach users",
+      "alternative_titles": [],
+      "categories": [6],
+      "video_url": "https://www.youtube.com/watch?v=1G5aSLWSRGQ",
+      "video_upload_date": "2019-09-12",
+      "conferences": [6]
+    },
+    "180": {
+      "speakers": [192],
+      "main_title": "Creating an AI Musician with JavaScript",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=sS9wNOrw5EU",
+      "video_upload_date": "2019-09-13",
+      "conferences": [6]
+    },
+    "181": {
+      "speakers": [193],
+      "main_title": "Building Open Source Communities ",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=sS9wNOrw5EU",
+      "video_upload_date": "2019-09-13",
+      "conferences": [6]
+    },
+    "182": {
+      "speakers": [194],
+      "main_title": "JavaScript: Off the Grid",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=YFrCEbx1oW0",
+      "video_upload_date": "2019-09-13",
+      "conferences": [6]
+    },
+    "183": {
+      "speakers": [195, 196],
+      "main_title": "Building a distributed graph w/ Apollo Federation",
+      "alternative_titles": [],
+      "categories": [1, 4],
+      "video_url": "https://www.youtube.com/watch?v=1nCq_a6-4bg",
+      "video_upload_date": "2019-09-13",
+      "conferences": [6]
+    },
+    "184": {
+      "speakers": [197],
+      "main_title": "CSS Algorithms ",
+      "alternative_titles": [],
+      "categories": [0],
+      "video_url": "https://www.youtube.com/watch?v=panKf9hzUfQ",
+      "video_upload_date": "2019-09-13",
+      "conferences": [6]
+    },
+    "185": {
+      "speakers": [198],
+      "main_title": "Components as Data: A Cross Platform GraphQL Component API ",
+      "alternative_titles": [],
+      "categories": [4],
+      "video_url": "https://www.youtube.com/watch?v=4cEJ-1rXqMg",
+      "video_upload_date": "2019-09-23",
+      "conferences": [6]
+    },
+    "186": {
+      "speakers": [199],
+      "main_title": "Native Web Apps: React, JS & WebAssembly to rewrite native apps",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=lttAKhlKuyM",
+      "video_upload_date": "2019-09-16",
+      "conferences": [6]
+    },
+    "187": {
+      "speakers": [200],
+      "main_title": "Automated perf. budgeting into your pipeline w/ sitespeed.io ",
+      "alternative_titles": [],
+      "categories": [5],
+      "video_url": "https://www.youtube.com/watch?v=FB6yFRp7xN0",
+      "video_upload_date": "2019-09-16",
+      "conferences": [6]
+    },
+    "188": {
+      "speakers": [201],
+      "main_title": "Deliberate, Directed, Positive ACTION! ",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=qo44tA2Q4k0",
+      "video_upload_date": "2019-09-16",
+      "conferences": [6]
+    },
+    "189": {
+      "speakers": [202],
+      "main_title": "We Started Using Webpack and It Took A While ",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=nDAvXOePowM",
+      "video_upload_date": "2019-09-16",
+      "conferences": [6]
+    },
+    "190": {
+      "speakers": [203],
+      "main_title": "Strike a Pose - Gesture recognition in JavaScript w/ ML & Arduino ",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=HvtlRMpDbnQ",
+      "video_upload_date": "2019-09-16",
+      "conferences": [6]
+    },
+    "191": {
+      "speakers": [204],
+      "main_title": "Make Web Not War ",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=_XcsNhdz-kM",
+      "video_upload_date": "2019-09-16",
+      "conferences": [6]
+    },
+    "192": {
+      "speakers": [205],
+      "main_title": "Weaving Tapestries of Code",
+      "alternative_titles": [],
+      "categories": [9],
+      "video_url": "https://www.youtube.com/watch?v=SbLVCtdLRMc",
+      "video_upload_date": "2019-09-17",
+      "conferences": [6]
+    },
+    "193": {
+      "speakers": [206],
+      "main_title": "WTF does run mean?” & other adventures in teaching others to code",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=4nQT9h3NSEk",
+      "video_upload_date": "2019-09-17",
+      "conferences": [6]
+    },
+    "194": {
+      "speakers": [207],
+      "main_title": "Bringing back dial-up: the internet over SMS",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=BspedNJNn_A",
+      "video_upload_date": "2019-09-17",
+      "conferences": [6]
+    },
+    "195": {
+      "speakers": [208],
+      "main_title": "How we’re embracing functional programming to build a large SPA",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=vd5S_7Qm9WE",
+      "video_upload_date": "2019-09-17",
+      "conferences": [6]
+    },
+    "196": {
+      "speakers": [209],
+      "main_title": "Time is a Social Construct",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=EUzPpXhFmG8",
+      "video_upload_date": "2019-09-17",
+      "conferences": [6]
+    },
+    "197": {
+      "speakers": [210],
+      "main_title": "Playing Pokemon Together With Node.js",
+      "alternative_titles": [],
+      "categories": [1],
+      "video_url": "https://www.youtube.com/watch?v=cUy43G-gcB4",
+      "video_upload_date": "2019-09-17",
+      "conferences": [6]
+    },
+    "198": {
+      "speakers": [211],
+      "main_title": "A Postmortem on the Ingen Incident",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=uZrISYAMKHY",
+      "video_upload_date": "2019-09-18",
+      "conferences": [6]
     }
   }
 }

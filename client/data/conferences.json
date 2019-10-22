@@ -35,6 +35,12 @@
       "start_date": "2018-06-01",
       "end_date": "2018-06-02",
       "locations": ["Arena Berlin. Eichenstraße 4, 12435 Berlin, Germany"]
+    },
+    "6": {
+      "name": "JSConf US 2019 ",
+      "start_date": "2019-07-12",
+      "end_date": "2019-07-14",
+      "locations": ["sunny Carlsbad, California just outside of San Diego."]
     }
   }
 }
