@@ -5,7 +5,9 @@ import { categories } from "../../data/talk_categories.json";
 import { sortDatesDescending } from "../../utils/sorting/sortDatesDescending";
 import debounce from "lodash-es/debounce";
 import { FormStyles } from "../forms";
+import { Menu, Item, Input, ControllerButton, ArrowIcon, XIcon } from "./DownshiftStyles";
 import { Button } from "../generic";
+import Downshift from 'downshift'
 
 let conferencesList = [];
 
@@ -63,40 +65,135 @@ const TalkListFilters = () => {
           updateFilters({ speakerName: event.target.value });
         }}
       />
-      <label htmlFor="conference-name">Conference</label>
-      <select
-        name="conference-name"
-        id="conference-name"
-        onChange={(event: React.ChangeEvent<HTMLSelectElement>) => {
-          updateFilters({ conference_id: event.target.value });
+      {/* TODO make Downshift JSX more DRY */} 
+      <Downshift
+         onChange={selection => {
+          updateFilters({ conference_id: selection === null ? null : selection.id });
         }}
+          itemToString={item => (item ? item.name : '')}
+        >
+          {({
+            getInputProps,
+            getItemProps,
+            getLabelProps,
+            getMenuProps,
+            getToggleButtonProps,
+            clearSelection,
+            isOpen,
+            inputValue,
+            highlightedIndex,
+            selectedItem,
+            itemToString,
+          }) => (
+            <div>
+              <label {...getLabelProps()}>Conference</label>
+              <div style={{position: 'relative'}}>
+                <Input style={{ marginBottom: '1px', paddingRight: '32px' }} type="text" {...getInputProps()} />
+                {selectedItem ? (
+                  <ControllerButton
+                    onClick={(e) => clearSelection()}
+                    aria-label="clear selection"
+                  >
+                    <XIcon />
+                  </ControllerButton>
+                ) : (
+                  <ControllerButton {...getToggleButtonProps()}>
+                    <ArrowIcon isOpen={isOpen} />
+                  </ControllerButton>
+                )}
+              </div>
+              <div style={{position: 'relative', marginBottom: '1em', zIndex: 1}}>
+                {isOpen ? 
+                  <Menu {...getMenuProps()}>
+                    { conferencesList
+                      .sort((a, b) => a.name.localeCompare(b.name))
+                      .filter(item => !inputValue || item.name.includes(inputValue))
+                      .map((item, index) => (
+                        <Item
+                          {...getItemProps({
+                            key: item.id,
+                            index,
+                            item,
+                            style: {
+                              backgroundColor:
+                                highlightedIndex === index ? 'lightgray' : 'white',
+                              fontWeight: selectedItem === item ? 'bold' : 'normal',
+                            },
+                          })}
+                        >
+                          {itemToString(item)}
+                        </Item>
+                      )) }
+                  </Menu>
+                : null}
+              </div>
+          </div>
+        )}
+      </Downshift>
+      <Downshift
+        onChange={selection => {
+          updateFilters({ category_id: selection === null ? null : selection.id });
+        }} 
+        itemToString={item => (item ? item.name : '')}
       >
-        <option value="">Any conference</option>
-        {conferencesList
-          .sort((a, b) => a.name.localeCompare(b.name))
-          .map(conf => (
-            <option key={conf.id} value={conf.id}>
-              {conf.name}
-            </option>
-          ))}
-      </select>
-      <label htmlFor="category-name">Category</label>
-      <select
-        name="category-name"
-        id="category-name"
-        onChange={(event: React.ChangeEvent<HTMLSelectElement>) => {
-          updateFilters({ category_id: event.target.value });
-        }}
-      >
-        <option value="">Any category</option>
-        {categoryList
-          .sort((a, b) => a.name.localeCompare(b.name))
-          .map(category => (
-            <option key={category.id} value={category.id}>
-              {category.name}
-            </option>
-          ))}
-      </select>
+        {({
+          getInputProps,
+          getItemProps,
+          getLabelProps,
+          getMenuProps,
+          getToggleButtonProps,
+          clearSelection,
+          isOpen,
+          inputValue,
+          highlightedIndex,
+          selectedItem,
+          itemToString,
+        }) => (
+          <div>
+            <label {...getLabelProps()}>Category</label>
+            <div style={{position: 'relative'}}>
+              <Input style={{ marginBottom: '1px', paddingRight: '32px' }} type="text" {...getInputProps()} />
+              {selectedItem ? (
+                <ControllerButton
+                  onClick={(e) => clearSelection()}
+                  aria-label="clear selection"
+                >
+                  <XIcon />
+                </ControllerButton>
+              ) : (
+                <ControllerButton {...getToggleButtonProps()}>
+                  <ArrowIcon isOpen={isOpen} />
+                </ControllerButton>
+              )}
+            </div>
+            <div style={{position: 'relative', marginBottom: '1em'}}>
+              {isOpen ? 
+                <Menu {...getMenuProps()}>
+                  { categoryList
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .filter(item => !inputValue || item.name.includes(inputValue))
+                    .map((item, index) => (
+                      <Item
+                        {...getItemProps({
+                          key: item.id,
+                          index,
+                          item,
+                          style: {
+                            backgroundColor:
+                              highlightedIndex === index ? 'lightgray' : 'white',
+                            fontWeight: selectedItem === item ? 'bold' : 'normal',
+                          },
+                        })}
+                      >
+                        {itemToString(item)}
+                      </Item>
+                    )) }
+                </Menu>
+              : null}
+            </div>
+          </div>
+        )}
+      </Downshift>
       <label htmlFor="only-bookmarked-talks">
         Only bookmarked talks?
         <input

@@ -12,6 +12,7 @@
     "@types/styled-components": "^4.1.19",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-typescript": "^1.1.1",
+    "downshift": "^3.3.5",
     "formik": "^1.5.8",
     "lodash-es": "^4.17.15",
     "next": "9.1.1",
