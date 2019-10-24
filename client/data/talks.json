@@ -1451,992 +1451,1398 @@
     },
     "161": {
       "speakers": [172],
-      "main_title": "Get your resources faster, with importlib.resources",
+      "main_title": "JAMstack at Scale: why pre-built markup is critical",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=ZsGFU2qh73E",
-      "video_upload_date": "2018-05-13",
+      "categories": [10, 15],
+      "video_url": "https://youtu.be/LnYrJ7X00XM",
+      "video_upload_date": "2019-10-16",
       "conferences": [6]
     },
     "162": {
       "speakers": [173],
-      "main_title": "A practical guide to Singular Value Decomposition in Python",
+      "main_title": "What got us here, won't get us there",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=d7iIb_XVkZ",
-      "video_upload_date": "2018-05-13",
+      "categories": [3, 12, 15],
+      "video_url": "https://youtu.be/6VGu4PvEBag",
+      "video_upload_date": "2019-10-16",
       "conferences": [6]
     },
     "163": {
       "speakers": [174],
-      "main_title": "Effortless Logging: A deep dive into the logging module",
+      "main_title": "JAMstack with WordPress",
       "alternative_titles": [],
-      "categories": [10,11],
-      "video_url": "https://www.youtube.com/watch?v=Pbz1fo7KlGg",
-      "video_upload_date": "2018-05-13",
+      "categories": [11, 15],
+      "video_url": "https://youtu.be/g0OfnWCcBk4",
+      "video_upload_date": "2019-10-16",
       "conferences": [6]
     },
     "164": {
       "speakers": [175],
-      "main_title": "Types, Deeper Static Analysis, and you",
+      "main_title": "Static generated sites === great performance. What are you waiting for?",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=hWV8t494N88",
-      "video_upload_date": "2018-05-13",
+      "categories": [2, 5],
+      "video_url": "https://youtu.be/H793eyVM_04",
+      "video_upload_date": "2019-10-16",
       "conferences": [6]
     },
     "165": {
       "speakers": [176],
-      "main_title": "Pumping up Python modules using Rust",
+      "main_title": "Building e-commerce storefronts on the JAMstack",
       "alternative_titles": [],
-      "categories": [10,12],
-      "video_url": "https://www.youtube.com/watch?v=UYpWVfTng4",
-      "video_upload_date": "2018-05-13",
+      "categories": [8, 15],
+      "video_url": "https://youtu.be/Wnm_ErMrjDM",
+      "video_upload_date": "2019-10-16",
       "conferences": [6]
     },
     "166": {
       "speakers": [177],
-      "main_title": "Type-checked Python in the real world",
+      "main_title": "Introducing Netlify Build Plugins",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=pMgmKJyWKn8",
-      "video_upload_date": "2018-05-13",
+      "categories": [13, 15],
+      "video_url": "https://youtu.be/4m6Hi4_qEVE",
+      "video_upload_date": "2019-10-16",
       "conferences": [6]
     },
     "167": {
-      "speakers": [178],
-      "main_title": "How We Do Identity Wrong",
+      "speakers": [177],
+      "main_title": "Lightning launch - Stackbit",
       "alternative_titles": [],
-      "categories": [13],
-      "video_url": "https://www.youtube.com/watch?v=A5tPhUKljuY",
-      "video_upload_date": "2018-05-13",
+      "categories": [8, 14, 15],
+      "video_url": "https://youtu.be/fsscw6Viv_c",
+      "video_upload_date": "2019-10-16",
       "conferences": [6]
     },
     "168": {
       "speakers": [179],
-      "main_title": "Learning From Failure: Post Mortems",
+      "main_title": "Supercharging JAMstack apps with multiple APIs via GraphQL Pipelines",
       "alternative_titles": [],
-      "categories": [14],
-      "video_url": "https://www.youtube.com/watch?v=L9Y2ap6vIMg",
-      "video_upload_date": "2018-05-13",
+      "categories": [4,15],
+      "video_url": "https://youtu.be/O3j1ho9FBkk",
+      "video_upload_date": "2019-10-16",
       "conferences": [6]
     },
     "169": {
       "speakers": [180],
-      "main_title": "Systemd: why you should care as a Python developer",
+      "main_title": "Building a shopping cart on a static website",
       "alternative_titles": [],
-      "categories": [10,15,16],
-      "video_url": "https://www.youtube.com/watch?v=ZUX9Fx8Rwzg",
-      "video_upload_date": "2018-05-13",
+      "categories": [1, 2, 8, 15],
+      "video_url": "https://youtu.be/JO48ooTpOOA",
+      "video_upload_date": "2019-10-16",
       "conferences": [6]
     },
     "170": {
       "speakers": [181],
-      "main_title": "Big-O: How Code Slows as Data Grows",
+      "main_title": "The visual future of content editing",
       "alternative_titles": [],
-      "categories": [17],
-      "video_url": "https://www.youtube.com/watch?v=duvZ-2UK0fc",
-      "video_upload_date": "2018-05-13",
+      "categories": [6],
+      "video_url": "https://youtu.be/iPDCmbaEF0Y",
+      "video_upload_date": "2019-10-16",
       "conferences": [6]
     },
     "171": {
       "speakers": [182],
-      "main_title": "Clearer Code at Scale: Static Types at Zulip and Dropbox",
+      "main_title": "Migrating to JAMstack and OhShitGit!",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=0c46YHS3RY8",
-      "video_upload_date": "2018-05-13",
+      "categories": [15, 16],
+      "video_url": "https://youtu.be/PqlhYVqLDm0",
+      "video_upload_date": "2019-10-16",
       "conferences": [6]
     },
     "172": {
       "speakers": [183],
-      "main_title": "Efficient shared memory data structures",
+      "main_title": "Oops—I guess we're full-stack developers now",
       "alternative_titles": [],
-      "categories": [9,21],
-      "video_url": "https://www.youtube.com/watch?v=52zM4GgmqDE",
-      "video_upload_date": "2018-05-13",
+      "categories": [2],
+      "video_url": "https://youtu.be/lFOfQsi5ye0",
+      "video_upload_date": "2019-10-16",
       "conferences": [6]
     },
     "173": {
-      "speakers": [184],
-      "main_title": "User focused API Design",
+      "speakers": [195],
+      "main_title": "How Therefore Interactive is modernizing Longos on the JAMstack",
       "alternative_titles": [],
-      "categories": [6,18],
-      "video_url": "https://www.youtube.com/watch?v=q42hCs2E4So",
-      "video_upload_date": "2018-05-13",
+      "categories": [15],
+      "video_url": "https://youtu.be/Kh2GGhOXTzM",
+      "video_upload_date": "2019-10-17",
       "conferences": [6]
     },
     "174": {
-      "speakers": [185],
-      "main_title": "The Hare Wins the Race: Getting the most out of RabbitMQ in distributed applications",
+      "speakers": [192],
+      "main_title": "Matter Supply fast tracks iconic Nike campaign with the JAMstack",
       "alternative_titles": [],
-      "categories": [10,19,20],
-      "video_url": "https://www.youtube.com/watch?v=WXkhJ92-fsY",
-      "video_upload_date": "2018-05-13",
+      "categories": [15],
+      "video_url": "https://youtu.be/2rA_ucpQ_Fk",
+      "video_upload_date": "2019-10-17",
       "conferences": [6]
     },
     "175": {
-      "speakers": [186],
-      "main_title": "There and Back Again: Disable and re-enable garbage collector at Instagram",
+      "speakers": [191],
+      "main_title": "Responsive Typography",
       "alternative_titles": [],
-      "categories": [10,21],
-      "video_url": "https://www.youtube.com/watch?v=WVnACT48CkE",
-      "video_upload_date": "2018-05-13",
+      "categories": [17],
+      "video_url": "https://youtu.be/mnyPr8-t8bI",
+      "video_upload_date": "2019-10-17",
       "conferences": [6]
     },
     "176": {
-      "speakers": [187],
-      "main_title": "Automating Code Quality",
+      "speakers": [190],
+      "main_title": "The Git Powered CMS Content Management with No Server",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=G1lDk_WKXvY",
-      "video_upload_date": "2018-05-13",
+      "categories": [15, 16],
+      "video_url": "https://youtu.be/Y2ak5o0IqLw",
+      "video_upload_date": "2019-10-17",
       "conferences": [6]
     },
     "177": {
-      "speakers": [188],
-      "main_title": "Python 2 to 3: How to Upgrade and What Features to Start Using",
+      "speakers": [189],
+      "main_title": "Um, its about your JavaScript...",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=klaGx9Q_SOA",
-      "video_upload_date": "2018-05-13",
+      "categories": [1, 15],
+      "video_url": "https://youtu.be/31WieWrYPqc",
+      "video_upload_date": "2019-10-17",
       "conferences": [6]
     },
     "178": {
-      "speakers": [189],
-      "main_title": "The Journey Over the Intermediate Gap",
+      "speakers": [193],
+      "main_title": "How to rebuild digital services for a multi-national restaurant chain from scratch",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=49CIIu1XkIE",
-      "video_upload_date": "2018-05-13",
+      "categories": [12, 15],
+      "video_url": "https://youtu.be/dKBDUhGi76o",
+      "video_upload_date": "2019-10-17",
       "conferences": [6]
     },
     "179": {
-      "speakers": [190],
-      "main_title": "Python, Locales and Writing Systems",
+      "speakers": [188],
+      "main_title": "Lightning launch - Uniform",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=EEV4G6rh-KQ",
-      "video_upload_date": "2018-05-13",
+      "categories": [15],
+      "video_url": "https://youtu.be/Ntnl_8lUPQc",
+      "video_upload_date": "2019-10-17",
       "conferences": [6]
     },
     "180": {
-      "speakers": [191],
-      "main_title": "Python Performance Investigation by Example",
+      "speakers": [187],
+      "main_title": "Lightning launch - TakeShape",
       "alternative_titles": [],
-      "categories": [10,17],
-      "video_url": "https://www.youtube.com/watch?v=yrRqNzJTBjk",
-      "video_upload_date": "2018-05-13",
+      "categories": [15],
+      "video_url": "https://youtu.be/ov9nZ2uBr2A",
+      "video_upload_date": "2019-10-17",
       "conferences": [6]
     },
     "181": {
-      "speakers": [192],
-      "main_title": "What is a Python Core Developer?",
+      "speakers": [186],
+      "main_title": "Design systems, frameworks and browsers",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=hhj7eb6TrtI",
-      "video_upload_date": "2018-05-13",
+      "categories": [2, 9],
+      "video_url": "https://youtu.be/3gIY_jaDOK0",
+      "video_upload_date": "2019-10-17",
       "conferences": [6]
     },
     "182": {
-      "speakers": [193],
-      "main_title": "Fighting the Good Fight: Python 3 in your organization",
+      "speakers": [185],
+      "main_title": "Headless Chrome & Cloudinary for progressively enhanced dynamic content",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=H4SS9yVWJYA",
-      "video_upload_date": "2018-05-13",
+      "categories": [1, 8],
+      "video_url": "https://youtu.be/rm58d5proWI",
+      "video_upload_date": "2019-10-17",
       "conferences": [6]
     },
     "183": {
-      "speakers": [194],
-      "main_title": "A Bit about Bytes: Understanding Python Bytecode",
+      "speakers": [183, 194],
+      "main_title": "ShopTalk Show Live Recording",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=cSSpnq362Bk",
-      "video_upload_date": "2018-05-13",
+      "categories": [2],
+      "video_url": "https://youtu.be/0YlGiPwX6ys",
+      "video_upload_date": "2019-10-18",
       "conferences": [6]
     },
     "184": {
-      "speakers": [195],
-      "main_title": "How to Write Deployment-friendly Applications",
+      "speakers": [184],
+      "main_title": "Own your content on Social Media using the IndieWeb",
       "alternative_titles": [],
-      "categories": [10,16],
-      "video_url": "https://www.youtube.com/watch?v=wuCpCkrfeMs",
-      "video_upload_date": "2018-05-13",
+      "categories": [18],
+      "video_url": "https://youtu.be/X3SrZuH00GQ",
+      "video_upload_date": "2019-10-17",
       "conferences": [6]
     },
     "185": {
       "speakers": [196],
-      "main_title": "Secrets of a WSGI master",
+      "main_title": "Requisite React",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=CPz0s1CQsTE",
-      "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=tO8qHlr6Wqg",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
     },
     "186": {
       "speakers": [197],
-      "main_title": "The human nature of failure & resiliency",
+      "main_title": "Building React Native",
       "alternative_titles": [],
-      "categories": [14],
-      "video_url": "https://www.youtube.com/watch?v=h-38HZqanJ",
-      "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=5sQw8C36Xa4",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
     },
     "187": {
       "speakers": [198],
-      "main_title": "Easy 2D Game Creation With Arcade",
+      "main_title": "Refactoring React",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=DAWHMHMPVHU",
-      "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=2Dw8gA60d_k",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
     },
     "188": {
-      "speakers": [199,200],
-      "main_title": "By the Numbers: Python Community Trends in 2017/2018",
+      "speakers": [199],
+      "main_title": "Practical Performance for React (Native)",
       "alternative_titles": [],
-      "categories": [10,3],
-      "video_url": "https://www.youtube.com/watch?v=xEE4X-9RROM",
-      "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=jTdi9oTM22c",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
     },
     "189": {
-      "speakers": [],
-      "main_title": "Pipenv: The Future of Python Dependency Management",
+      "speakers": [200],
+      "main_title": "Designing with React",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=GBQAKldqgZs",
-      "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=orPcyJMJh7Y",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
     },
     "190": {
-      "speakers": [202],
-      "main_title": "Bayesian Non-parametric Models for Data Science using PyMC3",
+      "speakers": [201],
+      "main_title": "Sharing Code Between React and React-Native: What Not to Share",
       "alternative_titles": [],
-      "categories": [10,22],
-      "video_url": "https://www.youtube.com/watch?v=-sIOMs4MSuA",
-      "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=QO7SkFqRd7s",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
     },
     "191": {
-      "speakers": [203],
-      "main_title": "Surviving (and thriving!) when you are overloaded",
+      "speakers": [202],
+      "main_title": "A Common Design Language. Let Designers and Developers talk to each other",
       "alternative_titles": [],
-      "categories": [23],
-      "video_url": "https://www.youtube.com/watch?v=dWuRDbH4Xlw",
-      "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=3ggoo6AH8Uo",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
     },
     "192": {
-      "speakers": [204],
-      "main_title": "Building a cross-platform native app with BeeWare",
+      "speakers": [203],
+      "main_title": "Building for a Bigger World Than Mobile",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=qaPzlIJ57dk",
-      "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=qBANCoU6Cjs",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
     },
     "193": {
-      "speakers": [],
-      "main_title": "Don't Look Back in Anger: Wildman Whitehouse and the Great Failure of 1858",
+      "speakers": [204],
+      "main_title": "Tech Regrets at Spectrum",
       "alternative_titles": [],
-      "categories": [14],
-      "video_url": "https://www.youtube.com/watch?v=GuNoaAFnTPg",
-      "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=UC-bUkbuvZs",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
     },
     "194": {
-      "speakers": [206],
-      "main_title": "Dataclasses: The code generator to end all code generators",
+      "speakers": [205],
+      "main_title": "Make Your React Native Apps Accessible",
       "alternative_titles": [],
-      "categories": [10],
-      "video_url": "https://www.youtube.com/watch?v=T-TwcmT6Rcw",
-      "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=FqKlsmoaxs0",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
     },
     "195": {
+      "speakers": [206],
+      "main_title": "Scaling Applications with Microfrontends",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=XErB9twlRow",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
+    },
+    "196": {
       "speakers": [207],
+      "main_title": "Native Web Apps: React and WebAssembly to Rewrite Native Apps",
+      "alternative_titles": [],
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=G_cTW7zQtCc",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
+    },
+    "197": {
+      "speakers": [208],
+      "main_title": "An SVG’s Tale",
+      "alternative_titles": [],
+      "categories": [2],
+      "video_url": "https://www.youtube.com/watch?v=BISiYX5s_Qw",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
+    },
+    "198": {
+      "speakers": [209],
+      "main_title": "Lightning fast SSR React apps with top perceived performance and no (client side) JavaScript",
+      "alternative_titles": [],
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=cSaFLPciWP8",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
+    },
+    "199": {
+      "speakers": [209],
+      "main_title": "Demystifying server-rendered React apps: Performance & Security",
+      "alternative_titles": [],
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=cSaFLPciWP8",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
+    },
+    "200": {
+      "speakers": [211],
+      "main_title": "Next for Next.js",
+      "alternative_titles": [],
+      "categories": [1, 2],
+      "video_url": "https://www.youtube.com/watch?v=j1JsLmfdrgk",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
+    },
+    "201": {
+      "speakers": [212],
+      "main_title": "Speeding up React SSR",
+      "alternative_titles": [],
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=FaJosYCMnRA",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
+    },
+    "202": {
+      "speakers": [213],
+      "main_title": "Full-stack React Native in the Era of Serverless Computing",
+      "alternative_titles": [],
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=VQ-umMTEQq4",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
+    },
+    "203": {
+      "speakers": [214],
+      "main_title": "The GraphQL developer experience",
+      "alternative_titles": [],
+      "categories": [4],
+      "video_url": "https://www.youtube.com/watch?v=qBla-jgNKZc",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
+    },
+    "204": {
+      "speakers": [215],
+      "main_title": "Demystifying Complex Animations Creation Process in React Native",
+      "alternative_titles": [],
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=aOiq-xNSqRo",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
+    },
+    "205": {
+      "speakers": [97],
+      "main_title": "Painting Pixels with WebGL with React Hooks",
+      "alternative_titles": [],
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=1NZvwicGK4U",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
+    },
+    "206": {
+      "speakers": [216],
+      "main_title": "Strangling Legacy with React Native",
+      "alternative_titles": [],
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=sBbRQK58Fg8",
+      "video_upload_date": "2019-04-24",
+      "conferences": [7]
+    },
+    "207": {
+      "speakers": [286],
+      "main_title": "Get your resources faster, with importlib.resources",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=ZsGFU2qh73E",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "208": {
+      "speakers": [287],
+      "main_title": "A practical guide to Singular Value Decomposition in Python",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=d7iIb_XVkZ",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "209": {
+      "speakers": [288],
+      "main_title": "Effortless Logging: A deep dive into the logging module",
+      "alternative_titles": [],
+      "categories": [19,20],
+      "video_url": "https://www.youtube.com/watch?v=Pbz1fo7KlGg",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "210": {
+      "speakers": [289],
+      "main_title": "Types, Deeper Static Analysis, and you",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=hWV8t494N88",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "211": {
+      "speakers": [280],
+      "main_title": "Pumping up Python modules using Rust",
+      "alternative_titles": [],
+      "categories": [19,21],
+      "video_url": "https://www.youtube.com/watch?v=UYpWVfTng4",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "212": {
+      "speakers": [281],
+      "main_title": "Type-checked Python in the real world",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=pMgmKJyWKn8",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "213": {
+      "speakers": [282],
+      "main_title": "How We Do Identity Wrong",
+      "alternative_titles": [],
+      "categories": [22],
+      "video_url": "https://www.youtube.com/watch?v=A5tPhUKljuY",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "214": {
+      "speakers": [283],
+      "main_title": "Learning From Failure: Post Mortems",
+      "alternative_titles": [],
+      "categories": [23],
+      "video_url": "https://www.youtube.com/watch?v=L9Y2ap6vIMg",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "215": {
+      "speakers": [284],
+      "main_title": "Systemd: why you should care as a Python developer",
+      "alternative_titles": [],
+      "categories": [19,24,25],
+      "video_url": "https://www.youtube.com/watch?v=ZUX9Fx8Rwzg",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "216": {
+      "speakers": [285],
+      "main_title": "Big-O: How Code Slows as Data Grows",
+      "alternative_titles": [],
+      "categories": [26],
+      "video_url": "https://www.youtube.com/watch?v=duvZ-2UK0fc",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "217": {
+      "speakers": [286],
+      "main_title": "Clearer Code at Scale: Static Types at Zulip and Dropbox",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=0c46YHS3RY8",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "218": {
+      "speakers": [287],
+      "main_title": "Efficient shared memory data structures",
+      "alternative_titles": [],
+      "categories": [9,30],
+      "video_url": "https://www.youtube.com/watch?v=52zM4GgmqDE",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "219": {
+      "speakers": [288],
+      "main_title": "User focused API Design",
+      "alternative_titles": [],
+      "categories": [6,27],
+      "video_url": "https://www.youtube.com/watch?v=q42hCs2E4So",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "220": {
+      "speakers": [289],
+      "main_title": "The Hare Wins the Race: Getting the most out of RabbitMQ in distributed applications",
+      "alternative_titles": [],
+      "categories": [19,28,29],
+      "video_url": "https://www.youtube.com/watch?v=WXkhJ92-fsY",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "221": {
+      "speakers": [290],
+      "main_title": "There and Back Again: Disable and re-enable garbage collector at Instagram",
+      "alternative_titles": [],
+      "categories": [19,30],
+      "video_url": "https://www.youtube.com/watch?v=WVnACT48CkE",
+      "video_upload_date": "2018-05-13",
+       "conferences": [8]
+    },
+    "222": {
+      "speakers": [291],
+      "main_title": "Automating Code Quality",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=G1lDk_WKXvY",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "223": {
+      "speakers": [292],
+      "main_title": "Python 2 to 3: How to Upgrade and What Features to Start Using",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=klaGx9Q_SOA",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "224": {
+      "speakers": [293],
+      "main_title": "The Journey Over the Intermediate Gap",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=49CIIu1XkIE",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "225": {
+      "speakers": [294],
+      "main_title": "Python, Locales and Writing Systems",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=EEV4G6rh-KQ",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "226": {
+      "speakers": [295],
+      "main_title": "Python Performance Investigation by Example",
+      "alternative_titles": [],
+      "categories": [19,26],
+      "video_url": "https://www.youtube.com/watch?v=yrRqNzJTBjk",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "227": {
+      "speakers": [296],
+      "main_title": "What is a Python Core Developer?",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=hhj7eb6TrtI",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "228": {
+      "speakers": [297],
+      "main_title": "Fighting the Good Fight: Python 3 in your organization",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=H4SS9yVWJYA",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "229": {
+      "speakers": [298],
+      "main_title": "A Bit about Bytes: Understanding Python Bytecode",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=cSSpnq362Bk",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "230": {
+      "speakers": [299],
+      "main_title": "How to Write Deployment-friendly Applications",
+      "alternative_titles": [],
+      "categories": [19,25],
+      "video_url": "https://www.youtube.com/watch?v=wuCpCkrfeMs",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "231": {
+      "speakers": [300],
+      "main_title": "Secrets of a WSGI master",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=CPz0s1CQsTE",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "232": {
+      "speakers": [301],
+      "main_title": "The human nature of failure & resiliency",
+      "alternative_titles": [],
+      "categories": [23],
+      "video_url": "https://www.youtube.com/watch?v=h-38HZqanJ",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "233": {
+      "speakers": [302],
+      "main_title": "Easy 2D Game Creation With Arcade",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=DAWHMHMPVHU",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "234": {
+      "speakers": [303,304],
+      "main_title": "By the Numbers: Python Community Trends in 2017/2018",
+      "alternative_titles": [],
+      "categories": [19,3],
+      "video_url": "https://www.youtube.com/watch?v=xEE4X-9RROM",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "235": {
+      "speakers": [305],
+      "main_title": "Pipenv: The Future of Python Dependency Management",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=GBQAKldqgZs",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "236": {
+      "speakers": [306],
+      "main_title": "Bayesian Non-parametric Models for Data Science using PyMC3",
+      "alternative_titles": [],
+      "categories": [19,31],
+      "video_url": "https://www.youtube.com/watch?v=-sIOMs4MSuA",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "237": {
+      "speakers": [307],
+      "main_title": "Surviving (and thriving!) when you are overloaded",
+      "alternative_titles": [],
+      "categories": [32],
+      "video_url": "https://www.youtube.com/watch?v=dWuRDbH4Xlw",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "238": {
+      "speakers": [308],
+      "main_title": "Building a cross-platform native app with BeeWare",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=qaPzlIJ57dk",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "239": {
+      "speakers": [309],
+      "main_title": "Don't Look Back in Anger: Wildman Whitehouse and the Great Failure of 1858",
+      "alternative_titles": [],
+      "categories": [23],
+      "video_url": "https://www.youtube.com/watch?v=GuNoaAFnTPg",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "240": {
+      "speakers": [310],
+      "main_title": "Dataclasses: The code generator to end all code generators",
+      "alternative_titles": [],
+      "categories": [19],
+      "video_url": "https://www.youtube.com/watch?v=T-TwcmT6Rcw",
+      "video_upload_date": "2018-05-13",
+      "conferences": [8]
+    },
+    "241": {
+      "speakers": [311],
       "main_title": "You're an expert. Here's how to teach like one.",
       "alternative_titles": [],
       "categories": [3],
       "video_url": "https://www.youtube.com/watch?v=3m555yWTaNI",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "196": {
-      "speakers": [208,209],
+    "242": {
+      "speakers": [312,313],
       "main_title": "Fighting Gerrymandering with PyMC3",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=G9I5ZnkWR0A",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "197": {
-      "speakers": [210],
+    "243": {
+      "speakers": [314],
       "main_title": "Python 3: ten years later",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=Aj3KMefwOqI",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "198": {
-      "speakers": [211],
+    "244": {
+      "speakers": [315],
       "main_title": "Python across the USA: This is the Bus.",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=tRp84BlFF94",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "199": {
-      "speakers": [212],
+    "245": {
+      "speakers": [316],
       "main_title": "Graph Databases: Talking about your Data Relationships with Python",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=J8LvW-tyLRc",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "200": {
-      "speakers": [213],
+    "246": {
+      "speakers": [317],
       "main_title": "Controlling apples with snakes: Automating mobile apps with Appium",
       "alternative_titles": [],
-      "categories": [10,24],
+      "categories": [19,33],
       "video_url": "https://www.youtube.com/watch?v=-ltFl1vbe6I",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "201": {
-      "speakers": [214],
+    "247": {
+      "speakers": [318],
       "main_title": "Oops! I Committed My Password To GitHub!",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=2uaTPmNvH0I",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "202": {
-      "speakers": [215],
+    "248": {
+      "speakers": [319],
       "main_title": "Democratizing Distributed Computing with Dask and JupyterHub",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=Iq72dt1gO9c",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "203": {
-      "speakers": [216],
+    "249": {
+      "speakers": [320],
       "main_title": "Solve Your Problem With Sloppy Python",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=Jd8ulMb6_ls",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "204": {
+    "250": {
       "speakers": [217],
       "main_title": "Programming microbes using Python",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=5lYWxjSitIg",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "205": {
+    "251": {
       "speakers": [218],
       "main_title": "HOWTO Write a Function",
       "alternative_titles": [],
       "categories": [9],
       "video_url": "https://www.youtube.com/watch?v=rrBJVMyD-Gs&list",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "206": {
+    "252": {
       "speakers": [219],
       "main_title": "One weird trick to becoming a better software developer",
       "alternative_titles": [],
-      "categories": [23],
+      "categories": [32],
       "video_url": "https://www.youtube.com/watch?v=IYWlfVqBQLc",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "207": {
+    "253": {
       "speakers": [220],
       "main_title": "Python Data Sonification for Science and Discovery",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=3EXvR1shVFQ",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "208": {
+    "254": {
       "speakers": [221],
       "main_title": "Inside the Cheeseshop: How Python Packaging Works",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=AQsZsgJ30AE",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "209": {
+    "255": {
       "speakers": [222],
       "main_title": "Reinventing the Parser Generator",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=zJ9z6Ge-vX",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "210": {
+    "256": {
       "speakers": [223],
       "main_title": "Colossal Cave Adventure in Python... in the browser!",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=RojaWIoBfOo",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "211": {
+    "257": {
       "speakers": [224,225],
       "main_title": "Visualizing Algorithms with Python and Programmable LEDs",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=wJpUlnfwjbk",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "212": {
+    "258": {
       "speakers": [226],
       "main_title": "Practical Sphinx",
       "alternative_titles": [],
-      "categories": [25],
+      "categories": [34],
       "video_url": "https://www.youtube.com/watch?v=0ROZRNZkPS8",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "213": {
+    "259": {
       "speakers": [227],
       "main_title": "Data Visualization in Mixed Reality with Python",
       "alternative_titles": [],
-      "categories": [10,28],
+      "categories": [19,27],
       "video_url": "https://www.youtube.com/watch?v=K94iCIy77pA",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "214": {
+    "260": {
       "speakers": [228],
       "main_title": "How Netflix does failovers in 7 minutes flat",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=iQI56-up3Yk",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "215": {
+    "261": {
       "speakers": [229],
       "main_title": "Counter, Gauge, Upper 90 - Oh my!",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=R4kMwckrUlg",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "216": {
+    "262": {
       "speakers": [230],
       "main_title": "Reactive Programming with RxPy",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=I5AZ3rTR4Wc",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "217": {
+    "263": {
       "speakers": [231],
       "main_title": "Exploring Deep Learning Framework PyTorch",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=LEkyvEZoDZg",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "218": {
+    "264": {
       "speakers": [232],
       "main_title": "Bowerbirds of Technology: Architecture and Teams at Less-than-Google Scale",
       "alternative_titles": [],
-      "categories": [14],
+      "categories": [23],
       "video_url": "https://www.youtube.com/watch?v=0Z45gcIwwrQ",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "219": {
+    "265": {
       "speakers": [233,234],
       "main_title": "All in the timing: How side channel attacks work",
       "alternative_titles": [],
-      "categories": [10,26],
+      "categories": [14,35],
       "video_url": "https://www.youtube.com/watch?v=dT2xjgUInhQ",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "220": {
+    "266": {
       "speakers": [235],
       "main_title": "Listen, Attend, and Walk : Interpreting natural language navigational instructions",
       "alternative_titles": [],
-      "categories": [27],
+      "categories": [36],
       "video_url": "https://www.youtube.com/watch?v=MJBWAkE7cEo",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "221": {
+    "267": {
       "speakers": [236],
       "main_title": "Elegant Solutions For Everyday Python Problems",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=WiQqqB9MlkA",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "222": {
+    "268": {
       "speakers": [237],
       "main_title": "Trio: Async concurrency for mere mortals",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=oLkfnc_UMcE",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "223": {
+    "269": {
       "speakers": [238],
       "main_title": "Building a Data Pipeline with Testing in Mind",
       "alternative_titles": [],
-      "categories": [10,24],
+      "categories": [19,33],
       "video_url": "https://www.youtube.com/watch?v=fRUCAt9WFpc",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "224": {
+    "270": {
       "speakers": [239,240],
       "main_title": "Visual Testing with PyCharm and pytest",
       "alternative_titles": [],
-      "categories": [10,24],
+      "categories": [19,33],
       "video_url": "https://www.youtube.com/watch?v=FjojZxDZscQ",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "225": {
+    "271": {
       "speakers": [241],
       "main_title": "Love your bugs",
       "alternative_titles": [],
-      "categories": [24],
+      "categories": [33],
       "video_url": "https://www.youtube.com/watch?v=HuuYwUxM-ZY",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "226": {
+    "272": {
       "speakers": [242],
       "main_title": "Build a Search Engine with Python + Elasticsearch",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=6_P_h2bDwYs",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "227": {
+    "273": {
       "speakers": [243],
       "main_title": "Getting Started with Blockchains and Cryptocurrencies in Python",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=_nSKR-lJjO0",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "228": {
+    "274": {
       "speakers": [244],
       "main_title": "Exploratory Data Visualization with Vega, Vega-Lite, and Altair",
       "alternative_titles": [],
-      "categories": [10,28],
+      "categories": [19,37],
       "video_url": "https://www.youtube.com/watch?v=ms29ZPUKxbU",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "229": {
+    "275": {
       "speakers": [245],
       "main_title": "Intro to Spatial Analysis and Maps with Python",
       "alternative_titles": [],
-      "categories": [10,28],
+      "categories": [19,37],
       "video_url": "https://www.youtube.com/watch?v=uRvTeK5Ndq8",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "229": {
+    "276": {
       "speakers": [246],
       "main_title": "CuPy: A NumPy-compatible Library for GPU",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=MAz1xolSB68",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "230": {
+    "277": {
       "speakers": [247],
-      "main_title": "The importance of exploratory data analysis and data visualization in machine learning",
-      "alternative_titles": [],
-      "categories": [28],
+      "main_title": "Trust The Data to Speak for Itself",
+      "alternative_titles": ["The importance of exploratory data analysis and data visualization in machine learning"],
+      "categories": [37],
       "video_url": "https://www.youtube.com/watch?v=zIcgCZl37tU",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "231": {
+    "278": {
       "speakers": [248],
       "main_title": "Software Library APIs: Lessons Learned from scikit-learn",
       "alternative_titles": [],
-      "categories": [18],
+      "categories": [27],
       "video_url": "https://www.youtube.com/watch?v=WCEXYvv-T5Q",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "232": {
+    "279": {
       "speakers": [249],
       "main_title": "Birding with Python and Machine Learning",
       "alternative_titles": [],
-      "categories": [10,29],
+      "categories": [19,38],
       "video_url": "https://www.youtube.com/watch?v=938yg4udxSc",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "233": {
+    "280": {
       "speakers": [250],
       "main_title": "Beyond scraping: how to use machine learning when you're not sure where to start",
       "alternative_titles": [],
-      "categories": [29],
+      "categories": [38],
       "video_url": "https://www.youtube.com/watch?v=BwC01zoSRBc",
       "video_upload_date": "2018-05-13",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "234": {
+    "281": {
       "speakers": [251],
       "main_title": "Adapting from Spark to Dask: what to expect",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=X4YHGKj3V5M",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "235": {
+    "282": {
       "speakers": [252],
       "main_title": "Debugging PySpark -- Or trying to make sense of a JVM stack trace when you were minding your own bus with your friend",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=McgG09XriEI",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "236": {
+    "283": {
       "speakers": [253],
       "main_title": "The AST and Me",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=XhWvz4dK4ng",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "237": {
+    "284": {
       "speakers": [254],
       "main_title": "Flourishing FLOSS: Making Your Project Successful",
       "alternative_titles": [],
-      "categories": [14],
+      "categories": [23],
       "video_url": "https://www.youtube.com/watch?v=GmbaKdd6o6A",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "238": {
+    "285": {
       "speakers": [255],
       "main_title": "Taking Django Async",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=-7taKQnndfo",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "239": {
+    "286": {
       "speakers": [256],
       "main_title": "Randomness in Python: Creating Chaos in an Ordered Machine/Controlled Environment",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=EGF4G2feXx4",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "240": {
+    "287": {
       "speakers": [257],
       "main_title": "Analyzing Data: What pandas and SQL Taught Me About Taking an Average",
       "alternative_titles": [],
-      "categories": [22],
+      "categories": [31],
       "video_url": "https://www.youtube.com/watch?v=DlgG0QdrqAU",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "241": {
+    "288": {
       "speakers": [258,259],
       "main_title": "Using Python to build an AI to play and win SNES StreetFighter II",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=NyNUYYI-Pdg",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "242": {
+    "289": {
       "speakers": [260],
       "main_title": "Deconstructing the US Patent Database",
       "alternative_titles": [],
-      "categories": [10,27],
+      "categories": [19,36],
       "video_url": "https://www.youtube.com/watch?v=lk6FGg5RzAk",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "243": {
+    "290": {
       "speakers": [261],
       "main_title": "Code Reviews Using Art Critique Principles",
       "alternative_titles": [],
       "categories": [],
       "video_url": "https://www.youtube.com/watch?v=lpWvYxEW09k",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "244": {
+    "291": {
       "speakers": [262],
       "main_title": "Code like an accountant: Designing data systems for accuracy, resilience and auditability",
       "alternative_titles": [],
       "categories": [9],
       "video_url": "https://www.youtube.com/watch?v=svcBO-OjYfM",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "245": {
+    "292": {
       "speakers": [263],
       "main_title": "Demystifying the Patch Function",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=ww1UsGZV8fQ",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "246": {
+    "293": {
       "speakers": [264],
       "main_title": "Augmenting Human Decision Making with Data Science",
       "alternative_titles": [],
-      "categories": [22],
+      "categories": [31],
       "video_url": "https://www.youtube.com/watch?v=hnSgIUA57hg",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "247": {
+    "294": {
       "speakers": [265],
       "main_title": "\"WHAT IS THIS MESS?\" - Writing tests for pre-existing code bases",
       "alternative_titles": [],
-      "categories": [24],
+      "categories": [33],
       "video_url": "https://www.youtube.com/watch?v=LDdUuoI_lIg",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "248": {
+    "295": {
       "speakers": [242],
       "main_title": "Strategies to Edit Production Data",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=43NiFtbNg_s",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "249": {
+    "296": {
       "speakers": [266],
       "main_title": "Build Teams as an Engineer",
       "alternative_titles": [],
-      "categories": [14],
+      "categories": [23],
       "video_url": "https://www.youtube.com/watch?v=-9NpTeddWds",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "250": {
+    "297": {
       "speakers": [267],
       "main_title": "Thinking Outside the GIL with AsyncIO and Multiprocessing",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=0kXaLh8Fz3k",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "251": {
+    "298": {
       "speakers": [244],
       "main_title": "Performance Python: Seven Strategies for Optimizing Your Numerical Code",
       "alternative_titles": [],
-      "categories": [10,22],
+      "categories": [19,31],
       "video_url": "https://www.youtube.com/watch?v=zQeYx87mfyw",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "252": {
+    "299": {
       "speakers": [268],
       "main_title": "Beyond Unit Tests: Taking Your Testing to the Next Level",
       "alternative_titles": [],
-      "categories": [10,24],
+      "categories": [19,33],
       "video_url": "https://www.youtube.com/watch?v=MYucYon2-lk",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "253": {
+    "300": {
       "speakers": [269],
       "main_title": "Import time_travel: A Primer on Timezones in Python",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=CiegLU8ijFU",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "254": {
+    "301": {
       "speakers": [270,271,272],
       "main_title": "How we designed an inclusivity-first conference on a shoestring budget and short timeline",
       "alternative_titles": [],
-      "categories": [3,10],
+      "categories": [3,19],
       "video_url": "https://www.youtube.com/watch?v=C7ZhMnfUKIA",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "255": {
+    "302": {
       "speakers": [273],
       "main_title": "Coding through Adversity",
       "alternative_titles": [],
       "categories": [3],
       "video_url": "https://www.youtube.com/watch?v=dGz-K8x8k5k",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "256": {
+    "303": {
       "speakers": [274],
       "main_title": "Behavior-Driven Python",
       "alternative_titles": [],
-      "categories": [10,14],
+      "categories": [19,23],
       "video_url": "https://www.youtube.com/watch?v=EtIAbfCrsFI",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "257": {
+    "304": {
       "speakers": [275],
       "main_title": "When data meets education! The secret life of data in education",
       "alternative_titles": [],
-      "categories": [22],
+      "categories": [31],
       "video_url": "https://www.youtube.com/watch?v=8OoR-P6wE0M",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "258": {
+    "305": {
       "speakers": [276],
       "main_title": "Learning Python like a Pro",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=DG2AAhvh7nk",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "259": {
+    "306": {
       "speakers": [277],
       "main_title": "Using GitHub, Travis CI, and Python to Introduce Collaborative Software Development ",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=cxTXJ3N91s0",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     },
-    "260": {
+    "307": {
       "speakers": [278],
       "main_title": "Pycamp 2K17: A Disclaimer",
       "alternative_titles": [],
-      "categories": [3,10],
+      "categories": [3,19],
       "video_url": "https://www.youtube.com/watch?v=TcHkkzWBMKY",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
-    }
-    ,
-    "261": {
+      "conferences": [8]
+    },
+    "308": {
       "speakers": [279],
       "main_title": "Python for N00bs: A cognitive and educational approach",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=rCZgroTno1w",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
-    }
-    ,
-    "262": {
+      "conferences": [8]
+    },
+    "309": {
       "speakers": [280],
       "main_title": "GenZeal: A new generation of thinkers who design, develop, and distribute for tomorrow",
       "alternative_titles": [],
       "categories": [3],
       "video_url": "https://www.youtube.com/watch?v=8mYlzEanNEY",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
-    }
-    ,
-    "263": {
+      "conferences": [8]
+    },
+    "310": {
       "speakers": [281],
       "main_title": "Hard Shouldn't be Hardship: Supporting Absolute Novices to Python",
       "alternative_titles": [],
-      "categories": [3,10],
+      "categories": [3,19],
       "video_url": "https://www.youtube.com/watch?v=KAPeaEJeuc8",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
-    }
-    ,
-    "264": {
+      "conferences": [8]
+    },
+    "311": {
       "speakers": [282],
       "main_title": "Jupyter Tools for Teaching and Learning",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=iAvoE9vjZuc",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
-    }
-    ,
-    "265": {
+      "conferences": [8]
+    },
+    "312": {
       "speakers": [283],
       "main_title": "Teaching Python 101",
       "alternative_titles": [],
-      "categories": [10],
+      "categories": [19],
       "video_url": "https://www.youtube.com/watch?v=s36GwDng904",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
-    }
-    ,
-    "266": {
+      "conferences": [8]
+    },
+    "313": {
       "speakers": [284],
       "main_title": "Coding as Enrichment: How to Empower Students with Creative Coding Experiences",
       "alternative_titles": [],
       "categories": [3],
       "video_url": "https://www.youtube.com/watch?v=yN98sklnHSM",
       "video_upload_date": "2018-05-10",
-      "conferences": [6]
-    }
-    ,
-    "267": {
+      "conferences": [8]
+    },
+    "314": {
       "speakers": [285],
       "main_title": "Mu - How to Make a Kids' Code Editor",
       "alternative_titles": [],
-      "categories": [10,3],
+      "categories": [19,3],
       "video_url": "https://www.youtube.com/watch?v=T5IAf5vGGSk",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
-    }
-    ,
-    "268": {
+      "conferences": [8]
+    },
+    "315": {
       "speakers": [226],
       "main_title": "STEAM Workshops using Jupyter Notebooks, JupyterHub, and Binder",
       "alternative_titles": [],
-      "categories": [3,10],
+      "categories": [3,19],
       "video_url": "https://www.youtube.com/watch?v=BqJyaejvVjQ",
       "video_upload_date": "2018-05-12",
-      "conferences": [6]
+      "conferences": [8]
     }
   }
 }

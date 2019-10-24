@@ -41,82 +41,118 @@
       "alternative_spelling": []
     },
     "10": {
-      "name": "Python",
+      "name": "Markup",
       "alternative_spelling": []
     },
     "11": {
-      "name": "Logging",
-      "alternative_spelling": ["logs"]
+      "name": "Wordpress",
+      "alternative_spelling": []
     },
     "12": {
-      "name": "Rust",
+      "name": "Digital Experiences",
       "alternative_spelling": []
     },
     "13": {
-      "name": "Identity",
-      "alternative_spelling": ["user identity"]
+      "name": "Netlify",
+      "alternative_spelling": []
     },
     "14": {
-      "name": "Project Management",
+      "name": "Stackbit",
       "alternative_spelling": []
     },
     "15": {
-      "name": "Linux",
+      "name": "JAMstack",
       "alternative_spelling": []
     },
     "16": {
-      "name": "Deployment",
-      "alternative_spelling": ["deploying"]
+      "name": "Git",
+      "alternative_spelling": []
     },
     "17": {
-      "name": "Code Performance",
+      "name": "Typography",
       "alternative_spelling": []
     },
     "18": {
-      "name": "API",
-      "alternative_spelling": ["APIs"]
-    },
-    "19": {
-      "name": "Message-Routing",
-      "alternative_spelling": ["message routing"]
-    },
-    "20": {
-      "name": "Distributed Applications",
+      "name": "React",
       "alternative_spelling": []
     },
+    "19": {
+      "name": "Python",
+      "alternative_spelling": []
+    },
+    "20": {
+      "name": "Logging",
+      "alternative_spelling": ["logs"]
+    },
     "21": {
-      "name": "Memory Management",
+      "name": "Rust",
       "alternative_spelling": []
     },
     "22": {
-      "name": "Data Science",
-      "alternative_spelling": []
+      "name": "Identity",
+      "alternative_spelling": ["user identity"]
     },
     "23": {
-      "name": "Leadership",
+      "name": "Project Management",
       "alternative_spelling": []
     },
     "24": {
-      "name": "Testing",
-      "alternative_spelling": ["software testing"]
-    },
-    "25": {
-      "name": "Documentation",
+      "name": "Linux",
       "alternative_spelling": []
     },
+    "25": {
+      "name": "Deployment",
+      "alternative_spelling": ["deploying"]
+    },
     "26": {
-      "name": "Security",
+      "name": "Code Performance",
       "alternative_spelling": []
     },
     "27": {
+      "name": "API",
+      "alternative_spelling": ["APIs"]
+    },
+    "28": {
+      "name": "Message-Routing",
+      "alternative_spelling": ["message routing"]
+    },
+    "29": {
+      "name": "Distributed Applications",
+      "alternative_spelling": []
+    },
+    "30": {
+      "name": "Memory Management",
+      "alternative_spelling": []
+    },
+    "31": {
+      "name": "Data Science",
+      "alternative_spelling": []
+    },
+    "32": {
+      "name": "Leadership",
+      "alternative_spelling": []
+    },
+    "33": {
+      "name": "Testing",
+      "alternative_spelling": ["software testing"]
+    },
+    "34": {
+      "name": "Documentation",
+      "alternative_spelling": []
+    },
+    "35": {
+      "name": "Security",
+      "alternative_spelling": []
+    },
+    "36": {
       "name": "Neural Networks",
       "alternative_spelling": []
     },
-    "28": {
+    "37": {
       "name": "Data Visualization",
       "alternative_spelling": []
     },
-    "29": {
+    "38": {
       "name": "Machine Learning",
       "alternative_spelling": []
     }

@@ -36,9 +36,14 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
                     <p className="horizontal-list-label">By:</p>
                     <ul className="horizontal-list">
                       {talk.speakers.length ? (
-                        talk.speakers.map(speaker => (
-                          <li key={speaker.name}>{speaker.name}</li>
-                        ))
+                        <>
+                          {talk.speakers.slice(0, 3).map(speaker => (
+                            <li key={speaker.name}>{speaker.name}</li>
+                          ))}
+                          {talk.speakers.length > 3 && (
+                            <li>+ {talk.speakers.length - 3} more speakers</li>
+                          )}
+                        </>
                       ) : (
                         <li key="no-speakers">No speakers available</li>
                       )}
@@ -48,9 +53,16 @@ const TalkList = ({ talkList, toggleBookmark, itemsPerPage, offset }) => {
                     <p className="horizontal-list-label">Categories:</p>
                     <ul className="horizontal-list">
                       {talk.categories.length ? (
-                        talk.categories.map(category => (
-                          <li key={category.name}>{category.name}</li>
-                        ))
+                        <>
+                          {talk.categories.slice(0, 3).map(category => (
+                            <li key={category.name}>{category.name}</li>
+                          ))}
+                          {talk.categories.length > 3 && (
+                            <li>
+                              + {talk.categories.length - 3} more categories
+                            </li>
+                          )}
+                        </>
                       ) : (
                         <li key="no-categories">No categories available</li>
                       )}
