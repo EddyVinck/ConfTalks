@@ -1817,6 +1817,626 @@
       "video_url": "https://www.youtube.com/watch?v=2uaTPmNvH0I",
       "video_upload_date": "2018-05-13",
       "conferences": [6]
+    },
+    "202": {
+      "speakers": [215],
+      "main_title": "Democratizing Distributed Computing with Dask and JupyterHub",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=Iq72dt1gO9c",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "203": {
+      "speakers": [216],
+      "main_title": "Solve Your Problem With Sloppy Python",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=Jd8ulMb6_ls",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "204": {
+      "speakers": [217],
+      "main_title": "Programming microbes using Python",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=5lYWxjSitIg",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "205": {
+      "speakers": [218],
+      "main_title": "HOWTO Write a Function",
+      "alternative_titles": [],
+      "categories": [9],
+      "video_url": "https://www.youtube.com/watch?v=rrBJVMyD-Gs&list",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "206": {
+      "speakers": [219],
+      "main_title": "One weird trick to becoming a better software developer",
+      "alternative_titles": [],
+      "categories": [23],
+      "video_url": "https://www.youtube.com/watch?v=IYWlfVqBQLc",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "207": {
+      "speakers": [220],
+      "main_title": "Python Data Sonification for Science and Discovery",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=3EXvR1shVFQ",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "208": {
+      "speakers": [221],
+      "main_title": "Inside the Cheeseshop: How Python Packaging Works",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=AQsZsgJ30AE",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "209": {
+      "speakers": [222],
+      "main_title": "Reinventing the Parser Generator",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=zJ9z6Ge-vX",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "210": {
+      "speakers": [223],
+      "main_title": "Colossal Cave Adventure in Python... in the browser!",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=RojaWIoBfOo",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "211": {
+      "speakers": [224,225],
+      "main_title": "Visualizing Algorithms with Python and Programmable LEDs",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=wJpUlnfwjbk",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "212": {
+      "speakers": [226],
+      "main_title": "Practical Sphinx",
+      "alternative_titles": [],
+      "categories": [25],
+      "video_url": "https://www.youtube.com/watch?v=0ROZRNZkPS8",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "213": {
+      "speakers": [227],
+      "main_title": "Data Visualization in Mixed Reality with Python",
+      "alternative_titles": [],
+      "categories": [10,28],
+      "video_url": "https://www.youtube.com/watch?v=K94iCIy77pA",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "214": {
+      "speakers": [228],
+      "main_title": "How Netflix does failovers in 7 minutes flat",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=iQI56-up3Yk",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "215": {
+      "speakers": [229],
+      "main_title": "Counter, Gauge, Upper 90 - Oh my!",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=R4kMwckrUlg",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "216": {
+      "speakers": [230],
+      "main_title": "Reactive Programming with RxPy",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=I5AZ3rTR4Wc",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "217": {
+      "speakers": [231],
+      "main_title": "Exploring Deep Learning Framework PyTorch",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=LEkyvEZoDZg",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "218": {
+      "speakers": [232],
+      "main_title": "Bowerbirds of Technology: Architecture and Teams at Less-than-Google Scale",
+      "alternative_titles": [],
+      "categories": [14],
+      "video_url": "https://www.youtube.com/watch?v=0Z45gcIwwrQ",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "219": {
+      "speakers": [233,234],
+      "main_title": "All in the timing: How side channel attacks work",
+      "alternative_titles": [],
+      "categories": [10,26],
+      "video_url": "https://www.youtube.com/watch?v=dT2xjgUInhQ",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "220": {
+      "speakers": [235],
+      "main_title": "Listen, Attend, and Walk : Interpreting natural language navigational instructions",
+      "alternative_titles": [],
+      "categories": [27],
+      "video_url": "https://www.youtube.com/watch?v=MJBWAkE7cEo",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "221": {
+      "speakers": [236],
+      "main_title": "Elegant Solutions For Everyday Python Problems",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=WiQqqB9MlkA",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "222": {
+      "speakers": [237],
+      "main_title": "Trio: Async concurrency for mere mortals",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=oLkfnc_UMcE",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "223": {
+      "speakers": [238],
+      "main_title": "Building a Data Pipeline with Testing in Mind",
+      "alternative_titles": [],
+      "categories": [10,24],
+      "video_url": "https://www.youtube.com/watch?v=fRUCAt9WFpc",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "224": {
+      "speakers": [239,240],
+      "main_title": "Visual Testing with PyCharm and pytest",
+      "alternative_titles": [],
+      "categories": [10,24],
+      "video_url": "https://www.youtube.com/watch?v=FjojZxDZscQ",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "225": {
+      "speakers": [241],
+      "main_title": "Love your bugs",
+      "alternative_titles": [],
+      "categories": [24],
+      "video_url": "https://www.youtube.com/watch?v=HuuYwUxM-ZY",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "226": {
+      "speakers": [242],
+      "main_title": "Build a Search Engine with Python + Elasticsearch",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=6_P_h2bDwYs",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "227": {
+      "speakers": [243],
+      "main_title": "Getting Started with Blockchains and Cryptocurrencies in Python",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=_nSKR-lJjO0",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "228": {
+      "speakers": [244],
+      "main_title": "Exploratory Data Visualization with Vega, Vega-Lite, and Altair",
+      "alternative_titles": [],
+      "categories": [10,28],
+      "video_url": "https://www.youtube.com/watch?v=ms29ZPUKxbU",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "229": {
+      "speakers": [245],
+      "main_title": "Intro to Spatial Analysis and Maps with Python",
+      "alternative_titles": [],
+      "categories": [10,28],
+      "video_url": "https://www.youtube.com/watch?v=uRvTeK5Ndq8",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "229": {
+      "speakers": [246],
+      "main_title": "CuPy: A NumPy-compatible Library for GPU",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=MAz1xolSB68",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "230": {
+      "speakers": [247],
+      "main_title": "The importance of exploratory data analysis and data visualization in machine learning",
+      "alternative_titles": [],
+      "categories": [28],
+      "video_url": "https://www.youtube.com/watch?v=zIcgCZl37tU",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "231": {
+      "speakers": [248],
+      "main_title": "Software Library APIs: Lessons Learned from scikit-learn",
+      "alternative_titles": [],
+      "categories": [18],
+      "video_url": "https://www.youtube.com/watch?v=WCEXYvv-T5Q",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "232": {
+      "speakers": [249],
+      "main_title": "Birding with Python and Machine Learning",
+      "alternative_titles": [],
+      "categories": [10,29],
+      "video_url": "https://www.youtube.com/watch?v=938yg4udxSc",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "233": {
+      "speakers": [250],
+      "main_title": "Beyond scraping: how to use machine learning when you're not sure where to start",
+      "alternative_titles": [],
+      "categories": [29],
+      "video_url": "https://www.youtube.com/watch?v=BwC01zoSRBc",
+      "video_upload_date": "2018-05-13",
+      "conferences": [6]
+    },
+    "234": {
+      "speakers": [251],
+      "main_title": "Adapting from Spark to Dask: what to expect",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=X4YHGKj3V5M",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "235": {
+      "speakers": [252],
+      "main_title": "Debugging PySpark -- Or trying to make sense of a JVM stack trace when you were minding your own bus with your friend",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=McgG09XriEI",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "236": {
+      "speakers": [253],
+      "main_title": "The AST and Me",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=XhWvz4dK4ng",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "237": {
+      "speakers": [254],
+      "main_title": "Flourishing FLOSS: Making Your Project Successful",
+      "alternative_titles": [],
+      "categories": [14],
+      "video_url": "https://www.youtube.com/watch?v=GmbaKdd6o6A",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "238": {
+      "speakers": [255],
+      "main_title": "Taking Django Async",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=-7taKQnndfo",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "239": {
+      "speakers": [256],
+      "main_title": "Randomness in Python: Creating Chaos in an Ordered Machine/Controlled Environment",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=EGF4G2feXx4",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "240": {
+      "speakers": [257],
+      "main_title": "Analyzing Data: What pandas and SQL Taught Me About Taking an Average",
+      "alternative_titles": [],
+      "categories": [22],
+      "video_url": "https://www.youtube.com/watch?v=DlgG0QdrqAU",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "241": {
+      "speakers": [258,259],
+      "main_title": "Using Python to build an AI to play and win SNES StreetFighter II",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=NyNUYYI-Pdg",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "242": {
+      "speakers": [260],
+      "main_title": "Deconstructing the US Patent Database",
+      "alternative_titles": [],
+      "categories": [10,27],
+      "video_url": "https://www.youtube.com/watch?v=lk6FGg5RzAk",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "243": {
+      "speakers": [261],
+      "main_title": "Code Reviews Using Art Critique Principles",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=lpWvYxEW09k",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "244": {
+      "speakers": [262],
+      "main_title": "Code like an accountant: Designing data systems for accuracy, resilience and auditability",
+      "alternative_titles": [],
+      "categories": [9],
+      "video_url": "https://www.youtube.com/watch?v=svcBO-OjYfM",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "245": {
+      "speakers": [263],
+      "main_title": "Demystifying the Patch Function",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=ww1UsGZV8fQ",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "246": {
+      "speakers": [264],
+      "main_title": "Augmenting Human Decision Making with Data Science",
+      "alternative_titles": [],
+      "categories": [22],
+      "video_url": "https://www.youtube.com/watch?v=hnSgIUA57hg",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "247": {
+      "speakers": [265],
+      "main_title": "\"WHAT IS THIS MESS?\" - Writing tests for pre-existing code bases",
+      "alternative_titles": [],
+      "categories": [24],
+      "video_url": "https://www.youtube.com/watch?v=LDdUuoI_lIg",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "248": {
+      "speakers": [242],
+      "main_title": "Strategies to Edit Production Data",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=43NiFtbNg_s",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "249": {
+      "speakers": [266],
+      "main_title": "Build Teams as an Engineer",
+      "alternative_titles": [],
+      "categories": [14],
+      "video_url": "https://www.youtube.com/watch?v=-9NpTeddWds",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "250": {
+      "speakers": [267],
+      "main_title": "Thinking Outside the GIL with AsyncIO and Multiprocessing",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=0kXaLh8Fz3k",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "251": {
+      "speakers": [244],
+      "main_title": "Performance Python: Seven Strategies for Optimizing Your Numerical Code",
+      "alternative_titles": [],
+      "categories": [10,22],
+      "video_url": "https://www.youtube.com/watch?v=zQeYx87mfyw",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "252": {
+      "speakers": [268],
+      "main_title": "Beyond Unit Tests: Taking Your Testing to the Next Level",
+      "alternative_titles": [],
+      "categories": [10,24],
+      "video_url": "https://www.youtube.com/watch?v=MYucYon2-lk",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "253": {
+      "speakers": [269],
+      "main_title": "Import time_travel: A Primer on Timezones in Python",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=CiegLU8ijFU",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "254": {
+      "speakers": [270,271,272],
+      "main_title": "How we designed an inclusivity-first conference on a shoestring budget and short timeline",
+      "alternative_titles": [],
+      "categories": [3,10],
+      "video_url": "https://www.youtube.com/watch?v=C7ZhMnfUKIA",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "255": {
+      "speakers": [273],
+      "main_title": "Coding through Adversity",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=dGz-K8x8k5k",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "256": {
+      "speakers": [274],
+      "main_title": "Behavior-Driven Python",
+      "alternative_titles": [],
+      "categories": [10,14],
+      "video_url": "https://www.youtube.com/watch?v=EtIAbfCrsFI",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "257": {
+      "speakers": [275],
+      "main_title": "When data meets education! The secret life of data in education",
+      "alternative_titles": [],
+      "categories": [22],
+      "video_url": "https://www.youtube.com/watch?v=8OoR-P6wE0M",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "258": {
+      "speakers": [276],
+      "main_title": "Learning Python like a Pro",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=DG2AAhvh7nk",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "259": {
+      "speakers": [277],
+      "main_title": "Using GitHub, Travis CI, and Python to Introduce Collaborative Software Development ",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=cxTXJ3N91s0",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    },
+    "260": {
+      "speakers": [278],
+      "main_title": "Pycamp 2K17: A Disclaimer",
+      "alternative_titles": [],
+      "categories": [3,10],
+      "video_url": "https://www.youtube.com/watch?v=TcHkkzWBMKY",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    }
+    ,
+    "261": {
+      "speakers": [279],
+      "main_title": "Python for N00bs: A cognitive and educational approach",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=rCZgroTno1w",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    }
+    ,
+    "262": {
+      "speakers": [280],
+      "main_title": "GenZeal: A new generation of thinkers who design, develop, and distribute for tomorrow",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=8mYlzEanNEY",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    }
+    ,
+    "263": {
+      "speakers": [281],
+      "main_title": "Hard Shouldn't be Hardship: Supporting Absolute Novices to Python",
+      "alternative_titles": [],
+      "categories": [3,10],
+      "video_url": "https://www.youtube.com/watch?v=KAPeaEJeuc8",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    }
+    ,
+    "264": {
+      "speakers": [282],
+      "main_title": "Jupyter Tools for Teaching and Learning",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=iAvoE9vjZuc",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    }
+    ,
+    "265": {
+      "speakers": [283],
+      "main_title": "Teaching Python 101",
+      "alternative_titles": [],
+      "categories": [10],
+      "video_url": "https://www.youtube.com/watch?v=s36GwDng904",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    }
+    ,
+    "266": {
+      "speakers": [284],
+      "main_title": "Coding as Enrichment: How to Empower Students with Creative Coding Experiences",
+      "alternative_titles": [],
+      "categories": [3],
+      "video_url": "https://www.youtube.com/watch?v=yN98sklnHSM",
+      "video_upload_date": "2018-05-10",
+      "conferences": [6]
+    }
+    ,
+    "267": {
+      "speakers": [285],
+      "main_title": "Mu - How to Make a Kids' Code Editor",
+      "alternative_titles": [],
+      "categories": [10,3],
+      "video_url": "https://www.youtube.com/watch?v=T5IAf5vGGSk",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
+    }
+    ,
+    "268": {
+      "speakers": [226],
+      "main_title": "STEAM Workshops using Jupyter Notebooks, JupyterHub, and Binder",
+      "alternative_titles": [],
+      "categories": [3,10],
+      "video_url": "https://www.youtube.com/watch?v=BqJyaejvVjQ",
+      "video_upload_date": "2018-05-12",
+      "conferences": [6]
     }
   }
 }

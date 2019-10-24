@@ -99,6 +99,26 @@
     "24": {
       "name": "Testing",
       "alternative_spelling": ["software testing"]
+    },
+    "25": {
+      "name": "Documentation",
+      "alternative_spelling": []
+    },
+    "26": {
+      "name": "Security",
+      "alternative_spelling": []
+    },
+    "27": {
+      "name": "Neural Networks",
+      "alternative_spelling": []
+    },
+    "28": {
+      "name": "Data Visualization",
+      "alternative_spelling": []
+    },
+    "29": {
+      "name": "Machine Learning",
+      "alternative_spelling": []
     }
   }
 }
