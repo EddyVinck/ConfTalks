@@ -53,6 +53,12 @@
       "start_date": "2018-05-09",
       "end_date": "2018-05-17",
       "locations": ["Cleveland, Ohio, USA"]
+    },
+    "9": {
+      "name": "ElixirConf 2019",
+      "start_date": "2019-08-27",
+      "end_date": "2019-08-30",
+      "locations": ["Aurora, Colorado. United States"]
     }
   }
 }
