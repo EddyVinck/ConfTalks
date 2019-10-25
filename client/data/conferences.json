@@ -47,6 +47,12 @@
       "start_date": "2019-04-10",
       "end_date": "2019-04-12",
       "locations": ["Kromhouthal. Gedempt Hamerkanaal 231, 1021 KP Amsterdam"]
+    },
+    "8": {
+      "name": "Frontend Love Amsterdam 2018",
+      "start_date": "2018-03-15",
+      "end_date": "2018-03-16",
+      "locations": ["Danzigerkade 5 Amsterdam Noord-Holland 1013AP"]
     }
   }
 }
