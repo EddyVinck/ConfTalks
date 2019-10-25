@@ -107,7 +107,7 @@ const TalkListFilters = () => {
                   <Menu {...getMenuProps()}>
                     { conferencesList
                       .sort((a, b) => a.name.localeCompare(b.name))
-                      .filter(item => !inputValue || item.name.includes(inputValue))
+                      .filter(item => !inputValue || item.name.toLowerCase().includes(inputValue.toLowerCase()))
                       .map((item, index) => (
                         <Item
                           {...getItemProps({
@@ -171,7 +171,7 @@ const TalkListFilters = () => {
                 <Menu {...getMenuProps()}>
                   { categoryList
                     .sort((a, b) => a.name.localeCompare(b.name))
-                    .filter(item => !inputValue || item.name.includes(inputValue))
+                    .filter(item => !inputValue || item.name.toLowerCase().includes(inputValue.toLowerCase()))
                     .map((item, index) => (
                       <Item
                         {...getItemProps({
