@@ -1862,6 +1862,159 @@
       "video_url": "https://www.youtube.com/watch?v=sBbRQK58Fg8",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
+    },
+    "207": {
+       "speakers": [217],
+       "main_title": "Animating Vue How capable and elegant is Vue js in terms of animation",
+       "alternative_titles": [],
+       "categories": [1, 2, 19],
+       "video_url": "https://www.youtube.com/watch?v=LLnVLjpY6gE",
+       "video_upload_date": "2018-02-22",
+       "conferences": [8]
+    },
+    "208": {
+      "speakers": [218],
+      "main_title": "React; it's not a framework for the UI, but a framework for the mind",
+      "alternative_titles": [],
+      "categories": [1, 2, 18],
+      "video_url": "https://www.youtube.com/watch?v=clTP9hJWsrE",
+      "video_upload_date": "2018-02-23",
+      "conferences": [8]
+    },
+    "209": {
+      "speakers": [219],
+      "main_title": "Build progressive web apps with Angular",
+      "alternative_titles": [],
+      "categories": [1, 2, 20],
+      "video_url": "https://www.youtube.com/watch?v=zsxeA8kJBbo",
+      "video_upload_date": "2018-02-26",
+      "conferences": [8]
+    },
+    "210": {
+      "speakers": [220],
+      "main_title": "State of VueJS 2018 | Vue.js Amsterdam Conference",
+      "alternative_titles": [],
+      "categories": [1, 2, 19],
+      "video_url": "https://www.youtube.com/watch?v=TRJMT9yjONQ",
+      "video_upload_date": "2018-03-01",
+      "conferences": [8]
+    },
+    "211": {
+       "speakers": [221],
+       "main_title": "Scaling Vue in an existing stack",
+       "alternative_titles": [],
+       "categories": [1, 2, 19],
+       "video_url": "https://www.youtube.com/watch?v=XmouoW1Gfro",
+       "video_upload_date": "2018-02-27",
+      "conferences": [8]
+    },
+    "212": {
+       "speakers": [222],
+       "main_title": "Apollo, GraphQL and Vue the ultimate stack",
+       "alternative_titles": [],
+       "categories": [1, 2, 19, 4, 21],
+       "video_url": "https://www.youtube.com/watch?v=nq5q_gOOimA",
+       "video_upload_date": "2018-02-24",
+      "conferences": [8]
+    },
+    "213": {
+      "speakers": [223],
+      "main_title": "Speed up your Vue js development time with Nuxt.js",
+      "alternative_titles": [],
+      "categories": [1, 2, 19, 22],
+      "video_url": "https://www.youtube.com/watch?v=4wQpuJo6RzM",
+      "video_upload_date": "2018-03-01",
+      "conferences": [8]
+    },
+    "214": {
+      "speakers": [224],
+      "main_title": "Start using Vue.js like jQuery",
+      "alternative_titles": [],
+      "categories": [1, 2, 19, 23],
+      "video_url": "https://www.youtube.com/watch?v=NcV9U3s2ETQ",
+      "video_upload_date": "2018-03-05",
+      "conferences": [8]
+    },
+    "215": {
+      "speakers": [225],
+      "main_title": "Automating boring Programming Tasks with the Angular CLI and Schematics",
+      "alternative_titles": [],
+      "categories": [1, 2, 20],
+      "video_url": "https://www.youtube.com/watch?v=OddicQ4OyFs",
+      "video_upload_date": "2018-03-05",
+      "conferences": [8]
+    },
+    "216": {
+      "speakers": [226],
+      "main_title": "MobX State Tree React pure reactivity served",
+      "alternative_titles": [],
+      "categories": [1, 2, 24],
+      "video_url": "https://www.youtube.com/watch?v=HS9revHrNRI",
+      "video_upload_date": "2018-03-06",
+      "conferences": [8]
+    },
+    "217": {
+      "speakers": [227],
+      "main_title": "The exciting future of React",
+      "alternative_titles": [],
+      "categories": [1, 2, 18],
+      "video_url": "https://www.youtube.com/watch?v=x0L0RXLxi_0",
+      "video_upload_date": "2018-03-12",
+      "conferences": [8]
+    },
+    "218": {
+      "speakers": [228],
+      "main_title": "New Chrome Dev Tool Functions that will blow your mind",
+      "alternative_titles": [],
+      "categories": [1, 2, 5],
+      "video_url": "https://www.youtube.com/watch?v=Qybo5UE0YM4",
+      "video_upload_date": "2018-04-04",
+      "conferences": [8]
+    },
+    "219": {
+      "speakers": [229],
+      "main_title": "When to use web components",
+      "alternative_titles": [],
+      "categories": [1, 2, 25],
+      "video_url": "https://www.youtube.com/watch?v=j-5uodRMW_Q",
+      "video_upload_date": "2018-04-5",
+      "conferences": [8]
+    },
+    "220": {
+      "speakers": [230],
+      "main_title": "Cheese Comparing NativeScript, Ionic, and React Native for Mobile App",
+      "alternative_titles": [],
+      "categories": [1, 2, 26, 27, 28, 29],
+      "video_url": "https://www.youtube.com/watch?v=1Kqtg1Mw2wc",
+      "video_upload_date": "2018-04-19",
+      "conferences": [8]
+    },
+    "221": {
+      "speakers": [231],
+      "main_title": "Building a component library with React, Vue, Angular or WebComponents",
+      "alternative_titles": [],
+      "categories": [1, 2, 18, 19, 20, 25],
+      "video_url": "https://www.youtube.com/watch?v=L_W4xSetumc",
+      "video_upload_date": "2018-04-17",
+      "conferences": [8]
+    },
+    "222": {
+      "speakers": [232],
+      "main_title": "How to decide on the frontend decision tree",
+      "alternative_titles": [],
+      "categories": [1, 2],
+      "video_url": "https://www.youtube.com/watch?v=a9pS2lymvIM",
+      "video_upload_date": "2018-04-18",
+      "conferences": [8]
+    },
+    "223": {
+      "speakers": [233],
+      "main_title": "Web Standards will make augmented reality awesome!",
+      "alternative_titles": [],
+      "categories": [1, 2, 30, 31, 32],
+      "video_url": "https://www.youtube.com/watch?v=dc9R4p2CYEg",
+      "video_upload_date": "2018-05-14",
+      "conferences": [8]
     }
   }
 }

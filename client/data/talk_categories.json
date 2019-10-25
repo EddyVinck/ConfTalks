@@ -75,6 +75,62 @@
     "18": {
       "name": "React",
       "alternative_spelling": []
+    },
+    "19": {
+      "name": "Vue",
+      "alternative_spelling": []
+    },
+    "20": {
+      "name": "Angular",
+      "alternative_spelling": []
+    },
+    "21": {
+      "name": "Apollo",
+      "alternative_spelling": []
+    },
+    "22": {
+      "name": "Nuxt.js",
+      "alternative_spelling": []
+    },
+    "23": {
+      "name": "jQuery",
+      "alternative_spelling": []
+    },
+    "24": {
+      "name": "MobX",
+      "alternative_spelling": []
+    },
+    "25": {
+      "name": "Web Components",
+      "alternative_spelling": []
+    },
+    "26": {
+      "name": "NativeScript",
+      "alternative_spelling": []
+    },
+    "27": {
+      "name": "Ionic",
+      "alternative_spelling": []
+    },
+    "28": {
+      "name": "React Native",
+      "alternative_spelling": []
+    },
+    "29": {
+      "name": "Mobile",
+      "alternative_spelling": []
+    },
+    "30": {
+      "name": "Web",
+      "alternative_spelling": []
+    },
+    "31": {
+      "name": "Standards",
+      "alternative_spelling": []
+    },
+    "32": {
+      "name": "Augmented Reality",
+      "alternative_spelling": ["AR"]
     }
   }
 }
