@@ -5,10 +5,8 @@ import { categories } from "../../data/talk_categories.json";
 import { sortDatesDescending } from "../../utils/sorting/sortDatesDescending";
 import debounce from "lodash-es/debounce";
 import { FormStyles } from "../forms";
-import { Menu, Item, Input, ControllerButton, ArrowIcon, XIcon } from "./DownshiftStyles";
 import { Button } from "../generic";
-import Downshift from 'downshift'
-import Select from "./Select";
+import Select from "../generic/Select";
 
 let conferencesList = [];
 
@@ -66,15 +64,15 @@ const TalkListFilters = () => {
           updateFilters({ speakerName: event.target.value });
         }}
       />
-      {/* TODO make Downshift JSX more DRY */} 
       <Select label="Conference"
-              items={ conferencesList }
+              items={conferencesList}
               itemToString={item => (item ? item.name : '')}
               onChange={selection => {
                 updateFilters({ conference_id: selection === null ? null : selection.id });
-              }} />
+              }}
+              zIndex={1} />
       <Select label="Category"
-              items={ categoryList }
+              items={categoryList}
               itemToString={item => (item ? item.name : '')}
               onChange={selection => {
                 updateFilters({ category_id: selection === null ? null : selection.id });
