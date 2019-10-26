@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SelectStyles = styled.div({
+const MultiSelectStyles = styled.div({
   li: {
       font: "400 13.3333px Arial",
       position: "relative",
@@ -28,6 +28,11 @@ const SelectStyles = styled.div({
       }
   },
   input: {
+      border: "none",
+      marginLeft: 6,
+      flex: 1,
+      fontSize: 14,
+      minHeight: 27,
       width: "100%",
       wordWrap: "break-word",
       outline: 0,
@@ -36,7 +41,7 @@ const SelectStyles = styled.div({
       display: "inline-block",
       color: "rgba(0,0,0,.87)",
       boxShadow: "none",
-      border: "1px solid rgba(34,36,38,.15)",
+      //border: "1px solid rgba(34,36,38,.15)",
       marginBottom: "1px",
       paddingRight: "32px",
       transition: "box-shadow .1s ease,width .1s ease",
@@ -69,7 +74,7 @@ const SelectStyles = styled.div({
       borderLeftWidth: 1,
       borderStyle: "solid"
   },
-  button: {
+  ".control-button": {
     backgroundColor: "transparent",
     border: "none",
     position: "absolute",
@@ -83,13 +88,61 @@ const SelectStyles = styled.div({
     justifyContent: "center",
     alignItems: "center"
   },
+  ".remove-button": {
+      border: "none",
+      marginLeft: 6,
+      flex: 1,
+      fontSize: 14,
+      minHeight: 27
+  },
   ".select-list-wrapper": {
       position: "relative",
       marginBottom: "1em"
   },
   ".select-input-wrapper": {
     position: "relative"
-  } 
+  },
+  ".added-item": {
+    display: 'grid',
+    gridGap: 6,
+    gridAutoFlow: 'column',
+    alignItems: 'center',
+  },
+  ".added-item-wrapper": {
+    margin: 2,
+    paddingTop: 2,
+    paddingBottom: 2,
+    paddingLeft: 8,
+    paddingRight: 8,
+    display: 'inline-block',
+    // wordWrap: 'none',
+    backgroundColor: '#ccc',
+    borderRadius: 2
+  },
+  ".input-inner-wrapper": {
+    display: 'flex',
+    flexWrap: 'wrap',
+    alignItems: 'center',
+  },
+  ".input-outer-wrapper": {
+      color: "black",
+      backgroundColor: "white",
+      cursor: 'pointer',
+      position: 'relative',
+      //borderRadius: '6px',
+      //borderTopRadius: 6,
+      // borderBottomRightRadius: isOpen ? 0 : 6,
+      // borderBottomLeftRadius: isOpen ? 0 : 6,
+      padding: 10,
+      paddingRight: 50,
+      //boxShadow: '0 2px 3px 0 rgba(34,36,38,.15)',
+      //borderColor: '#96c8da',
+      //borderTopWidth: '1',
+      //borderRightWidth: 1,
+      //borderBottomWidth: 1,
+      //borderLeftWidth: 1,
+      //borderStyle: 'solid',
+  }
 })
   
 function ArrowIcon({isOpen}) {
@@ -127,5 +180,5 @@ function XIcon() {
 export {
     ArrowIcon,
     XIcon,
-    SelectStyles,
+    MultiSelectStyles,
   }

@@ -100,8 +100,8 @@ export const initialFilters = {
   onlyShowRecordedTalks: false,
   onlyShowBookmarkedTalks: false,
   speakerName: "",
-  conference_id: "",
-  category_id: "",
+  conference_ids: [],
+  category_ids: [],
   talkTitle: ""
 };
 export type initialFilters = typeof initialFilters;
@@ -126,17 +126,17 @@ const filterTalks = (talkList, filters) => {
     if (filters.onlyShowBookmarkedTalks) {
       if (talk.bookmarked === false) return null;
     }
-    if (filters.conference_id) {
+    if (filters.conference_ids.length > 0) {
       if (
         talk.conferences.find(
-          conf => String(conf.id) === filters.conference_id
+          conf => filters.conference_ids.includes(String(conf.id))
         ) === undefined
       )
         return null;
     }
-    if (filters.category_id) {
+    if (filters.category_ids.length > 0) {
       if (
-        talk.categories.find(cat => String(cat.id) === filters.category_id) ===
+        talk.categories.find(cat => filters.category_ids.includes(String(cat.id))) ===
         undefined
       )
         return null;

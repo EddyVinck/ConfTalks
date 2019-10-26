@@ -6,7 +6,7 @@ import { sortDatesDescending } from "../../utils/sorting/sortDatesDescending";
 import debounce from "lodash-es/debounce";
 import { FormStyles } from "../forms";
 import { Button } from "../generic";
-import Select from "../generic/Select";
+import MultiSelect from "../generic/MultiSelect";
 
 let conferencesList = [];
 
@@ -64,19 +64,21 @@ const TalkListFilters = () => {
           updateFilters({ speakerName: event.target.value });
         }}
       />
-      <Select label="Conference"
+      <MultiSelect label="Conference"
               items={conferencesList}
               itemToString={item => (item ? item.name : '')}
               onChange={selection => {
-                updateFilters({ conference_id: selection === null ? null : selection.id });
+                updateFilters({ conference_ids: selection.map(s => s.id) });
               }}
+              onSelect={() => {}}
               zIndex={1} />
-      <Select label="Category"
+      <MultiSelect label="Category"
               items={categoryList}
               itemToString={item => (item ? item.name : '')}
               onChange={selection => {
-                updateFilters({ category_id: selection === null ? null : selection.id });
-              }} />
+                updateFilters({ category_ids: selection.map(s => s.id) });
+              }}
+              onSelect={() => {}} />
       <label htmlFor="only-bookmarked-talks">
         Only bookmarked talks?
         <input
