@@ -20,11 +20,11 @@ const MultiSelectStyles = styled.div({
       wordWrap: "normal",
       marginBottom: 0,
       backgroundColor: "white",
-      "&.highlighted": {
+      "&.active": {
         backgroundColor: "rgba(240,240,240,1)"
       },
       "&.selected": {
-        fontWeight: "bold"
+        backgroundColor: "rgba(42,209,169,0.5)",
       }
   },
   input: {
@@ -41,7 +41,6 @@ const MultiSelectStyles = styled.div({
       display: "inline-block",
       color: "rgba(0,0,0,.87)",
       boxShadow: "none",
-      //border: "1px solid rgba(34,36,38,.15)",
       marginBottom: "1px",
       paddingRight: "32px",
       transition: "box-shadow .1s ease,width .1s ease",
@@ -93,20 +92,15 @@ const MultiSelectStyles = styled.div({
       marginLeft: 6,
       flex: 1,
       fontSize: 14,
-      minHeight: 27
-  },
-  ".select-list-wrapper": {
-      position: "relative",
-      marginBottom: "1em"
-  },
-  ".select-input-wrapper": {
-    position: "relative"
+      backgroundColor: "rgba(42,209,169,1)",
+      minHeight: 27,
+      cursor: "pointer"
   },
   ".added-item": {
-    display: 'grid',
+    display: "grid",
     gridGap: 6,
-    gridAutoFlow: 'column',
-    alignItems: 'center',
+    gridAutoFlow: "column",
+    alignItems: "center",
   },
   ".added-item-wrapper": {
     margin: 2,
@@ -114,34 +108,22 @@ const MultiSelectStyles = styled.div({
     paddingBottom: 2,
     paddingLeft: 8,
     paddingRight: 8,
-    display: 'inline-block',
-    // wordWrap: 'none',
-    backgroundColor: '#ccc',
-    borderRadius: 2
+    display: "inline-block",
+    backgroundColor: "rgba(42,209,169,1)",
+    borderRadius: 8
   },
   ".input-inner-wrapper": {
-    display: 'flex',
-    flexWrap: 'wrap',
-    alignItems: 'center',
+    display: "flex",
+    flexWrap: "wrap",
+    alignItems: "center",
   },
   ".input-outer-wrapper": {
       color: "black",
       backgroundColor: "white",
-      cursor: 'pointer',
-      position: 'relative',
-      //borderRadius: '6px',
-      //borderTopRadius: 6,
-      // borderBottomRightRadius: isOpen ? 0 : 6,
-      // borderBottomLeftRadius: isOpen ? 0 : 6,
-      padding: 10,
-      paddingRight: 50,
-      //boxShadow: '0 2px 3px 0 rgba(34,36,38,.15)',
-      //borderColor: '#96c8da',
-      //borderTopWidth: '1',
-      //borderRightWidth: 1,
-      //borderBottomWidth: 1,
-      //borderLeftWidth: 1,
-      //borderStyle: 'solid',
+      cursor: "default",
+      position: "relative",
+      padding: "6px 32px 6px 8px",
+      paddingRight: 32,
   }
 })
   
@@ -161,24 +143,7 @@ function ArrowIcon({isOpen}) {
   )
 }
 
-function XIcon() {
-  return (
-    <svg
-      viewBox="0 0 20 20"
-      preserveAspectRatio="none"
-      width={12}
-      fill="transparent"
-      stroke="#333333"
-      strokeWidth="1.5px"
-    >
-      <path d="M1,1 L19,19" />
-      <path d="M19,1 L1,19" />
-    </svg>
-  )
-}
-
 export {
     ArrowIcon,
-    XIcon,
     MultiSelectStyles,
   }

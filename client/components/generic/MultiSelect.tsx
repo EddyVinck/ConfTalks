@@ -1,16 +1,14 @@
 import * as React from "react";
 import Downshift from "downshift";
 import matchSorter from 'match-sorter';
-import { MultiSelectStyles, ArrowIcon, XIcon } from "./MultiSelectStyles";
+import { MultiSelectStyles, ArrowIcon } from "./MultiSelectStyles";
 
 interface MultiSelectProps {
   onChange: (selection: any, stateAndHelpers: any) => void;
-  onSelect?: (selection: any, stateAndHelpers: any) => void;
   itemToString: (item: any) => string;
   items: any[];
   label: string;
   zIndex?: number;
-  render?: any;
 }
 
 class MultiSelect extends React.Component<MultiSelectProps, any> {
@@ -34,11 +32,8 @@ class MultiSelect extends React.Component<MultiSelectProps, any> {
 
   handleSelection = (selectedItem, downshift) => {
     const callOnChange = () => {
-      const {onSelect, onChange} = this.props
+      const {onChange} = this.props
       const {selectedItems} = this.state
-      if (onSelect) {
-        onSelect(selectedItems, this.getStateAndHelpers(downshift))
-      }
       if (onChange) {
         onChange(selectedItems, this.getStateAndHelpers(downshift))
       }
@@ -66,14 +61,12 @@ class MultiSelect extends React.Component<MultiSelectProps, any> {
     )
   }
 
-  getRemoveButtonProps = ({onClick, item, downshift, ...props} = {} as any) => {
+  getRemoveButtonProps = ({onClick, item, ...props} = {} as any) => {
     return {
       onClick: e => {
-        // TODO: use something like downshift's composeEventHandlers utility instead
         onClick && onClick(e)
         e.stopPropagation()
         this.handleSelection(item, null)
-        // this.removeItem(item, )
       },
       ...props,
     }
@@ -89,7 +82,6 @@ class MultiSelect extends React.Component<MultiSelectProps, any> {
       ...downshift,
     }
   }
-
   
 getItems(filter) {
   return filter
@@ -100,164 +92,96 @@ getItems(filter) {
 }
 
   render() {
-    const {render, children = render, ...props} = this.props
-    // TODO: compose together props (rather than overwriting them) like downshift does
+    const {...props} = this.props
     return (
-    <MultiSelectStyles>
-      <Downshift
-        {...props}
-        stateReducer={this.stateReducer}
-        onChange={this.handleSelection}
-        selectedItem={null}
-      >
-        {({
-            getLabelProps,
-            getInputProps,
-            getToggleButtonProps,
-            getMenuProps,
-            isOpen,
-            inputValue,
-            getItemProps,
-            highlightedIndex,
-            toggleMenu,
-          }) => (
-            <div style={{width: 500, margin: 'auto', position: 'relative', marginBottom: '1em'}}>
-              <label {...getLabelProps()}>{props.label}</label>
-              <div className="input-outer-wrapper"
-                onClick={() => {
-                  toggleMenu()
-                  !isOpen && this.input.current.focus()
-                }}
-              >
-                <div className="input-inner-wrapper">
-                  {this.state.selectedItems.length > 0
-                    ? this.state.selectedItems.map(item => (
-                        <div className="added-item-wrapper"
-                          key={item.id}
-                        >
-                          <div className="added-item"
+      <MultiSelectStyles>
+        <Downshift
+          {...props}
+          stateReducer={this.stateReducer}
+          onChange={this.handleSelection}
+          selectedItem={null}
+        >
+          {({
+              getLabelProps,
+              getInputProps,
+              getToggleButtonProps,
+              isOpen,
+              inputValue,
+              getItemProps,
+              highlightedIndex,
+              toggleMenu,
+            }) => (
+              <div style={{margin: 'auto', position: 'relative', marginBottom: '1em'}}>
+                <label {...getLabelProps()}>{props.label}</label>
+                <div className="input-outer-wrapper"
+                  onClick={() => {
+                    toggleMenu()
+                    !isOpen && this.input.current.focus()
+                  }}
+                >
+                  <div className="input-inner-wrapper">
+                    {this.state.selectedItems.length > 0
+                      ? this.state.selectedItems.map(item => (
+                          <div className="added-item-wrapper"
+                            key={item.id}
                           >
-                            <span>{item.name}</span>
-                            <button
-                              className="remove-button"
-                              {...this.getRemoveButtonProps({item})}
+                            <div className="added-item"
                             >
-                              𝘅
-                            </button>
+                              <span>{item.name}</span>
+                              <button
+                                className="remove-button"
+                                {...this.getRemoveButtonProps({item})}
+                              >
+                                𝘅
+                              </button>
+                            </div>
                           </div>
-                        </div>
-                      ))
-                    : 'Select a value'}
-                  <input
-                    {...getInputProps({
-                      ref: this.input,
-                      onKeyDown(event) {
-                        if (event.key === 'Backspace' && !inputValue) {
-                          this.removeItem(this.state.selectedItems[this.state.selectedItems.length - 1])
-                        }
+                        ))
+                      : ''}
+                    <input
+                      {...getInputProps({
+                        ref: this.input,
+                        onKeyDown(event) {
+                          if (event.key === 'Backspace' && !inputValue) {
+                            this.removeItem(this.state.selectedItems[this.state.selectedItems.length - 1])
+                          }
+                        },
+                      })}
+                    />
+                  </div>
+                  <button
+                    className="control-button"
+                    {...getToggleButtonProps({
+                      onClick(event) {
+                        event.stopPropagation()
                       },
                     })}
-                  />
+                  >
+                    <ArrowIcon isOpen={isOpen} />
+                  </button>
                 </div>
-                <button
-                  className="control-button"
-                  {...getToggleButtonProps({
-                    // prevents the menu from immediately toggling
-                    // closed (due to our custom click handler above).
-                    onClick(event) {
-                      event.stopPropagation()
-                    },
-                  })}
-                >
-                  <ArrowIcon isOpen={isOpen} />
-                </button>
+                <ul style={{zIndex: props.zIndex ? props.zIndex : 0 }}>
+                  {isOpen
+                    ? this.getItems(inputValue).map((item, index) => (
+                        <li
+                          key={item.id}
+                          {...getItemProps({
+                            item,
+                            index,
+                          } as any)}
+                          className={`${highlightedIndex === index ? 'active' : ''} 
+                                    ${this.state.selectedItems.includes(item) ? 'selected' : ''}`}
+                        >
+                          {item.name}
+                        </li>
+                      ))
+                    : null}
+                </ul>
               </div>
-              <ul style={{zIndex: props.zIndex ? props.zIndex : 0 }}>
-                {isOpen
-                  ? this.getItems(inputValue).map((item, index) => (
-                      <li
-                        key={item.id}
-                        {...getItemProps({
-                          item,
-                          index,
-                          // isActive: highlightedIndex === index,
-                          // isSelected: this.state.selectedItems.includes(item),
-                        } as any)}
-                      >
-                        {item.name}
-                      </li>
-                    ))
-                  : null}
-              </ul>
-            </div>
-          )}
-      </Downshift>
-    </MultiSelectStyles>
+            )}
+        </Downshift>
+      </MultiSelectStyles>
     )
   }
 }
-/*
-  return (
-      <Downshift
-          onChange={ selection => props.onChange(selection) }
-          itemToString={ item => props.itemToString(item) }
-        >
-          {({
-            getInputProps,
-            getItemProps,
-            getLabelProps,
-            getMenuProps,
-            getToggleButtonProps,
-            clearSelection,
-            isOpen,
-            inputValue,
-            highlightedIndex,
-            selectedItem,
-            itemToString,
-          }) => (
-            <div>
-              <label {...getLabelProps()}>{props.label}</label>
-              <div className="select-input-wrapper">
-                <input type="text" {...getInputProps()} />
-                {selectedItem ? (
-                  <button
-                    onClick={(e) => clearSelection()}
-                    aria-label="clear selection"
-                  >
-                    <XIcon />
-                  </button>
-                ) : (
-                  <button {...getToggleButtonProps()}>
-                    <ArrowIcon isOpen={isOpen} />
-                  </button>
-                )}
-              </div>
-              <div className="select-list-wrapper" style={{zIndex: props.zIndex ? props.zIndex : 0 }}>
-                {isOpen ? 
-                  <ul {...getMenuProps()}>
-                    { props.items
-                      .sort((a, b) => props.itemToString(a).localeCompare(props.itemToString(b)))
-                      .filter(item => !inputValue || props.itemToString(item).toLowerCase().includes(inputValue.toLowerCase()))
-                      .map((item, index) => (
-                        <li
-                          {...getItemProps({
-                            key: item.id,
-                            index,
-                            item,
-                            className: `${highlightedIndex === index ? 'highlighted' : ''} ${selectedItem === item ? 'selected' : ''}`
-                          })}
-                        >
-                          {itemToString(item)}
-                        </li>
-                      )) }
-                  </ul>
-                : null}
-              </div>
-          </div>
-        )}
-      </Downshift>
-    </MultiSelectStyles>
-  );
-};
-*/
 export default MultiSelect;

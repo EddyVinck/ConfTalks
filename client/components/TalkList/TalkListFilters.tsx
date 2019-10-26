@@ -70,15 +70,13 @@ const TalkListFilters = () => {
               onChange={selection => {
                 updateFilters({ conference_ids: selection.map(s => s.id) });
               }}
-              onSelect={() => {}}
               zIndex={1} />
       <MultiSelect label="Category"
               items={categoryList}
               itemToString={item => (item ? item.name : '')}
               onChange={selection => {
                 updateFilters({ category_ids: selection.map(s => s.id) });
-              }}
-              onSelect={() => {}} />
+              }} />
       <label htmlFor="only-bookmarked-talks">
         Only bookmarked talks?
         <input
