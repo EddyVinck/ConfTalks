@@ -43,11 +43,7 @@ const MultiSelectStyles = styled.div({
       boxShadow: "none",
       marginBottom: "1px",
       paddingRight: "32px",
-      transition: "box-shadow .1s ease,width .1s ease",
-      "&:hover, &:focus": {
-        borderColor: "#96c8da",
-        boxShadow: "0 2px 3px 0 rgba(34,36,38,.15)"
-      }
+      transition: "box-shadow .1s ease,width .1s ease"
   },
   label: {
     fontWeight: "bold",
@@ -67,7 +63,7 @@ const MultiSelectStyles = styled.div({
       transition: "opacity .1s ease",
       boxShadow: "0 2px 3px 0 rgba(34,36,38,.15)",
       borderColor: "#96c8da",
-      borderTopWidth: 0,
+      borderTopWidth: 1,
       borderRightWidth: 1,
       borderBottomWidth: 1,
       borderLeftWidth: 1,
