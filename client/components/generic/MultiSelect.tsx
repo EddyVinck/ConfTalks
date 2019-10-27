@@ -30,6 +30,10 @@ class MultiSelect extends React.Component<MultiSelectProps, any> {
     }
   }
 
+  reset = () => {
+    this.setState({selectedItems: []})
+  }
+
   handleSelection = (selectedItem, downshift) => {
     const callOnChange = () => {
       const {onChange} = this.props
@@ -138,16 +142,18 @@ getItems(filter) {
                           </div>
                         ))
                       : ''}
-                    <input
-                      {...getInputProps({
-                        ref: this.input,
-                        onKeyDown(event) {
-                          if (event.key === 'Backspace' && !inputValue) {
-                            this.removeItem(this.state.selectedItems[this.state.selectedItems.length - 1])
-                          }
-                        },
-                      })}
-                    />
+                      <div>
+                        <input
+                          {...getInputProps({
+                            ref: this.input,
+                            onKeyDown(event) {
+                              if (event.key === 'Backspace' && !inputValue) {
+                                this.removeItem(this.state.selectedItems[this.state.selectedItems.length - 1])
+                              }
+                            },
+                          })}
+                        />
+                      </div>
                   </div>
                   <button
                     className="control-button"
@@ -160,23 +166,24 @@ getItems(filter) {
                     <ArrowIcon isOpen={isOpen} />
                   </button>
                 </div>
-                <ul style={{zIndex: props.zIndex ? props.zIndex : 0 }}>
-                  {isOpen
-                    ? this.getItems(inputValue).map((item, index) => (
-                        <li
-                          key={item.id}
-                          {...getItemProps({
-                            item,
-                            index,
-                          } as any)}
-                          className={`${highlightedIndex === index ? 'active' : ''} 
-                                    ${this.state.selectedItems.includes(item) ? 'selected' : ''}`}
-                        >
-                          {item.name}
-                        </li>
-                      ))
-                    : null}
-                </ul>
+                {isOpen
+                  ? (
+                  <ul style={{zIndex: props.zIndex ? props.zIndex : 0 }}>
+                    {this.getItems(inputValue).map((item, index) => (
+                          <li
+                            key={item.id}
+                            {...getItemProps({
+                              item,
+                              index,
+                            } as any)}
+                            className={`${highlightedIndex === index ? 'active' : ''} 
+                                      ${this.state.selectedItems.includes(item) ? 'selected' : ''}`}
+                          >
+                            {item.name}
+                          </li>
+                        ))}
+                  </ul>
+                )  : null}
               </div>
             )}
         </Downshift>

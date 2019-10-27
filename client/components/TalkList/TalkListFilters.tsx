@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useRef } from "react";
 import { FilterContext, initialFilters } from "../../pages";
 import { conferences } from "../../data/conferences.json";
 import { categories } from "../../data/talk_categories.json";
@@ -30,6 +30,8 @@ conferencesList = sortDatesDescending(conferencesList, "start_date");
 
 const TalkListFilters = () => {
   const { filters, setFilters } = useContext(FilterContext);
+  const conferenceRef: React.RefObject<MultiSelect> = useRef(null)
+  const categoryRef: React.RefObject<MultiSelect> = useRef(null)
 
   const updateFilters = debounce((updates: Partial<initialFilters>) => {
     setFilters({
@@ -40,6 +42,8 @@ const TalkListFilters = () => {
 
   const resetFilters = () => {
     updateFilters(initialFilters);
+    conferenceRef.current.reset()
+    categoryRef.current.reset()
   };
 
   return (
@@ -70,10 +74,12 @@ const TalkListFilters = () => {
               onChange={selection => {
                 updateFilters({ conference_ids: selection.map(s => s.id) });
               }}
+              ref={conferenceRef}
               zIndex={1} />
       <MultiSelect label="Category"
               items={categoryList}
               itemToString={item => (item ? item.name : '')}
+              ref={categoryRef}
               onChange={selection => {
                 updateFilters({ category_ids: selection.map(s => s.id) });
               }} />
