@@ -105,7 +105,7 @@ const MultiSelect = (props: MultiSelectProps) => {
                         {...getInputProps({
                           ref: input,
                           onKeyDown(event) {
-                            if (event.key === "Backspace" && !inputValue) {
+                            if (event.key === "Backspace" && !inputValue && props.selectedItemIds.length > 0) {
                               handleSelection(props.items.find(item => item.id === props.selectedItemIds[props.selectedItemIds.length - 1]))
                             }
                           },
