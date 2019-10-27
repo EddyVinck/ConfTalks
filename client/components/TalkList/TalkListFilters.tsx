@@ -30,9 +30,6 @@ conferencesList = sortDatesDescending(conferencesList, "start_date");
 
 const TalkListFilters = () => {
   const { filters, setFilters } = useContext(FilterContext);
-  const conferenceRef: React.RefObject<MultiSelect> = useRef(null)
-  const categoryRef: React.RefObject<MultiSelect> = useRef(null)
-
   const updateFilters = debounce((updates: Partial<initialFilters>) => {
     setFilters({
       ...filters,
@@ -40,10 +37,24 @@ const TalkListFilters = () => {
     });
   });
 
+  const handleConferenceSelect = (selectedItem: any) => {
+    if (filters.conference_ids.includes(selectedItem.id)) {
+      updateFilters({ conference_ids: filters.conference_ids.filter(id => id !== selectedItem.id) });
+    } else {
+      updateFilters({ conference_ids: [...filters.conference_ids, selectedItem.id] });
+    }
+  }
+
+  const handleCategorySelect = (selectedItem: any) => {
+    if (filters.category_ids.includes(selectedItem.id)) {
+      updateFilters({ category_ids: filters.category_ids.filter(id => id !== selectedItem.id) });
+    } else {
+      updateFilters({ category_ids: [...filters.category_ids, selectedItem.id] });
+    }
+  }
+
   const resetFilters = () => {
     updateFilters(initialFilters);
-    conferenceRef.current.reset()
-    categoryRef.current.reset()
   };
 
   return (
@@ -70,19 +81,17 @@ const TalkListFilters = () => {
       />
       <MultiSelect label="Conference"
               items={conferencesList}
-              itemToString={item => (item ? item.name : '')}
-              onChange={selection => {
-                updateFilters({ conference_ids: selection.map(s => s.id) });
-              }}
-              ref={conferenceRef}
+              itemFilterKeys={["name"]}
+              itemToString={item => (item ? item.name : "")}
+              onSelect={handleConferenceSelect}
+              selectedItemIds={filters.conference_ids}
               zIndex={1} />
       <MultiSelect label="Category"
               items={categoryList}
-              itemToString={item => (item ? item.name : '')}
-              ref={categoryRef}
-              onChange={selection => {
-                updateFilters({ category_ids: selection.map(s => s.id) });
-              }} />
+              itemFilterKeys={["name"]}
+              itemToString={item => (item ? item.name : "")}
+              onSelect={handleCategorySelect}
+              selectedItemIds={filters.category_ids} />
       <label htmlFor="only-bookmarked-talks">
         Only bookmarked talks?
         <input
