@@ -2,7 +2,7 @@
   "categories": {
     "0": {
       "name": "CSS",
-      "alternative_spelling": []
+      "alternative_spelling": ["custom stylesheets", "custom style sheets"]
     },
     "1": {
       "name": "JavaScript",
@@ -26,7 +26,7 @@
     },
     "6": {
       "name": "UX",
-      "alternative_spelling": []
+      "alternative_spelling": ["user experience"]
     },
     "7": {
       "name": "Accessibility",
@@ -74,6 +74,86 @@
     },
     "18": {
       "name": "React",
+      "alternative_spelling": []
+    },
+    "19": {
+      "name": "Python",
+      "alternative_spelling": []
+    },
+    "20": {
+      "name": "Logging",
+      "alternative_spelling": ["logs"]
+    },
+    "21": {
+      "name": "Rust",
+      "alternative_spelling": []
+    },
+    "22": {
+      "name": "Identity",
+      "alternative_spelling": ["user identity"]
+    },
+    "23": {
+      "name": "Project Management",
+      "alternative_spelling": []
+    },
+    "24": {
+      "name": "Linux",
+      "alternative_spelling": []
+    },
+    "25": {
+      "name": "Deployment",
+      "alternative_spelling": ["deploying"]
+    },
+    "26": {
+      "name": "Code Performance",
+      "alternative_spelling": []
+    },
+    "27": {
+      "name": "API",
+      "alternative_spelling": ["APIs"]
+    },
+    "28": {
+      "name": "Message-Routing",
+      "alternative_spelling": ["message routing"]
+    },
+    "29": {
+      "name": "Distributed Applications",
+      "alternative_spelling": []
+    },
+    "30": {
+      "name": "Memory Management",
+      "alternative_spelling": []
+    },
+    "31": {
+      "name": "Data Science",
+      "alternative_spelling": []
+    },
+    "32": {
+      "name": "Leadership",
+      "alternative_spelling": []
+    },
+    "33": {
+      "name": "Testing",
+      "alternative_spelling": ["software testing"]
+    },
+    "34": {
+      "name": "Documentation",
+      "alternative_spelling": []
+    },
+    "35": {
+      "name": "Security",
+      "alternative_spelling": []
+    },
+    "36": {
+      "name": "Neural Networks",
+      "alternative_spelling": []
+    },
+    "37": {
+      "name": "Data Visualization",
+      "alternative_spelling": []
+    },
+    "38": {
+      "name": "Machine Learning",
       "alternative_spelling": []
     }
   }
