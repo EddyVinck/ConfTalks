@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useRef } from "react";
 import { FilterContext, initialFilters } from "../../pages";
 import { conferences } from "../../data/conferences.json";
 import { categories } from "../../data/talk_categories.json";
@@ -6,6 +6,7 @@ import { sortDatesDescending } from "../../utils/sorting/sortDatesDescending";
 import debounce from "lodash-es/debounce";
 import { FormStyles } from "../forms";
 import { Button } from "../generic";
+import MultiSelect from "../generic/MultiSelect";
 
 let conferencesList = [];
 
@@ -29,13 +30,28 @@ conferencesList = sortDatesDescending(conferencesList, "start_date");
 
 const TalkListFilters = () => {
   const { filters, setFilters } = useContext(FilterContext);
-
   const updateFilters = debounce((updates: Partial<initialFilters>) => {
     setFilters({
       ...filters,
       ...updates
     });
   });
+
+  const handleConferenceSelect = (selectedItem: any) => {
+    if (filters.conference_ids.includes(selectedItem.id)) {
+      updateFilters({ conference_ids: filters.conference_ids.filter(id => id !== selectedItem.id) });
+    } else {
+      updateFilters({ conference_ids: [...filters.conference_ids, selectedItem.id] });
+    }
+  }
+
+  const handleCategorySelect = (selectedItem: any) => {
+    if (filters.category_ids.includes(selectedItem.id)) {
+      updateFilters({ category_ids: filters.category_ids.filter(id => id !== selectedItem.id) });
+    } else {
+      updateFilters({ category_ids: [...filters.category_ids, selectedItem.id] });
+    }
+  }
 
   const resetFilters = () => {
     updateFilters(initialFilters);
@@ -63,40 +79,19 @@ const TalkListFilters = () => {
           updateFilters({ speakerName: event.target.value });
         }}
       />
-      <label htmlFor="conference-name">Conference</label>
-      <select
-        name="conference-name"
-        id="conference-name"
-        onChange={(event: React.ChangeEvent<HTMLSelectElement>) => {
-          updateFilters({ conference_id: event.target.value });
-        }}
-      >
-        <option value="">Any conference</option>
-        {conferencesList
-          .sort((a, b) => a.name.localeCompare(b.name))
-          .map(conf => (
-            <option key={conf.id} value={conf.id}>
-              {conf.name}
-            </option>
-          ))}
-      </select>
-      <label htmlFor="category-name">Category</label>
-      <select
-        name="category-name"
-        id="category-name"
-        onChange={(event: React.ChangeEvent<HTMLSelectElement>) => {
-          updateFilters({ category_id: event.target.value });
-        }}
-      >
-        <option value="">Any category</option>
-        {categoryList
-          .sort((a, b) => a.name.localeCompare(b.name))
-          .map(category => (
-            <option key={category.id} value={category.id}>
-              {category.name}
-            </option>
-          ))}
-      </select>
+      <MultiSelect label="Conference"
+              items={conferencesList}
+              itemFilterKeys={["name"]}
+              itemToString={item => (item ? item.name : "")}
+              onSelect={handleConferenceSelect}
+              selectedItemIds={filters.conference_ids}
+              zIndex={1} />
+      <MultiSelect label="Category"
+              items={categoryList}
+              itemFilterKeys={["name"]}
+              itemToString={item => (item ? item.name : "")}
+              onSelect={handleCategorySelect}
+              selectedItemIds={filters.category_ids} />
       <label htmlFor="only-bookmarked-talks">
         Only bookmarked talks?
         <input
