@@ -1862,6 +1862,564 @@
       "video_url": "https://www.youtube.com/watch?v=sBbRQK58Fg8",
       "video_upload_date": "2019-04-24",
       "conferences": [7]
+    },
+    "": {
+      "speakers": [],
+      "main_title": "How CI/CD helped us \"Bill Pay team\" to deliver features faster to customers",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=-_K1Yzd9jHo",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "How DevOps Antipatterns Ruined Holidays",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=oYMU4TA6tp4",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "The History of Linux Containers",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=N7xVtXtRKaU",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Moving from regular sysadmin to DevOps",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=H8WR6eSml40",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Tips to be an Effective Remote Workers",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=3tpxoXlRymQ",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Programming your infrastructure",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=0wlbq7owgUQ",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "What we’re learning about burnout and how a DevOps culture can help",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=F3e6glijiVc",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Software-Defined Culture",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=w3_qn2qjHzs",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "From Dev to DevOps",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=hSbb0CJ4zfE",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "DIY Tech Inclusion",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=dXxxVYFXnVM",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Buzzword Bingo: Architecting a Cloud-Native Wayback Machine",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=aK2CmUGf-lI",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Automation of Data Analysis in AWS",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=XMjxyNLsI-o",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Do You Know If Your Service Is Working Properly? A Guide To Being Paranoid",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=uq2p_VGnW9c",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Application Secret Management with AWS KMS",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=EtI2qdj3-pA",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Cloudy With a Chance of Devops",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=aG-tzlr7Z5A",
+      "video_upload_date": "2017-02-02",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Are We There Yet? Signposts On Your Journey To Awesome",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=IdZaFzuOPUQ",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Continuous Delivery On ECS",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=yZ9_A7KlZqM",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Help! My Database Is The Bottleneck",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=amQBSebnTSw",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Provisioning Is Magic - A Declarative Approach To AWS Infrastructure",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=4JB1A6Pn4dY",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "The Case For Longer Hackathons",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=wmvkSk834Oo",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "WordPress Goes Serverless",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=04dDdvLkDEE",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Branching Strategies Ultimately Determine Product Complexity",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=KmyTE-UlgE",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Why Why Why",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=oEcd3kQDPjk",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "From 6 Month Waterfall To 1h Code Deploys",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=2zm6x4htPqg",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "A Better Technical Interview",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=t06BfYL-LAw",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Embracing Serverless Ops",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=oalZgSV-UhQ",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Like Software, Buildings Are Made Of People",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=Db4jOAF0MfU",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Reproducible Genome-Wide Analysis With Cloud Computing",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=UwXMHYBYV1c",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Brownfield DevOps",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=L6JmegkMov4",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Adventures In Enterprise: Lessons Learned Promoting DevOps In A Legacy Organization",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=Zos0xDAbne4",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "OpenSource PowerShell - How Could It Possibly Matter?",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=nUxEtxDK90k",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Choose Your Own Adventure",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=Y-KCBVo71zA",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Overcoming The Challenges Of Mentoring",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=q6RGkgFNhqs",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "From VMs To Containers: A DevOps Journey",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=hClNFwRBsHM",
+      "video_upload_date": "2017-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Building Bridges with DevOps",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=jD4Tt5pKcGQ",
+      "video_upload_date": "2018-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Real life dungeons and dragons",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=WmizLzszopw",
+      "video_upload_date": "2018-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "How to be Happy Being Average: DevOps on a smaller scale",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=Ii36dCSlUek",
+      "video_upload_date": "2018-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Quick and Dirty DevSecOps",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=div4sYm0kpU",
+      "video_upload_date": "2018-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Checklists - Good enough for NASA and Van Halen? Good enough for your app!",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=YSqPQCnvQC4",
+      "video_upload_date": "2018-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Command line-first data analysis",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=Vp3m2_YJ2Tk",
+      "video_upload_date": "2018-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "How to infect your Organization with Humane Ops",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=N-YOcYf3SYk",
+      "video_upload_date": "2018-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Metrics, Alerts, and Dashboards",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=S_UkmqrXJFY",
+      "video_upload_date": "2018-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Burnout: Community Problems Community Solutions",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=lEN9BHZXoKU",
+      "video_upload_date": "2018-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Don't try this at home: Headless Chrome & an AWS Lambda",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=EfQ-JvcHAT4",
+      "video_upload_date": "2018-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Microservices: What & Why",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=6H_dZLBdPAs",
+      "video_upload_date": "2018-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Operating Human Systems: MTBF v. MTTR",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=xfMPLEVEmNw",
+      "video_upload_date": "2018-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Fostering Collaboration Between Corporates and Startups",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=1htSPoWNx_Y",
+      "video_upload_date": "2018-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Psychological Safety & DevOps",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "https://www.youtube.com/watch?v=KPd4gTCwxps",
+      "video_upload_date": "2018-11-09",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "CI/CD (Constantly Ignoring, Constantly Deflecting): A Case Study of Pervasive Indifference in Technology ",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "",
+      "video_upload_date": "",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "AIOps Is How We Will Survive DevOps",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "",
+      "video_upload_date": "",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Deduplicating an Organization",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "",
+      "video_upload_date": "",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Creating a Culture of Inclusion",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "",
+      "video_upload_date": "",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "The Test Automation Pyramid",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "",
+      "video_upload_date": "",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "DevOps for good: How you can and should donate your skills to non-profits",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "",
+      "video_upload_date": "",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "A Brief, Wild Ride Around Quantum Computing",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "",
+      "video_upload_date": "",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Zero to DevOps in less than a year and how to encourage others to get into the practice",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "",
+      "video_upload_date": "",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Zero to Hero: Start Test automation with Cypress",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "",
+      "video_upload_date": "",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "An Introduction to Production Debugging with eBPF",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "",
+      "video_upload_date": "",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "We Have a Complex Systems Problem... and We Need to Talk About It",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "",
+      "video_upload_date": "",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Remote Desktop, Continuously Delivered",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "",
+      "video_upload_date": "",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Base64 is not encryption - a better story for Kubernetes Secrets",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "",
+      "video_upload_date": "",
+      "conferences": []
+    },
+    "": {
+      "speakers": [],
+      "main_title": "Join Our Party: The Cloud Native Adventure Brigade",
+      "alternative_titles": [],
+      "categories": [],
+      "video_url": "",
+      "video_upload_date": "",
+      "conferences": []
     }
   }
 }

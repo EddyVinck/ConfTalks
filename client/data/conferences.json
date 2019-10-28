@@ -48,5 +48,31 @@
       "end_date": "2019-04-12",
       "locations": ["Kromhouthal. Gedempt Hamerkanaal 231, 1021 KP Amsterdam"]
     }
+    ,
+    "": {
+      "name": "DevOpsDays Philadelphia 2019",
+      "start_date": "2019-10-22",
+      "end_date": "2019-10-23",
+      "locations": ["Science History Institute, Philadeplia, PA, United States"]
+    },
+    "": {
+      "name": "DevOpsDays Philadelphia 2018",
+      "start_date": "2019-10-23",
+      "end_date": "2019-10-24",
+      "locations": ["Science History Institute, Philadeplia, PA, United States"]
+    },
+    "": {
+      "name": "DevOpsDays Philadelphia 2017",
+      "start_date": "2019-10-24",
+      "end_date": "2019-10-25",
+      "locations": ["Chemical Heritage Foundation, Philadeplia, PA, United States"]
+    }
+    ,
+    "": {
+      "name": "DevOpsDays Philadelphia 2016",
+      "start_date": "2019-10-26",
+      "end_date": "2019-10-27",
+      "locations": ["Chemical Heritage Foundation, Philadeplia, PA, United States"]
+    }
   }
 }
