@@ -2847,6 +2847,519 @@
       "video_url": "https://www.youtube.com/watch?v=BqJyaejvVjQ",
       "video_upload_date": "2018-05-12",
       "conferences": [8]
+    },
+    "316": {
+      "speakers": [331],
+      "main_title": "Phoenix LiveView Demystified",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=9eOo8hSbMAc",
+      "video_upload_date": "2019-08-29",
+      "conferences": [9]
+    },
+    "317": {
+      "speakers": [332, 333, 334],
+      "main_title": "Day 1 Morning Keynote",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=uMgTIlgYB-U",
+      "video_upload_date": "2019-08-29",
+      "conferences": [9]
+    },
+    "318": {
+      "speakers": [335],
+      "main_title": "WebRTC from Start to Finish",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=3qTUYMOpZGs",
+      "video_upload_date": "2019-08-29",
+      "conferences": [9]
+    },
+    "319": {
+      "speakers": [336],
+      "main_title": "Creating an External Racing Steering Wheel Display with Elixir and Scenic",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=7kg0XrSHrOs",
+      "video_upload_date": "2019-08-29",
+      "conferences": [9]
+    },
+    "320": {
+      "speakers": [337],
+      "main_title": "How LiveView Handles File Uploads",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=svpk-hKvTNk",
+      "video_upload_date": "2019-08-29",
+      "conferences": [9]
+    },
+    "321": {
+      "speakers": [338],
+      "main_title": "Date, Time, and Time Zones in Elixir 1.9",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=_E988mvPIzU",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "322": {
+      "speakers": [339],
+      "main_title": "Lighting Talk",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=5IxpZza3FWY",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "323": {
+      "speakers": [339],
+      "main_title": "Lighting Talk - Introducing Grizzly",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=nsf3DkJxOIk",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "324": {
+      "speakers": [372],
+      "main_title": "Lighting Talk - You need a Supervisor",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=NbJhworOFjU",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "325": {
+      "speakers": [371],
+      "main_title": "Lighting Talk - Heralding Harald",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=RtCHJYIR1bs",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "326": {
+      "speakers": [338],
+      "main_title": "Date, Time, and Time Zones in Elixir 1.9",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=_E988mvPIzU",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "327":{
+      "speakers": [375],
+      "main_title": "Lighting Talk - IOLists are Awesome",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=bUvTc5HcZZE",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "328":{
+      "speakers": [376],
+      "main_title": "Lighting Talk - Phoenix LiveView in Healthcare",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=3SWksXENYJg",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "329":{
+      "speakers": [377],
+      "main_title": "Lighting Talk - GenServer",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=waw5qpq3RHM",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "330":{
+      "speakers": [341],
+      "main_title": "Day 2 Morning Keynote",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=fRP_dVton7o",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "331": {
+      "speakers": [378],
+      "main_title": "Lighting Talk - Nerves @ 433 MHZ",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=PEheIY6gGhY",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "332": {
+      "speakers": [341],
+      "main_title": "Lighting Talk",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=CtfcLdlUY7A",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "333": {
+      "speakers": [379],
+      "main_title": "Lighting Talk - It's Time To Embrace Erland",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=nxWyWiRB8Vc",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "334": {
+      "speakers": [337],
+      "main_title": "How LiveView Handles File Uploads",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=svpk-hKvTNk",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "335": {
+      "speakers": [332, 333, 334],
+      "main_title": "Day 1 Morning Keynote",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=uMgTIlgYB-U",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "336": {
+      "speakers": [335],
+      "main_title": "WebRTC from Start to Finish",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=3qTUYMOpZGs",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "337": {
+      "speakers": [342],
+      "main_title": "Elixirbridge Lessons Learned from Building Community",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=DpSsIS4CMUM",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "338": {
+      "speakers": [331],
+      "main_title": "Phoenix LiveView Demystified",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=9eOo8hSbMAc",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "339": {
+      "speakers": [343],
+      "main_title": "Cockatrice: A Hardware Design Environment with Elixir",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=BJbXpwS-g1A",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "340": {
+      "speakers": [344],
+      "main_title": "GraphQL Based Microservices in Elixir",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=loX-KFcPXR4",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "341": {
+      "speakers": [345],
+      "main_title": "Annex: Introducing an Easy to Use Composable Deep Learning Framework in Elixir",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=Np5nSEfKLeg",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "342": {
+      "speakers": [346],
+      "main_title": "Alchemy Meets Science: Adopting Elixir in Cancer Therapeutics R&D",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=dkdiwMONJF4",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "343": {
+      "speakers": [347],
+      "main_title": "Beyond LiveView: Building Real-Time Features with Phoenix LiveView",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=AbNAuOQ8wBE",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "344": {
+      "speakers": [348, 349],
+      "main_title": "0-60 in under 3: How Cars.com and DockYard Manufactured a Productive Elixir Team in Under 3 Months.",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=zKifFG4i-bY",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "345": {
+      "speakers": [381],
+      "main_title": "Elixir + CQRS - Architecting for Availability, Operability, and Maintainability At PagerDuty",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=-d2NPc8cEnw",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "346": {
+      "speakers": [380],
+      "main_title": "Membrane Framework - Bringing Elixir into the World of Multimedia Processing",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=P7nAOrAiaTQ",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "347": {
+      "speakers": [null],
+      "main_title": "Mint Disrupting HTTP Clients",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=JGsl0kTBR6E",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "348": {
+      "speakers": [350],
+      "main_title": "A Practical* Use for Nerves",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=dFTmn5WKvvQ",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "349": {
+      "speakers": [351],
+      "main_title": "Breaking Into Nerves: How to Use Your Elixir to Create Your First Embedded Nerves Project",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=IU8epH8FAI4",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "350": {
+      "speakers": [338],
+      "main_title": "Date, Time, and Time Zones in Elixir 1.9",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=_E988mvPIzU",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "351": {
+      "speakers": [340],
+      "main_title": "Day 2 Morning Keynote",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=fRP_dVton7o",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "352": {
+      "speakers": [352],
+      "main_title": "Beam Extreme: Don't Do This At Home",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=-1j36z8SllI",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "353": {
+      "speakers": [353],
+      "main_title": "Sandbox Wars: Elixir and Luerl",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=fZG-K_zgDyI",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "354": {
+      "speakers": [354],
+      "main_title": "Contracts for Building Reliable Systems",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=tpo3JUyVIjQ",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "355": {
+      "speakers": [177, 188, 187, 209],
+      "main_title": "All Lightning talks",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=QnmxIt-khl0",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "356": {
+      "speakers": [355],
+      "main_title": "Photogenic: Building a Photo Booth with Nerves and Scenic",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=l8JckcZibS4",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "357": {
+      "speakers": [356],
+      "main_title": "Writing an Ecto Adapter Introducing MyXQL",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=lBaDmsFTJxY",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "358": {
+      "speakers": [357],
+      "main_title": "Using Phoenix and Broadway with RabbitMQ to Handle 10M Monthly Ad insertions on the Biggest Brazillian Used Items Marketplace",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=qb2t7PcISFA",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "359": {
+      "speakers": [358],
+      "main_title": "Crawling The Web With Elixir",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=HFqE6cAU7Lo",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "360": {
+      "speakers": [374],
+      "main_title": "Build Efficient Data Processing PipelinesWith Broadway",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=tPu-P97-cbE",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "361": {
+      "speakers": [359],
+      "main_title": "Kubernetes at Small Scale",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=i3tqGlBWHNs",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "362": {
+      "speakers": [360],
+      "main_title": "High Performance String Processing Scripts in Elixir",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=Y83p_VsvRFA",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "363": {
+      "speakers": [361],
+      "main_title": "ETS Versus ElasticSearch for Queryable Caching",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=J38RpkA1580",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "364": {
+      "speakers": [362],
+      "main_title": "Building the Tomorrow Classroom with Elixir",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=AXxUyGL314U",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "365": {
+      "speakers": [364],
+      "main_title": "Lessons Learned From an Elixir/OTP Project",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=VaratZ_5154",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "366": {
+      "speakers": [364],
+      "main_title": "UI Testing is Ruff; Hound Can Help",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=5J5qyP6FOcI",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "367": {
+      "speakers": [365],
+      "main_title": "Return of Wabi-Sabi: Hastega Will Bring More and More Computational Power to Elixir",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=uCkPyfFhPxI",
+      "video_upload_date": "2019-08-30",
+      "conferences": [9]
+    },
+    "368": {
+      "speakers": [366],
+      "main_title": "Friday Evening Keynote",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=XhNv1ikZNLs",
+      "video_upload_date": "2019-08-31",
+      "conferences": [9]
+    },
+    "369": {
+      "speakers": [367, 368],
+      "main_title": "EEF",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=NyBplIoH6z8",
+      "video_upload_date": "2019-09-06",
+      "conferences": [9]
+    },
+    "370": {
+      "speakers": [366],
+      "main_title": "Friday Evening Keynote",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=txk4WAlabvI",
+      "video_upload_date": "2019-09-10",
+      "conferences": [9]
+    },
+    "371": {
+      "speakers": [369],
+      "main_title": "Your Guide to Understand the Initial Commit of a Phoenix Project",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=SMN5NRR_DE0",
+      "video_upload_date": "2019-09-12",
+      "conferences": [9]
+    },
+    "372": {
+      "speakers": [370],
+      "main_title": "(UN)Learning Elixir",
+      "alternative_titles": [],
+      "categories": [39],
+      "video_url": "https://www.youtube.com/watch?v=o54EurlzK8o",
+      "video_upload_date": "2019-10-24",
+      "conferences": [9]
     }
   }
 }
