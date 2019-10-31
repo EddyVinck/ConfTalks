@@ -65,6 +65,12 @@
       "start_date": "2019-09-05",
       "end_date": "2019-09-06",
       "locations": ["Wroclaw, Poland"]
+    },
+    "11": {
+      "name": "TSConf 2018",
+      "start_date": "2018-03-12",
+      "end_date": "2018-03-12",
+      "locations": ["Seattle, United States"]
     }
   }
 }

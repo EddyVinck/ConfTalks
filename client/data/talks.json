@@ -3630,6 +3630,87 @@
       "video_url": "https://www.youtube.com/watch?v=E8PZE_YY8RE",
       "video_upload_date": "2019-07-15",
       "conferences": [10]
+    },
+    "403": {  
+      "speakers": [411],
+      "main_title": "Opening Remarks",
+      "alternative_titles": [],
+      "categories": [40],
+      "video_url": "https://www.youtube.com/watch?v=wpgKd-rwnMw",
+      "video_upload_date": "2018-05-01",
+      "conferences": [11]
+    },
+    "404": {  
+      "speakers": [412],
+      "main_title": "Building StencilJS with TypeScript",
+      "alternative_titles": [],
+      "categories": [40],
+      "video_url": "https://www.youtube.com/watch?v=LBv07i-Wim8",
+      "video_upload_date": "2018-05-01",
+      "conferences": [11]
+    },
+    "405": {  
+      "speakers": [413],
+      "main_title": "Escape the Office: Designing Interfaces for Other Developers",
+      "alternative_titles": [],
+      "categories": [40],
+      "video_url": "https://www.youtube.com/watch?v=zuhxOFTeWos",
+      "video_upload_date": "2018-05-01",
+      "conferences": [11]
+    },
+    "406": {  
+      "speakers": [414],
+      "main_title": "End-to-end type safety with Swagger and TypeScript",
+      "alternative_titles": [],
+      "categories": [40],
+      "video_url": "https://www.youtube.com/watch?v=u-7lcjnzZu4",
+      "video_upload_date": "2018-05-01",
+      "conferences": [11]
+    },
+    "407": {  
+      "speakers": [415, 416],
+      "main_title": "TypeScript at Google",
+      "alternative_titles": [],
+      "categories": [40],
+      "video_url": "https://www.youtube.com/watch?v=sjov1k5jexA",
+      "video_upload_date": "2018-05-01",
+      "conferences": [11]
+    },
+    "408": {  
+      "speakers": [417],
+      "main_title": "When Cross-Platform Is An Understatement: Making Weird Physical Games With TypeScript",
+      "alternative_titles": [],
+      "categories": [40],
+      "video_url": "https://www.youtube.com/watch?v=OY5K4Wdsnpg",
+      "video_upload_date": "2018-05-01",
+      "conferences": [11]
+    },
+    "409": {  
+      "speakers": [418],
+      "main_title": "Static Analysis and Source Code Manipulation in TypeScript",
+      "alternative_titles": [],
+      "categories": [40],
+      "video_url": "https://www.youtube.com/watch?v=CTpKZgy0dpo",
+      "video_upload_date": "2018-05-01",
+      "conferences": [11]
+    },
+    "410": {  
+      "speakers": [419],
+      "main_title": "Reclaiming your sanity: Webpack and Ethereum smart contracts with Typescript",
+      "alternative_titles": [],
+      "categories": [40],
+      "video_url": "https://www.youtube.com/watch?v=ePfD8FC2Nks",
+      "video_upload_date": "2018-05-01",
+      "conferences": [11]
+    },
+    "411": {  
+      "speakers": [420, 421, 422, 423, 424],
+      "main_title": "TalkScript with the TypeScript Team",
+      "alternative_titles": [],
+      "categories": [40],
+      "video_url": "https://www.youtube.com/watch?v=MxB0ldQfvT4",
+      "video_upload_date": "2018-05-01",
+      "conferences": [11]
     }
   }
 }
