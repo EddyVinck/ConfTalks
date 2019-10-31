@@ -26,7 +26,9 @@ for (const key in categories) {
   }
 }
 
-conferencesList = sortDatesDescending(conferencesList, "start_date");
+categoryList = categoryList.sort((a, b) => a.name.localeCompare(b.name))
+
+conferencesList = conferencesList.sort((a, b) => a.name.localeCompare(b.name))
 
 const TalkListFilters = () => {
   const { filters, setFilters } = useContext(FilterContext);
