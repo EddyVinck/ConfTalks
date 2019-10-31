@@ -5,7 +5,7 @@
 Check it out here: https://conftalks.org
 
 Subscribe to the [newsletter](https://emailoctopus.com/lists/b6cc50a1-f282-11e9-be00-06b4694bee2a/forms/subscribe)! Newsletters include news about ConfTalks and also occasionally exclusive conference related offers. You will only receive newsletters when we have something to say.
-No spam 🚫
+No spam🚫
 
 ## Announcement
 
