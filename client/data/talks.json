@@ -3360,6 +3360,276 @@
       "video_url": "https://www.youtube.com/watch?v=o54EurlzK8o",
       "video_upload_date": "2019-10-24",
       "conferences": [9]
+    },
+    "373": {
+      "speakers": [],
+      "main_title": "AFTER MOVIE",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=m0GfmlGFh3E",
+      "video_upload_date": "2019-10-10",
+      "conferences": [10]
+    },
+    "374": {
+      "speakers": [381],
+      "main_title": "Intro",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=VhaYfGXBnqw",
+      "video_upload_date": "2019-09-30",
+      "conferences": [10]
+    },
+    "375": {
+      "speakers": [382],
+      "main_title": "The New React Native",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=52El0EUI6D0",
+      "video_upload_date": "2019-10-01",
+      "conferences": [10]
+    },
+    "376": { 
+      "speakers": [383, 384],
+      "main_title": "React Native EU 2019",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=hWjX3T6esWE",
+      "video_upload_date": "2019-10-03",
+      "conferences": [10]
+    },
+    "377": { 
+      "speakers": [385],
+      "main_title": "React And React Native: Siblings, Not Twins",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=ly_YznYjaeA",
+      "video_upload_date": "2019-10-03",
+      "conferences": [10]
+    },
+    "378": {  
+      "speakers": [386],
+      "main_title": "Cross-Platform Development With ReactXP",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=dkiBIrpdE5U",
+      "video_upload_date": "2019-10-04",
+      "conferences": [10]
+    },
+    "379": { 
+      "speakers": [387],
+      "main_title": "Successful Web & React Native Code Sharing Strategies",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=ryMvNklnDjU",
+      "video_upload_date": "2019-10-04",
+      "conferences": [10]
+    },
+    "380": { 
+      "speakers": [388],
+      "main_title": "Security And Authentication In React Native",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 47, 48],
+      "video_url": "https://www.youtube.com/watch?v=KqbiRuyi1ck",
+      "video_upload_date": "2019-10-04",
+      "conferences": [10]
+    },
+    "381": { 
+      "speakers": [389],
+      "main_title": "Forms In React Native",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=C1dHjIFjl6k",
+      "video_upload_date": "2019-10-04",
+      "conferences": [10]
+    },
+    "382": { 
+      "speakers": [390],
+      "main_title": "Is Typescript our Future?",
+      "alternative_titles": [],
+      "categories": [40, 41, 42, 43, 48, 50],
+      "video_url": "https://www.youtube.com/watch?v=U3OE1uTIN3Q",
+      "video_upload_date": "2019-10-08",
+      "conferences": [10]
+    },
+    "383": { 
+      "speakers": [391, 392],
+      "main_title": "Component First Navigation In React Native",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=eUcIe19H-Yk",
+      "video_upload_date": "2019-10-08",
+      "conferences": [10]
+    },
+    "384": { 
+      "speakers": [393],
+      "main_title": "Publishing And Maintaining A React Native Library",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48, 50, 51],
+      "video_url": "https://www.youtube.com/watch?v=LYlR0_sMFes",
+      "video_upload_date": "2019-10-08",
+      "conferences": [10]
+    },
+    "385": { 
+      "speakers": [394],
+      "main_title": "Continuous Integration With Microsoft App Center",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 46, 48],
+      "video_url": "https://www.youtube.com/watch?v=zLY2a5enUhE",
+      "video_upload_date": "2019-10-08",
+      "conferences": [10]
+    },
+    "386": {
+      "speakers": [395],
+      "main_title": "Real World e2e Testing With Detox",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 45, 48],
+      "video_url": "https://www.youtube.com/watch?v=_neMz2_6u20",
+      "video_upload_date": "2019-10-08",
+      "conferences": [10]
+    },
+    "387": { 
+      "speakers": [396],
+      "main_title": "React Native EU 2019",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=Wx9slbOTD6Q",
+      "video_upload_date": "2019-10-14",
+      "conferences": [10]
+    },
+    "388": { 
+      "speakers": [397],
+      "main_title": "Building Components Visually Using Draftbit",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 44, 48],
+      "video_url": "https://www.youtube.com/watch?v=cx3uAEv-nD0",
+      "video_upload_date": "2019-10-08",
+      "conferences": [10]
+    },
+    "389": { 
+      "speakers": [398],
+      "main_title": "So You're Considering Brownfield",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=yJC2XPFe-I0",
+      "video_upload_date": "2019-10-08",
+      "conferences": [10]
+    },
+    "390": { 
+      "speakers": [399],
+      "main_title": "Improving React Native Performance",
+      "alternative_titles": [],
+      "categories": [26, 41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=BkRE4MsqFXU",
+      "video_upload_date": "2019-10-08",
+      "conferences": [10]
+    },
+    "391": { 
+      "speakers": [400],
+      "main_title": "Navigation in Brownfield Apps",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=DgEQ868arcg",
+      "video_upload_date": "2019-10-08",
+      "conferences": [10]
+    },
+    "392": { 
+      "speakers": [401],
+      "main_title": "React Native CodeGen",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48, 50],
+      "video_url": "https://www.youtube.com/watch?v=7fiqh84VtpM",
+      "video_upload_date": "2019-10-09",
+      "conferences": [10]
+    },
+    "393": { 
+      "speakers": [402],
+      "main_title": "iOS Build Infrastructure Overview",
+      "alternative_titles": [],
+      "categories": [41, 42],
+      "video_url": "https://www.youtube.com/watch?v=wVJxb36wjjA",
+      "video_upload_date": "2019-10-09",
+      "conferences": [10]
+    },
+    "394": { 
+      "speakers": [403],
+      "main_title": "React Native @ Microsoft",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=IUMWFExtDSg",
+      "video_upload_date": "2019-10-09",
+      "conferences": [10]
+    },
+    "395": { 
+      "speakers": [404],
+      "main_title": "Offline Strategies In React Native",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48, 49],
+      "video_url": "https://www.youtube.com/watch?v=cchevVxMpSw",
+      "video_upload_date": "2019-10-09",
+      "conferences": [10]
+    },
+    "396": {
+      "speakers": [405],
+      "main_title": "Media Rich App Best Practices",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=92GfZcpuWyo",
+      "video_upload_date": "2019-10-09",
+      "conferences": [10]
+    },
+    "397": { 
+      "speakers": [406],
+      "main_title": "Let's upgrade our React Native project",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=fmh_ZGHh_eg",
+      "video_upload_date": "2019-10-09",
+      "conferences": [10]
+    },
+    "398": { 
+      "speakers": [407],
+      "main_title": "Statically Enforcing A Consistent UI Using Type Systems",
+      "alternative_titles": [],
+      "categories": [40, 41, 42, 43, 48, 50],
+      "video_url": "https://www.youtube.com/watch?v=A8ah4hKX6aQ",
+      "video_upload_date": "2019-10-09",
+      "conferences": [10]
+    },
+    "399": { 
+      "speakers": [408],
+      "main_title": "I picked Up React Native As a Web Developer",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=X_Rriyocv4w",
+      "video_upload_date": "2019-10-09",
+      "conferences": [10]
+    },
+    "400": { 
+      "speakers": [409],
+      "main_title": "Giving voice an action in React Native",
+      "alternative_titles": [41],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=Wrp4LUe2R80",
+      "video_upload_date": "2019-10-09",
+      "conferences": [10]
+    },
+    "401": { 
+      "speakers": [410],
+      "main_title": "Q&A Panel",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=W6AVWUPTy48",
+      "video_upload_date": "2019-10-10",
+      "conferences": [10]
+    },
+    "402": {  
+      "speakers": [],
+      "main_title": "Promo Movie",
+      "alternative_titles": [],
+      "categories": [41, 42, 43, 48],
+      "video_url": "https://www.youtube.com/watch?v=E8PZE_YY8RE",
+      "video_upload_date": "2019-07-15",
+      "conferences": [10]
     }
   }
 }

@@ -159,6 +159,54 @@
     "39": {
       "name": "Elixir",
       "alternative_spelling": []
+    },
+    "40": {
+      "name": "Typescript",
+      "alternative_spelling": []
+    },
+    "41": {
+      "name": "React Native",
+      "alternative_spelling": []
+    },
+    "42": {
+      "name": "iOS",
+      "alternative_spelling": []
+    },
+    "43": {
+      "name": "Android",
+      "alternative_spelling": []
+    },
+    "44": {
+      "name": "DraftBit",
+      "alternative_spelling": []
+    },
+    "45": {
+      "name": "End to end testing",
+      "alternative_spelling": ["e2e", "e2e testing"]
+    },
+    "46": {
+      "name": "Continuous Integration",
+      "alternative_spelling": ["CI"]
+    },
+    "47": {
+      "name": "Authentication",
+      "alternative_spelling": []
+    },
+    "48": {
+      "name": "Cross platform",
+      "alternative_spelling": ["cross-platform"]
+    },
+    "49": {
+      "name": "Offline",
+      "alternative_spelling": ["offline"]
+    },
+    "50": {
+      "name": "Tooling",
+      "alternative_spelling": ["build tools"]
+    },
+    "51": {
+      "name": "Libraries",
+      "alternative_spelling": []
     }
   }
 }
