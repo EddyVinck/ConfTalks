@@ -1,4 +1,5 @@
 {
+  "$schema": "./talk_categories.schema.json",
   "categories": {
     "0": {
       "name": "CSS",

@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "description": "The schema to validate this file",
+      "type": "string"
+    },
+    "categories": {
+      "description": "A list of talk categories",
+      "type": "object",
+      "additionalProperties": false,
+      "patternProperties": {
+        "^\\d*$": {
+          "description": "Information about a talk category",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["name", "alternative_spelling"],
+          "properties": {
+            "name": {
+              "description": "The name of the talk category",
+              "type": "string"
+            },
+            "alternative_spelling": {
+              "description": "Alternative spellings for the talk category",
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
