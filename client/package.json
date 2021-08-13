@@ -16,7 +16,7 @@
     "formik": "^1.5.8",
     "lodash-es": "^4.17.15",
     "match-sorter": "^4.0.2",
-    "next": "9.3.2",
+    "next": "11.1.0",
     "next-compose-plugins": "^2.2.0",
     "next-transpile-modules": "^2.3.1",
     "react": "16.10.2",
